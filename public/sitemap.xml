@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-  </url>
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://peculiar.monster/categories/</loc><lastmod>2022-05-24T21:03:54-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/</loc><lastmod>2022-05-24T21:03:54-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/posts/</loc><lastmod>2022-05-24T21:03:54-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/posts/second-post/</loc><lastmod>2022-05-24T21:03:54-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/categories/writing/</loc><lastmod>2022-05-24T21:03:54-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/categories/general/</loc><lastmod>2022-05-24T10:54:12-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/posts/first_post/</loc><lastmod>2022-05-24T10:54:12-04:00</lastmod></url><url>
+            <loc>https://peculiar.monster/tags/</loc></url></urlset>

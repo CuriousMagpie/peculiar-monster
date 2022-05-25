@@ -1,10 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Peculiar Monster</title>
+        <link>https://peculiar.monster/</link>
+        <description>something clever goes here, right?</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (peculiar monster)</managingEditor>
+            <webMaster>hello@peculiar.monster (peculiar monster)</webMaster><lastBuildDate>Tue, 24 May 2022 21:03:54 -0400</lastBuildDate>
+            <atom:link href="https://peculiar.monster/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Second Post</title>
+    <link>https://peculiar.monster/posts/second-post/</link>
+    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <author>peculiar monster</author>
+    <guid>https://peculiar.monster/posts/second-post/</guid>
+    <description><![CDATA[<p>This is another post. I&rsquo;m testing a few things out.</p>
+<p><i class="far fa-grin-tears" aria-hidden="true"></i></p>]]></description>
+</item>
+<item>
+    <title>Hello World</title>
+    <link>https://peculiar.monster/posts/first_post/</link>
+    <pubDate>Tue, 24 May 2022 10:13:46 -0400</pubDate>
+    <author>peculiar monster</author>
+    <guid>https://peculiar.monster/posts/first_post/</guid>
+    <description><![CDATA[<p>This is a test of the content making system. This is only a test.</p>
+]]></description>
+</item>
+</channel>
 </rss>

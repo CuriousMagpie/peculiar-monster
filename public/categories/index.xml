@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Peculiar Monster</title>
+        <link>https://peculiar.monster/categories/</link>
+        <description>Categories - Category - Peculiar Monster</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (peculiar monster)</managingEditor>
+            <webMaster>hello@peculiar.monster (peculiar monster)</webMaster><lastBuildDate>Tue, 24 May 2022 21:03:54 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>writing</title>
+    <link>https://peculiar.monster/categories/writing/</link>
+    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <author>peculiar monster</author>
+    <guid>https://peculiar.monster/categories/writing/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>general</title>
+    <link>https://peculiar.monster/categories/general/</link>
+    <pubDate>Tue, 24 May 2022 10:13:46 -0400</pubDate>
+    <author>peculiar monster</author>
+    <guid>https://peculiar.monster/categories/general/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

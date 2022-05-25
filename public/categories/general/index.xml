@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>general - Category - Peculiar Monster</title>
+        <link>https://peculiar.monster/categories/general/</link>
+        <description>general - Category - Peculiar Monster</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (peculiar monster)</managingEditor>
+            <webMaster>hello@peculiar.monster (peculiar monster)</webMaster><lastBuildDate>Tue, 24 May 2022 10:13:46 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/general/" rel="self" type="application/rss+xml" /><item>
+    <title>Hello World</title>
+    <link>https://peculiar.monster/posts/first_post/</link>
+    <pubDate>Tue, 24 May 2022 10:13:46 -0400</pubDate>
+    <author>peculiar monster</author>
+    <guid>https://peculiar.monster/posts/first_post/</guid>
+    <description><![CDATA[<p>This is a test of the content making system. This is only a test.</p>
+]]></description>
+</item>
+</channel>
+</rss>
