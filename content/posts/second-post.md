@@ -15,22 +15,23 @@ linkToMarkdown: true
 rssFullText: true
 ---
 
-
 This is another post. I'm testing a few things out.
 
-:(far fa-grin-tears):
 <!--more-->
+:(far fa-grin-tears):
 
 {{< admonition type=quote title="Language, by Suzanne Vega" open=true >}}
 If language were liquid it would be rushing in\
 Instead here we are\
-In a silence more eloquent than any word could ever be\
+In a silence more eloquent than any word could ever be
 
 These words are too solid\
 They don't move fast enough\
-To catch the blur in the brain that flies by\
+To catch the blur in the brain that flies by
 
 And is gone and is gone\
 And is gone, gone\
 Gone, gone and is gone
 {{< /admonition >}}
+
+[this is a link](https://peculiar.monster/)

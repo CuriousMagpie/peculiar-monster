@@ -105,7 +105,7 @@ other = "Contents"
 other = "published on {{ .Date }}"
 
 [includedInCategories]
-other = "included in {{ .Categories }}"
+other = "in {{ .Categories }}"
 
 [wordCount]
 one = "One word"
@@ -134,7 +134,7 @@ other = "Back"
 other = "Home"
 
 [readMore]
-other = "Read More"
+other = "Continue Reading"
 # === posts/single.html ===
 
 # === 404.html ===

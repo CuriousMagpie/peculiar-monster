@@ -517,6 +517,22 @@ lichess:
   Icon:
     Simpleicons: lichess
 
+# 065: Bookwyrm user profile
+bookwyrm:
+  weight: 66
+  Prefix: https://bookwyrm.social/
+  Title: Bookwyrm
+  Icon:
+    Class: fa-solid fa-book fa-fw
+
+# 067: Ko-Fi
+kofi:
+  weight: 67
+  Prefix: https://ko-fi.com/
+  Title: Ko-Fi
+Icon:
+  Class: fa-solid fa-mug-hot fa-fw
+
 # Email
 email:
   Weight: 99

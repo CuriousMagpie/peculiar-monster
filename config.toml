@@ -1,5 +1,6 @@
 baseURL = "https://peculiar.monster/"
 theme = "LoveIt"
+summaryLength = 50
 # themes directory
 
 themesDir = "themes"
@@ -32,7 +33,7 @@ enableEmoji = true
 
 # Author config
 [author]
-  name = "peculiar monster"
+  name = "gigameow"
   email = "hello@peculiar.monster"
   link = "https://peculiar.monster"
 
@@ -40,31 +41,39 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     weight = 1
+    identifier = "about"
+    pre = "<i class='fas fa-cat'></i>"
+    post= ""
+    name = "About"
+    url = "/about/"
+    title = "who is this gigameow person anyhow?"
+  [[menu.main]]
+    weight = 2
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = "<i class='fa-solid fa-wand-magic-sparkles'></i>"
+    pre = "<i class='far fa-note-sticky'></i>"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Posts"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
-#  [[menu.main]]
-#    weight = 2
-#    identifier = "tags"
-#    pre = ""
-#    post = ""
-#    name = "Tags"
-#    url = "/tags/"
-#    title = ""
   [[menu.main]]
     weight = 3
     identifier = "categories"
-    pre = ""
+    pre = "<i class='far fa-folder fa-fw'></i>"
     post = ""
     name = "Categories"
     url = "/categories/"
     title = ""
+  #  [[menu.main]]
+  #    weight = 3
+  #    identifier = "tags"
+  #    pre = ""
+  #    post = ""
+  #    name = "Tags"
+  #    url = "/tags/"
+  #    title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -157,11 +166,11 @@ enableEmoji = true
   [params.search]
     enable = true
     # type of search engine ["lunr", "algolia"]
-    type = "algolia"
+    type = "lunr"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = "fa-solid fa-magnifying-glass"
+    placeholder = "look for it here"
     # max number of results length
     maxResultLength = 10
     # snippet length of the result
@@ -219,16 +228,19 @@ enableEmoji = true
       title = "GitHub"
     [params.social.Discord]
       weight = 3
-      id = "natalie#9965"
+      id = "natalie#9964"
       prefix = "https://discordapp.com/users/"
       title = "Discord"
-  #  [params.social.Email]
-  #    weight = 4
-  #    template = "mailto:%v"
-  #    id = "hello@peculiar.monster"
-  #    title = "Email"
+     [params.social.Bookwyrm]
+       weight = 4
+       id = "peculiar-monster"
+       title = "Bookwyrm"
+     # [params.social.Kofi]
+     #  weight = 5
+     #  id = "prettyterrible"
+     #  title = "Ko-Fi"
     [params.social.RSS]
-      weight = 4
+      weight = 6
       url = "/index.xml"
       title = "RSS"
       newtab = true

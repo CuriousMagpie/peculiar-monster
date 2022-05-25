@@ -1,4 +1,38 @@
 // ==============================
 // Custom style
-// 自定义样式
 // ==============================
+
+.content a {
+  background-color: #ffeded;
+  border-bottom: solid 0.5px #ffaeae;
+  font-weight: normal;
+  color: #3b4c55 !important;
+}
+
+.content a:hover {
+  color: #ffa3a3 !important;
+}
+
+.content {
+  color: #292A2B !important;
+}
+
+.post-meta a {
+  font-weight: normal;
+  color: #4e009d !important;
+}
+
+.post-meta a:hover {
+  font-weight: normal;
+  color: #006e6e !important;
+}
+
+.post-footer a {
+  font-weight: normal;
+  color: #4e009d !important;
+}
+
+.post-footer a:hover {
+  font-weight: normal;
+  color: #006e6e !important;
+}
