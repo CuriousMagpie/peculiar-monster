@@ -4,6 +4,7 @@ date: 2022-05-24T21:03:54-04:00
 draft: false
 
 categories: ["writing"]
+tags: ["testing", "poetry", "link salad"]
 
 featuredImage: ""
 featuredImagePreview: ""
@@ -16,6 +17,7 @@ rssFullText: true
 ---
 
 This is another post. I'm testing a few things out.
+This is a test of a footnote [^1]
 
 <!--more-->
 :(far fa-grin-tears):
@@ -35,3 +37,5 @@ Gone, gone and is gone
 {{< /admonition >}}
 
 [this is a link](https://peculiar.monster/)
+
+[^1]: I am a footnote.

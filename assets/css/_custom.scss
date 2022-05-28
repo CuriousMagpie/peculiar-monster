@@ -2,37 +2,40 @@
 // Custom style
 // ==============================
 
-.content a {
-  background-color: #ffeded;
-  border-bottom: solid 0.5px #ffaeae;
-  font-weight: normal;
-  color: #3b4c55 !important;
+@import 'colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Forum&family=Inconsolata&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,300;1,300&display=swap');
+
+.links i {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.content a:hover {
-  color: #ffa3a3 !important;
+.links a {
+  color: $bluegray-600;
+}
+
+.links a:hover {
+  color: $pink-800;
+}
+
+.content a {
+  background-color: $pink-100;
+  border-bottom: solid 0.5px $pink-200;
 }
 
 .content {
-  color: #292A2B !important;
+  color: $bluegray-800 !important;
 }
 
-.post-meta a {
-  font-weight: normal;
-  color: #4e009d !important;
+.header-title {
+  font-family: Comfortaa, Urbanist, Roboto, serif;
 }
 
-.post-meta a:hover {
-  font-weight: normal;
-  color: #006e6e !important;
+.single-title {
+  font-family: Comfortaa, Urbanist, Roboto, serif;
 }
 
-.post-footer a {
-  font-weight: normal;
-  color: #4e009d !important;
-}
-
-.post-footer a:hover {
-  font-weight: normal;
-  color: #006e6e !important;
+.footnotes {
+  font-size: 0.875rem;
+  color: $bluegray-600 !important;
 }

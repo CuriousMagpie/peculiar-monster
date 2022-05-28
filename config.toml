@@ -66,14 +66,14 @@ enableEmoji = true
     name = "Categories"
     url = "/categories/"
     title = ""
-  #  [[menu.main]]
-  #    weight = 3
-  #    identifier = "tags"
-  #    pre = ""
-  #    post = ""
-  #    name = "Tags"
-  #    url = "/tags/"
-  #    title = ""
+    [[menu.main]]
+    weight = 4
+    identifier = "tags"
+    pre = "<i class='fas fa-tags fa-fw'></i>"
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -194,17 +194,17 @@ enableEmoji = true
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "/double-quasar-cropped.png"
       # title shown in home page (HTML format is supported)
-      title = "Peculiar Monster"
+      title = ""
       # subtitle shown in home page (HTML format is supported)
       subtitle = "something clever goes here, right?"
       # whether to use typeit animation for subtitle
-      typeit = false
+      typeit = true
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
-      disclaimer = "what you see is what you get"
+      disclaimer = ""
     # Home page posts
     [params.home.posts]
       enable = true
