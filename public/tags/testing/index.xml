@@ -1,0 +1,135 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>testing - Tag - Peculiar Monster</title>
+        <link>https://peculiar.monster/tags/testing/</link>
+        <description>testing - Tag - Peculiar Monster</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (gigameow)</managingEditor>
+            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Tue, 24 May 2022 21:03:54 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/testing/" rel="self" type="application/rss+xml" /><item>
+    <title>Second Post</title>
+    <link>https://peculiar.monster/posts/second-post/</link>
+    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/posts/second-post/</guid>
+    <description><![CDATA[<p>This is another post. I&rsquo;m testing a few things out.</p>
+<p>This is a test of a footnote <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="font-awesome-emoji">font awesome emoji!</h2>
+<p><i class="far fa-grin-tears" aria-hidden="true"></i>
+<i class="far fa-grin" aria-hidden="true"></i></p>
+<h3 id="twemoji">Twemoji!</h3>
+<p>😁
+❓
+😭
+😂</p>
+<h2 id="song-lyric">song lyric!</h2>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw" aria-hidden="true"></i>Language, by Suzanne Vega<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>If language were liquid it would be rushing in<br>
+Instead here we are<br>
+In a silence more eloquent than any word could ever be</p>
+<p>These words are too solid<br>
+They don&rsquo;t move fast enough<br>
+To catch the blur in the brain that flies by</p>
+<p>And is gone and is gone<br>
+And is gone, gone<br>
+Gone, gone and is gone</p>
+</div>
+        </div>
+    </div>
+<h2 id="a-link">a link!</h2>
+<p><a href="https://peculiar.monster/" target="_blank" rel="noopener noreffer">this is a link</a></p>
+<h2 id="blockquote">blockquote!</h2>
+<blockquote>
+<p>This is a quote by someone who is not me. I am sure they are very smart.</p>
+</blockquote>
+<h2 id="code">code!</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">assemble</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">assets</span><span class="o">:</span> <span class="s1">&#39;docs/assets&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">data</span><span class="o">:</span> <span class="s1">&#39;src/data/*.{json,yml}&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">helpers</span><span class="o">:</span> <span class="s1">&#39;src/custom-helpers.js&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">partials</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;src/partials/**/*.{hbs,md}&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">pages</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">layout</span><span class="o">:</span> <span class="s1">&#39;default.hbs&#39;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">files</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s1">&#39;./&#39;</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;src/templates/pages/index.hbs&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="table">Table!</h3>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I am a footnote.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
+</item>
+<item>
+    <title>Hello World</title>
+    <link>https://peculiar.monster/posts/first-post/</link>
+    <pubDate>Tue, 24 May 2022 10:13:46 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/posts/first-post/</guid>
+    <description><![CDATA[<p>This is a test of the content making system. This is only a test.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. Tristique senectus et netus et malesuada fames ac. Nibh venenatis cras sed felis eget velit aliquet. Tristique senectus et netus et malesuada fames. Mi ipsum faucibus vitae aliquet nec ullamcorper. Pretium lectus quam id leo in vitae turpis massa. Scelerisque viverra mauris in aliquam. Ut tellus elementum sagittis vitae et leo duis ut diam. Sit amet cursus sit amet dictum sit. In hendrerit gravida rutrum quisque non. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Id aliquet risus feugiat in ante metus dictum at. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Ornare arcu odio ut sem nulla pharetra diam sit amet. Sed turpis tincidunt id aliquet risus feugiat in ante. Quam elementum pulvinar etiam non quam lacus suspendisse. Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Pretium vulputate sapien nec sagittis aliquam. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque.</p>
+<p>Adipiscing enim eu turpis egestas pretium aenean pharetra. Blandit libero volutpat sed cras ornare arcu dui. Mi bibendum neque egestas congue quisque egestas diam. Lorem mollis aliquam ut porttitor leo a diam. Luctus accumsan tortor posuere ac ut consequat semper viverra. Sit amet risus nullam eget felis. Amet cursus sit amet dictum. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Faucibus scelerisque eleifend donec pretium vulputate. Nibh ipsum consequat nisl vel pretium lectus. Diam ut venenatis tellus in metus vulputate eu scelerisque felis. Scelerisque eu ultrices vitae auctor eu. Sociis natoque penatibus et magnis dis. Lectus magna fringilla urna porttitor rhoncus dolor purus. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Nisl vel pretium lectus quam.</p>
+<p>Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Convallis convallis tellus id interdum velit laoreet. In massa tempor nec feugiat. Gravida dictum fusce ut placerat. Quisque id diam vel quam elementum pulvinar etiam. Nisl suscipit adipiscing bibendum est ultricies integer. Urna duis convallis convallis tellus id interdum velit laoreet. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Semper auctor neque vitae tempus quam pellentesque. Eu feugiat pretium nibh ipsum. Lectus urna duis convallis convallis tellus id. Vulputate dignissim suspendisse in est ante in nibh mauris. Mattis enim ut tellus elementum sagittis vitae. Massa enim nec dui nunc mattis enim ut tellus. Scelerisque mauris pellentesque pulvinar pellentesque. Aliquam ultrices sagittis orci a. Vestibulum lectus mauris ultrices eros in. Mauris ultrices eros in cursus. Eu sem integer vitae justo eget magna fermentum iaculis eu. Tellus id interdum velit laoreet id donec ultrices.</p>
+]]></description>
+</item>
+</channel>
+</rss>

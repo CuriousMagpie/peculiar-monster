@@ -3,6 +3,38 @@
         <title>Tags - Tag - Peculiar Monster</title>
         <link>https://peculiar.monster/tags/</link>
         <description>Tags - Tag - Peculiar Monster</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (peculiar monster)</managingEditor>
-            <webMaster>hello@peculiar.monster (peculiar monster)</webMaster><atom:link href="https://peculiar.monster/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (gigameow)</managingEditor>
+            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Tue, 24 May 2022 21:03:54 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>link salad</title>
+    <link>https://peculiar.monster/tags/link-salad/</link>
+    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/link-salad/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>poetry</title>
+    <link>https://peculiar.monster/tags/poetry/</link>
+    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/poetry/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>testing</title>
+    <link>https://peculiar.monster/tags/testing/</link>
+    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/testing/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>lorem ipsum</title>
+    <link>https://peculiar.monster/tags/lorem-ipsum/</link>
+    <pubDate>Tue, 24 May 2022 10:13:46 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/lorem-ipsum/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

@@ -6,7 +6,6 @@ author: "gigameow"
 authorLink: "https://peculiar.monster"
 description: ""
 
-
 categories: []
 tags: []
 
@@ -16,12 +15,16 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
+twemoji: true
 fontawesome: true
 linkToMarkdown: false
 rssFullText: true
 
 toc:
-  enable: false
-  auto: false
+  enable: true
+  auto: true
+code:
+  copy: true
+  maxShownLines: 50
 ---
 <!--more-->

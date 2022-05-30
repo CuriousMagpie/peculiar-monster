@@ -11,31 +11,39 @@
 }
 
 .links a {
-  color: $bluegray-600;
+  color: $gunmetal;
 }
 
 .links a:hover {
-  color: $pink-800;
+  color: $red-purple !important;
+}
+
+.post-meta a {
+  color: $steel-pink !important;
+}
+
+.post-meta a:hover {
+  color: $red-purple !important;
+}
+
+.post-footer a {
+  color: $steel-pink !important;
+}
+
+.post-tags a:hover {
+  color: $red-purple !important;
 }
 
 .content a {
-  background-color: $pink-100;
-  border-bottom: solid 0.5px $pink-200;
+  background-color: $lavender-blush;
+  border-bottom: solid 0.5px $carnation-pink;
 }
 
 .content {
-  color: $bluegray-800 !important;
-}
-
-.header-title {
-  font-family: Comfortaa, Urbanist, Roboto, serif;
-}
-
-.single-title {
-  font-family: Comfortaa, Urbanist, Roboto, serif;
+  color: $gunmetal !important;
 }
 
 .footnotes {
   font-size: 0.875rem;
-  color: $bluegray-600 !important;
+  color: $space-cadet !important;
 }

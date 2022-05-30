@@ -66,13 +66,21 @@ enableEmoji = true
     name = "Categories"
     url = "/categories/"
     title = ""
-    [[menu.main]]
+  [[menu.main]]
     weight = 4
     identifier = "tags"
     pre = "<i class='fas fa-tags fa-fw'></i>"
     post = ""
     name = "Tags"
     url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight= 5
+    identifier = "blogroll"
+    pre = "<i class='fas fa-scroll fa-fw'></i>"
+    post = ""
+    name = "Blogroll"
+    url = "/blogroll/"
     title = ""
 
 [params]
@@ -489,3 +497,22 @@ enableEmoji = true
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    style = 'colorful'
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
