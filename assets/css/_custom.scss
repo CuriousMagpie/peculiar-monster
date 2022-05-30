@@ -41,14 +41,10 @@
 
 .content {
   color: $gunmetal !important;
-  display: block;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  -webkit-line-clamp: none;
 }
 
 .content p {
-  display: block;
+  padding: 8px 0 !important;
 }
 
 .footnotes {
@@ -56,8 +52,28 @@
   color: $space-cadet !important;
 }
 
-.home {
-  .summary {
-    border-bottom: 0.5px solid $global-border-color !important;
+.summary {
+  padding-top: 1rem;
+  padding-bottom: .8rem;
+  border-bottom: 0.5px solid $global-border-color;
+
+
+  .single-title {
+    font-size: 1.25rem;
+    line-height: 140%;
+    margin: 0.4rem 0;
+  }
+
+  .content {
+    @include box(vertical);
+    -webkit-line-clamp: none;
+    margin-top: .3rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include overflow-wrap(break-word);
+    color: $global-font-secondary-color;
+
+    }
   }
 }
