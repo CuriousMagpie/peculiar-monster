@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Peculiar Monster</title>
-        <link>https://peculiar.monster/</link>
-        <description>something clever goes here, right?</description>
+        <title>meta - Category - Peculiar Monster</title>
+        <link>https://peculiar.monster/categories/meta/</link>
+        <description>meta - Category - Peculiar Monster</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (gigameow)</managingEditor>
-            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Sun, 29 May 2022 20:06:00 -0400</lastBuildDate>
-            <atom:link href="https://peculiar.monster/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Sun, 29 May 2022 20:06:00 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/meta/" rel="self" type="application/rss+xml" /><item>
     <title>Hello World</title>
     <link>https://peculiar.monster/posts/hello-world/</link>
     <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>

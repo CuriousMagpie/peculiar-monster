@@ -4,36 +4,36 @@
         <link>https://peculiar.monster/tags/</link>
         <description>Tags - Tag - Peculiar Monster</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (gigameow)</managingEditor>
-            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Tue, 24 May 2022 21:03:54 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>link salad</title>
-    <link>https://peculiar.monster/tags/link-salad/</link>
-    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Sun, 29 May 2022 20:06:00 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>panopticon</title>
+    <link>https://peculiar.monster/tags/panopticon/</link>
+    <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
     <author>gigameow</author>
-    <guid>https://peculiar.monster/tags/link-salad/</guid>
+    <guid>https://peculiar.monster/tags/panopticon/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>poetry</title>
-    <link>https://peculiar.monster/tags/poetry/</link>
-    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <title>personal</title>
+    <link>https://peculiar.monster/tags/personal/</link>
+    <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
     <author>gigameow</author>
-    <guid>https://peculiar.monster/tags/poetry/</guid>
+    <guid>https://peculiar.monster/tags/personal/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>testing</title>
-    <link>https://peculiar.monster/tags/testing/</link>
-    <pubDate>Tue, 24 May 2022 21:03:54 -0400</pubDate>
+    <title>tech</title>
+    <link>https://peculiar.monster/tags/tech/</link>
+    <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
     <author>gigameow</author>
-    <guid>https://peculiar.monster/tags/testing/</guid>
+    <guid>https://peculiar.monster/tags/tech/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>lorem ipsum</title>
-    <link>https://peculiar.monster/tags/lorem-ipsum/</link>
-    <pubDate>Tue, 24 May 2022 10:13:46 -0400</pubDate>
+    <title>writing</title>
+    <link>https://peculiar.monster/tags/writing/</link>
+    <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
     <author>gigameow</author>
-    <guid>https://peculiar.monster/tags/lorem-ipsum/</guid>
+    <guid>https://peculiar.monster/tags/writing/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
