@@ -26,14 +26,31 @@
   color: $red-purple !important;
 }
 
-.home .summary .content {
-  @include box(vertical);
-  -webkit-line-clamp: none;
-  margin-top: 8px;
-  width: 100%;
-  overflow: visible;
-  text-overflow: inherit;
-  @include overflow-wrap(break-word);
+.home[data-home=posts] {
+  .summary {
+    .content {
+      -webkit-line-clamp: none; // originally set to 3
+    }
+  }
+}
+
+.home[data-home=posts] {
+  .summary {
+    border-bottom: 0.5px solid $gunmetal;
+    .content p {
+      display: block;
+    }
+  }
+}
+
+.single {
+  .content  p {
+    margin-bottom: 16px;
+  }
+  .content hr {
+    border-bottom: 0.5px solid $gunmetal;
+    border-top: 0px;
+  }
 }
 
 .content {
@@ -43,6 +60,12 @@
 .content a {
   background-color: $lavender-blush;
   border-bottom: solid 0.5px $carnation-pink;
+}
+
+.single {
+  .post-footer{
+    margin-top: 24px;
+  }
 }
 
 .post-footer a {
