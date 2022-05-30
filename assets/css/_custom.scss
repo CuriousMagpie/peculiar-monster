@@ -26,12 +26,18 @@
   color: $red-purple !important;
 }
 
-.post-footer a {
-  color: $steel-pink !important;
+.home .summary .content {
+  @include box(vertical);
+  -webkit-line-clamp: none;
+  margin-top: 8px;
+  width: 100%;
+  overflow: visible;
+  text-overflow: inherit;
+  @include overflow-wrap(break-word);
 }
 
-.post-tags a:hover {
-  color: $red-purple !important;
+.content {
+  color: $gunmetal !important;
 }
 
 .content a {
@@ -39,8 +45,12 @@
   border-bottom: solid 0.5px $carnation-pink;
 }
 
-.content {
-  color: $gunmetal !important;
+.post-footer a {
+  color: $steel-pink !important;
+}
+
+.post-tags a:hover {
+  color: $red-purple !important;
 }
 
 .footnotes {

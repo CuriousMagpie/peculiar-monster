@@ -99,7 +99,7 @@ enableEmoji = true
   description = "something clever goes here, right?"
   # website images for Open Graph and Twitter Cards
   images = ["/double-quasar-cropped.png"]
-  summaryLength = 200
+  summaryLength = 70
   keywords = ["gigameow", "writing", "personal"]
 
   # Header config
@@ -428,7 +428,6 @@ enableEmoji = true
         logoUrl = ""
 
   # TypeIt config
-  # TypeIt 配置
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     speed = 100

@@ -30,11 +30,11 @@ code:
 Hello world!
 
 While this is a new site, I am not new to blogging. I've been blogging one way or another since 1999, give or take. I've had a lot of different sites over the years--from Diaryland to Greymatter to Movable Type to LiveJournal to WordPress and now I'm using [Hugo](https://gohugo.io) because, to be quite honest, I am unhappy with the direction WordPress has taken their product--they seem to assume that everyone wants to sell something and too often what's for sale is a piece of someone's soul.
-<!--more-->
 
 I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I'm not looking for visibility or followers or to become any sort of influencer.
 
 I'm looking for a place to document my life and how I'm living it.
+<!--more-->
 
 I _miss_ writing for its own sake. There are so many things I want to write about and haven't felt as if I can, in part because technology is getting in my way.
 
