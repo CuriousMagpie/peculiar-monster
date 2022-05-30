@@ -52,17 +52,11 @@
   color: $space-cadet !important;
 }
 
-.home[data-home=posts] {
+.home {
   .summary {
     padding-top: 16px;
     padding-bottom: 16px;
     border-bottom: 0.5px solid $global-border-color;
-
-    .single-title {
-      font-size: 20px;
-      line-height: 140%;
-      margin: 8px 0;
-    }
 
     .content {
   /*     @include box(vertical);
