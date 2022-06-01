@@ -4,7 +4,31 @@
         <link>https://peculiar.monster/tags/</link>
         <description>Tags - Tag - Peculiar Monster</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (gigameow)</managingEditor>
-            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Sun, 29 May 2022 20:06:00 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>hello@peculiar.monster (gigameow)</webMaster><copyright>copyright 2022</copyright><lastBuildDate>Mon, 30 May 2022 11:35:21 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>css</title>
+    <link>https://peculiar.monster/tags/css/</link>
+    <pubDate>Mon, 30 May 2022 11:35:21 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/css/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>github</title>
+    <link>https://peculiar.monster/tags/github/</link>
+    <pubDate>Mon, 30 May 2022 11:35:21 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>tech</title>
+    <link>https://peculiar.monster/tags/tech/</link>
+    <pubDate>Mon, 30 May 2022 11:35:21 -0400</pubDate>
+    <author>gigameow</author>
+    <guid>https://peculiar.monster/tags/tech/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>panopticon</title>
     <link>https://peculiar.monster/tags/panopticon/</link>
     <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
@@ -18,14 +42,6 @@
     <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
     <author>gigameow</author>
     <guid>https://peculiar.monster/tags/personal/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>tech</title>
-    <link>https://peculiar.monster/tags/tech/</link>
-    <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
-    <author>gigameow</author>
-    <guid>https://peculiar.monster/tags/tech/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
