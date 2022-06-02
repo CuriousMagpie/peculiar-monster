@@ -266,7 +266,7 @@ enableEmoji = true
     # whether to enable lightgallery
     lightgallery = false
     # whether to enable the ruby extended syntax
-    ruby = true
+    ruby = false
     # whether to enable the fraction extended syntax
     fraction = true
     # whether to enable the fontawesome extended syntax

@@ -1,5 +1,6 @@
 ---
 title: "Code, Why Are You Like This?"
+slug: "code-why-are-you-like-this"
 date: 2022-05-30T11:35:21-04:00
 draft: false
 author: "gigameow"

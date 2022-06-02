@@ -1,5 +1,6 @@
 ---
 title: "Blogroll"
+slug: "blogroll"
 date: 2022-05-29T17:09:43-04:00
 draft: false
 author: "gigameow"
