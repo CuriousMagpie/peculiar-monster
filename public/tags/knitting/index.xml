@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>knitting on Peculiar Monster</title>
+    <link>https://peculiar.monster/tags/knitting/</link>
+    <description>Recent content in knitting on Peculiar Monster</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>GigaMeow</copyright>
+    <lastBuildDate>Wed, 01 Jun 2022 11:18:02 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/knitting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trying to Post Images</title>
+      <link>https://peculiar.monster/posts/image-posting/</link>
+      <pubDate>Wed, 01 Jun 2022 11:18:02 -0400</pubDate>
+      
+      <guid>https://peculiar.monster/posts/image-posting/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying to figure out how to manage images; I don&amp;rsquo;t really want to do &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;page bundles&lt;/a&gt;&amp;hellip;but I guess I am for now. Meh.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
