@@ -5,83 +5,83 @@
 @import 'colors.scss';
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Forum&family=Inconsolata&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,300;1,300&display=swap');
 
-.links i {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.links a {
-  color: $gunmetal;
-}
-
-.links a:hover {
-  color: $red-purple !important;
-}
-
-.post-meta a {
-  color: $steel-pink !important;
-}
-
-.post-meta a:hover {
-  color: $red-purple !important;
-}
-
-.home[data-home=posts] {
-  .summary {
-    .content {
-      -webkit-line-clamp: none; // originally set to 3
-    }
-  }
-}
-
-.home[data-home=posts] {
-  .summary {
-    border-bottom: 0.5px solid $gunmetal;
-    .content p {
-      display: block;
-    }
-  }
-}
-
-.single {
-  .content  p {
-    margin-bottom: 16px;
-  }
-  .content hr {
-    border-bottom: 0.5px solid $gunmetal;
-    border-top: 0px;
-  }
-}
-
-.content {
-  color: $gunmetal !important;
-}
-
-.content a {
-  background-color: $lavender-blush;
-  border-bottom: solid 0.5px $carnation-pink;
-}
-
-.lightgallery a {
-  background-color: transparent;
-  border-bottom: 0px;
-}
-
-.single {
-  .post-footer{
-    margin-top: 24px;
-  }
-}
-
-.post-footer a {
-  color: $steel-pink !important;
-}
-
-.post-tags a:hover {
-  color: $red-purple !important;
-}
-
-.footnotes {
-  font-size: 0.875rem;
-  color: $space-cadet !important;
-}
+// .links i {
+//   padding-left: 10px;
+//   padding-right: 10px;
+// }
+//
+// .links a {
+//   color: $gunmetal;
+// }
+//
+// .links a:hover {
+//   color: $red-purple !important;
+// }
+//
+// .post-meta a {
+//   color: $steel-pink !important;
+// }
+//
+// .post-meta a:hover {
+//   color: $red-purple !important;
+// }
+//
+// .home[data-home=posts] {
+//   .summary {
+//     .content {
+//       -webkit-line-clamp: none; // originally set to 3
+//     }
+//   }
+// }
+//
+// .home[data-home=posts] {
+//   .summary {
+//     border-bottom: 0.5px solid $gunmetal;
+//     .content p {
+//       display: block;
+//     }
+//   }
+// }
+//
+// .single {
+//   .content  p {
+//     margin-bottom: 16px;
+//   }
+//   .content hr {
+//     border-bottom: 0.5px solid $gunmetal;
+//     border-top: 0px;
+//   }
+// }
+//
+// .content {
+//   color: $gunmetal !important;
+// }
+//
+// .content a {
+//   background-color: $lavender-blush;
+//   border-bottom: solid 0.5px $carnation-pink;
+// }
+//
+// .lightgallery a {
+//   background-color: transparent;
+//   border-bottom: 0px;
+// }
+//
+// .single {
+//   .post-footer{
+//     margin-top: 24px;
+//   }
+// }
+//
+// .post-footer a {
+//   color: $steel-pink !important;
+// }
+//
+// .post-tags a:hover {
+//   color: $red-purple !important;
+// }
+//
+// .footnotes {
+//   font-size: 0.875rem;
+//   color: $space-cadet !important;
+// }

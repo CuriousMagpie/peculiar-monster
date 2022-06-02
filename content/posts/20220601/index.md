@@ -39,6 +39,3 @@ Anyhow. Enjoy this image of my African violet blooming--I've never had one bloom
 ![This is an African Violet.](20220531-african-violet.jpeg)
 
 ![This is mosaic knitting.](20220531-mosaic-knitting.jpeg)
-
-<!-- {{< image src="patreon-header-full-size.jpg" alt="an image of a spaaaaaace" height="600" width="800" linked="false" >}} -->
-<!-- ![spaaaaaace](patreon-header-full-size.jpg) -->
