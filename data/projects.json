@@ -1,0 +1,29 @@
+{
+  "list": [
+    {
+      "name":"Habitica",
+      "url":"https://github.com/CuriousMagpie/habitica",
+      "desc":"Also known as my day job. This is my fork of the main repo."
+    },
+    {
+      "name":"Peculiar Monster",
+      "url":"https://github.com/CuriousMagpie/peculiar-monster",
+      "desc":"This here site. Laugh at my coding errors! Fucking curly bois."
+    },
+    {
+      "name":"Dark Sublime Syntax",
+      "url":"https://github.com/CuriousMagpie/dark-sublime-syntax",
+      "desc":"A lower contrast dark Atom syntax theme."
+    },
+    {
+      "name":"Atom Dark UI",
+      "url":"https://github.com/CuriousMagpie/atom-dark-ui",
+      "desc":"A fork of the archived Atom Dark UI theme with nicer colors."
+    },
+    {
+      "name":"Hyper Dark Sublime",
+      "url":"https://github.com/CuriousMagpie/hyper-dark-sublime",
+      "desc":"Hyper Terminal theme inspired by the Atom One Dark (Vivid) theme with lower contrast colors. "
+    }
+  ]
+}
