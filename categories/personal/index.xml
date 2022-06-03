@@ -1,17 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>personal - Category - Peculiar Monster</title>
-        <link>https://peculiar.monster/categories/personal/</link>
-        <description>personal - Category - Peculiar Monster</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@peculiar.monster (gigameow)</managingEditor>
-            <webMaster>hello@peculiar.monster (gigameow)</webMaster><lastBuildDate>Wed, 25 May 2022 07:07:02 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/personal/" rel="self" type="application/rss+xml" /><item>
-    <title>About Gigameow</title>
-    <link>https://peculiar.monster/about/</link>
-    <pubDate>Wed, 25 May 2022 07:07:02 -0400</pubDate>
-    <author>gigameow</author>
-    <guid>https://peculiar.monster/about/</guid>
-    <description><![CDATA[Hello! I am:
- a cyborgified human being1 femme non-binary my pronouns are she/they married to a wonderful man since 2006, but we&rsquo;ve been partners since 1998 chronically ill with a whole bunch of fascinating things2 owned by two cats, Miles and Ivan (yes, nominative determinism is a thing) a voracious reader of speculative fiction and possessed of many opinions including that George R.]]></description>
-</item>
-</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>personal on Peculiar Monster</title><link>https://peculiar.monster/categories/personal/</link><description>Recent content in personal on Peculiar Monster</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>GigaMeow</copyright><lastBuildDate>Thu, 02 Jun 2022 22:02:49 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>A Ridiculous Day</title><link>https://peculiar.monster/posts/ridiculous-day/</link><pubDate>Thu, 02 Jun 2022 22:02:49 -0400</pubDate><guid>https://peculiar.monster/posts/ridiculous-day/</guid><description>&lt;p>Today&amp;rsquo;s been a day of a lot of ridiculous all over the board.&lt;/p></description></item></channel></rss>
