@@ -2,3 +2,6 @@ config-loveIt.toml
 config-cactus.toml
 
 .hugo_build.lock
+
+/peculiar-obsidian
+/themes/LoveIt
