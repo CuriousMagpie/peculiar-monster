@@ -7,11 +7,12 @@
     margin-top: 0;
     margin-bottom: 0;
     color: $color-text;
-    letter-spacing: .01em;
-    font-weight: 700;
+    letter-spacing: .02rem;
+    font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: "Special Elite";
 
     @include antialias();
   }
@@ -51,14 +52,14 @@
         margin-right: 15px;
         color: $color-accent-1;
       }
-      a:hover {
-        @include underline(5px, $color-accent-1);
-      }
+/*       a:hover {
+  @include underline(5px, $color-accent-1);
+} */
       li {
         display: inline-block;
         margin-right: 15px;
-        border-right: 1px dotted;
-        border-color: $color-accent-1;
+        /* border-right: 1px dotted; */
+        /* border-color: $color-accent-1; */
         vertical-align: middle;
       }
       .icon {

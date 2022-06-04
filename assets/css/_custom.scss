@@ -2,86 +2,174 @@
 // Custom style
 // ==============================
 
-@import 'colors.scss';
+@import 'custom-colors.scss';
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Forum&family=Inconsolata&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,300;1,300&display=swap');
 
-/* .links i {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.links a {
-  color: $gunmetal;
-}
-
-.links a:hover {
-  color: $red-purple !important;
-}
-
-.post-meta a {
-  color: $steel-pink !important;
-}
-
-.post-meta a:hover {
-  color: $red-purple !important;
-}
-
-.home[data-home=posts] {
-  .summary {
-    .content {
-      -webkit-line-clamp: none; // originally set to 3
-    }
-  }
-}
-
-.home[data-home=posts] {
-  .summary {
-    border-bottom: 0.5px solid $gunmetal;
-    .content p {
-      display: block;
-    }
-  }
-}
-
-.single {
-  .content  p {
-    margin-bottom: 16px;
-  }
-  .content hr {
-    border-bottom: 0.5px solid $gunmetal;
-    border-top: 0px;
-  }
-}
-
 .content {
-  color: $gunmetal !important;
-}
+  display: block;
+  overflow-wrap: normal;
+  margin-bottom: 16px;
 
-.content a {
-  background-color: $lavender-blush;
-  border-bottom: solid 0.5px $carnation-pink;
-}
-
-.lightgallery a {
-  background-color: transparent;
-  border-bottom: 0px;
-}
-
-.single {
-  .post-footer{
-    margin-top: 24px;
+  p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align:left;
   }
-}
+  code {
+    color: $space-cadet;
+    padding: 0 5px;
+    border: 0.5px solid $color-border;
+    border-radius: 2px;
+  }
+  a {
+    color: $color-link;
+    text-decoration: none;
+    border-bottom: 0.5px solid $red-purple;
 
-.post-footer a {
-  color: $steel-pink !important;
-}
+    &:hover {
+      background-image: none;
+      background-color: $lavender-blush;
+      border-bottom: solid 0.5px $red-purple;
+      font-color: $tyrian-purple;
+    }
+  }
+  .icon {
+    font-size: 1.3rem;
+    vertical-align: bottom;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  a.icon {
+    background: none;
+    border: 0px;
 
-.post-tags a:hover {
-  color: $red-purple !important;
+    &:hover {
+      color: $carnation-pink;
+      border: 0px;
+    }
+  }
+  h1 a,
+  .h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    border: none;
+  }
+  h1 a:hover,
+  .h1 a:hover,
+  h2 a:hover,
+  h3 a:hover,
+  h4 a:hover,
+  h5 a:hover,
+  h6 a:hover {
+  }
+  h6 {
+    a {
+      border: none;
+    }
+  }
+  h6 {
+    a:hover {
+      border: none;
+    }
+  }
+  hr {
+    border: 0.5px solid $gunmetal;
+  }
 }
 
 .footnotes {
   font-size: 0.875rem;
   color: $space-cadet !important;
-} */
+
+  & hr {
+    border: 0.25px solid $space-cadet;
+  }
+}
+/* @import "partial/header"; */
+@import "partial/post/actions_desktop";
+@import "partial/post/actions_mobile";
+@import "partial/index";
+@import "partial/article";
+@import "partial/archive";
+@import "partial/comments";
+@import "partial/footer";
+@import "partial/pagination";
+@import "partial/search";
+@import "partial/tags";
+@import "partial/tooltip";
+@import "partial/categories";
+
+pre {
+
+  overflow-x: auto;
+  padding: 15px 15px 10px 15px;
+  border: 1px dotted $color-border;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  font-size: 1rem;
+  font-family: $font-family-mono;
+  line-height: 22px;
+  position: relative;
+
+  .code-copy-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    border-radius: 0 2px;
+    padding: 0;
+    font-family: $font-family-mono;
+    font-weight: 800;
+    font-size: 0.9em;
+    line-height: 1.7;
+    color: #fff;
+    background-color: #8c8c8c;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0em;
+  }
+
+  .code-copy-btn:hover {
+    background-color: #666;
+    color: #2bbc8a;
+  }
+
+  code {
+    display: block;
+    padding: 0;
+    border: none;
+    background-color:$gunmetal;
+  }
+}
+
+code {
+  font-family: $font-family-mono;
+  padding: 0 5px;
+  border: 0.5px solid $color-border;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+#header {
+  #nav {
+    ul {
+      li {
+        border-right: 0.5px solid $gunmetal;
+        a {
+          color: $tyrian-purple;
+          font-size: 1.1rem;
+          font-weight: 500;
+          text-decoration: none;
+          border-bottom: 0px;
+          }
+        a :hover{
+          background-color: $gunmetal;
+          }
+        }
+      }
+    }
+  }

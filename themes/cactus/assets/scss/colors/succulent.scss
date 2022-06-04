@@ -1,0 +1,15 @@
+@import "../../../assets/css/custom-colors";
+
+$color-background: $ghost-white;
+$color-footer-mobile-1: darken($color-background, 4%);
+$color-footer-mobile-2: darken($color-background, 10%);
+$color-background-code: lighten($gunmetal, 60%);
+$color-border: $space-cadet;
+$color-meta: $space-cadet;
+$color-meta-code: lighten($color-meta, 10%);
+$color-link: $red-purple;
+$color-text: $gunmetal;
+$color-accent-1: $tyrian-purple;
+$color-accent-2: $steel-pink;
+$color-accent-3: $space-cadet;
+$color-quote: #cc2a41;

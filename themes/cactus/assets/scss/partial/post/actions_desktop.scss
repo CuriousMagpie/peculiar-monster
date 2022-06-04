@@ -109,7 +109,7 @@
         color: $color-accent-1;
       }
       a:hover {
-        @include underline(5px, $color-accent-1);
+        /* @include underline(5px, $color-accent-1); */
       }
       li {
         border-right: 1px dotted $color-accent-1;

@@ -1,7 +1,7 @@
 {{ define "main" }}
   <section id="about">
   {{ if isset .Site.Params "description" }}
-    {{ .Site.Params.description | $.Page.RenderString }}
+    <p>{{ .Site.Params.description | $.Page.RenderString }}</p>
   {{ end }}
   {{ if isset .Site.Params "social" }}
       <p>Find me on
@@ -38,7 +38,7 @@
       {{ end }}
       </p>
   {{ end }}
-  {{ partial "optional-about.html" . }}
+  <p>{{ partial "optional-about.html" . }}</p>
   </section>
 
   <section id="writing">

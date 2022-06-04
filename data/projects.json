@@ -16,11 +16,6 @@
       "desc":"A lower contrast dark Atom syntax theme."
     },
     {
-      "name":"Atom Dark UI",
-      "url":"https://github.com/CuriousMagpie/atom-dark-ui",
-      "desc":"A fork of the archived Atom Dark UI theme with nicer colors."
-    },
-    {
       "name":"Hyper Dark Sublime",
       "url":"https://github.com/CuriousMagpie/hyper-dark-sublime",
       "desc":"Hyper Terminal theme inspired by the Atom One Dark (Vivid) theme with lower contrast colors. "

@@ -32,7 +32,7 @@
       font-size: 1em;
     }
     a:hover {
-      @include underline(5px, $color-accent-1);
+      /* @include underline(5px, $color-accent-1); */
     }
     ul {
       display: table;

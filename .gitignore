@@ -5,3 +5,6 @@ config-cactus.toml
 
 /peculiar-obsidian
 /themes/LoveIt
+
+/assets/css/_custom-LoveIt.scss
+/assets/css/_variables-LoveIt.scss
