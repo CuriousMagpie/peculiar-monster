@@ -42,19 +42,9 @@
   </section>
 
   <section id="writing">
-    <span class="h1"><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></span>
-    {{ if (and (and (isset .Site.Params "tagsoverview") (eq .Site.Params.tagsOverview true)) (gt (len .Site.Taxonomies.tags) 0)) }}
-    <span class="h2">Topics</span>
-    <span class="widget tagcloud">
-      {{ $AllRegularPagesCount := len .Site.RegularPages }}
-      {{ range $elem := .Site.Taxonomies.tags.Alphabetical }}
-      <a style="font-size: {{ (add 0.5 (mul 5 (div (float $elem.Count) $AllRegularPagesCount))) }}rem;" href="{{ $elem.Page.Permalink }}">
-        {{- .Page.Title -}}
-      </a>
-      {{ end }}
-    </span>
-    <span class="h2">Most recent</span>
-    {{ end }}
+    <h2><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></h2>
+
+    <h3><i class="fas fa-pencil-alt"></i> Most Recent Posts</h3>
 
     {{ $showAllPostsOnHomePage := false }}
     {{ if (isset .Site.Params "showallpostsonhomepage") }}
@@ -88,6 +78,24 @@
       {{ end }}
     </ul>
     {{ end }}
+    {{ if (and (and (isset .Site.Params "tagoverview") (eq .Site.Params.tagOverview true)) (gt (len .Site.Taxonomies.categories) 0)) }}
+    <h3><i class="fas fa-archive"></i> Categories</h3>
+      <!-- <div class="tag-cloud-tags">
+        {{- range $.Site.Taxonomies.categories.ByCount -}}
+            <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }} ({{ .Count }})</a>&nbsp;
+        {{- end -}}
+      </div> -->
+      <div id= "index-categories" class="category-list">
+        <ul class="category-list-title">
+          {{ range .Site.Taxonomies.categories.ByCount }}
+          <li class="category-list-item">
+            <a class="category-list-link" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+            <span class="category-list-count">{{ .Count }}</span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
   </section>
 
   {{ $showProjectsList := false }}
@@ -102,7 +110,7 @@
       {{ $projectsUrl = .Site.Params.projectsUrl }}
     {{ end }}
   <section id="projects">
-    <span class="h1"><a href="{{ $projectsUrl }}">Projects</a></span>
+    <h2><a href="{{ $projectsUrl }}">Projects</a></h2>
     <ul class="project-list">
         {{ range .Site.Data.projects.list }}
         <li class="project-item">

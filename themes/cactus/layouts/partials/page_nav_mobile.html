@@ -3,7 +3,7 @@
 
     <div id="nav-footer" style="display: none">
       <ul>
-        {{ range .Site.Menus.main }} 
+        {{ range .Site.Menus.main }}
           <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       </ul>
@@ -14,11 +14,6 @@
       {{ .TableOfContents }}
     </div>
     {{ end }}
-
-    <div id="share-footer" style="display: none">
-      {{ .Scratch.Set "icon_class_name" "fa-lg" }}
-      {{ partial "share.html" . }}
-    </div>
 
     <div id="actions-footer">
       <!-- TODO: rewrite the toggle function. hide the others when one menu is displayed -->

@@ -11,10 +11,6 @@ article {
       margin-top: 0;
       margin-bottom: 1rem;
     }
-    .meta * {
-      color: $color-accent-3;
-      font-size: .85rem;
-    }
     .author {
       text-transform: uppercase;
       letter-spacing: .01em;
@@ -86,14 +82,6 @@ article {
         margin: line-height 0;
         color: $color-meta;
         font-size: 11px;
-
-        a {
-          background-image: linear-gradient(transparent, transparent 5px, $color-meta 5px, $color-meta);
-          color: $color-meta;
-        }
-        a:hover {
-          background-image: linear-gradient(transparent, transparent 4px, lighten($color-meta, 20%) 4px, lighten($color-meta, 20%));
-          color: lighten($color-meta, 20%);
         }
         cite {
           &:before {
@@ -125,7 +113,6 @@ article {
       text-align: center;
       font-size: .9em;
     }
-  }
 }
 .posttitle {
   text-transform: none;
@@ -136,13 +123,11 @@ article {
   .tag-link {
     &:before {
       content: "#";
-      /* @include underline(10px, $color-link); */
     }
   }
 }
 .article-category {
   .category-link {
-    /* @include underline(10px, $color-link); */
   }
 }
 @media (min-width: 480px) {

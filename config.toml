@@ -3,9 +3,7 @@ languageCode = "en-us"
 title = "Peculiar Monster"
 theme = "cactus"
 copyright = "GigaMeow" # cactus will use title if copyright is not set
-# disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# # googleAnalytics = "UA-1234-5"
-
+paginate = 1
 
 # summaryLength = 2
 
@@ -58,7 +56,6 @@ weight = 1
     tabWidth = 4
 
 [params]
-
   colortheme = "succulent" # dark, light, white, classic, or succulent
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
@@ -69,7 +66,7 @@ weight = 1
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = false # show tags overview by default.
+  tagOverview = true # show category overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/CuriousMagpie" # title link for projects list
 
@@ -79,18 +76,6 @@ weight = 1
   # Post page settings
   show_updated = true # default
   showReadTime = true # default
-
-  [params.comments]
-    enabled = false # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
-    [params.comments.utterances]
-      repo = "<github_username>/<github_reponame>"
-      label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
-      theme = "github-light"
-    [params.comments.cactuscomments]
-      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
-      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
-      #serverName = "" # Defaults to cactus.chat
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands

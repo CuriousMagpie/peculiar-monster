@@ -30,7 +30,7 @@ I've made a kanban board for the things I want to do and a bunch of them include
 
 I'm not thrilled with the colors and I think I need to rework them so there are more constrast colors and less four different shades of pinky-purple. But at least I managed to fix the damn fonts and hyphenation. The previous choices were--choices. Yes. That's the word.
 
----
+--
 
 I had a two hour nap with Miles this afternoon. He's the only cat I've ever been able to nap with--I can say to him, "Miles, want to come take a nap?" and he'll get up from wherever he's at (on a cat tree, in a sunbeam) to follow me into the bedroom and wait relatively patiently for me to get my glasses off and the white noise on and get into bed--and then he'll hop up and settle himself on my chest and we'll both sleep and I'll try to not suffocate in his fur.
 

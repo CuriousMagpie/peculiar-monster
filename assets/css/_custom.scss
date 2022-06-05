@@ -1,9 +1,15 @@
-// ==============================
 // Custom style
-// ==============================
 
+// importing custom colors and font from Google
 @import 'custom-colors.scss';
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Forum&family=Inconsolata&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,300;1,300&display=swap');
+
+#header {
+  h1 a {
+    text-decoration: none;
+    border: 0px;
+  }
+}
 
 .content {
   display: block;
@@ -16,7 +22,7 @@
     text-align:left;
   }
   code {
-    color: $space-cadet;
+    color: $color-accent-1;
     padding: 0 5px;
     border: 0.5px solid $color-border;
     border-radius: 2px;
@@ -24,13 +30,24 @@
   a {
     color: $color-link;
     text-decoration: none;
-    border-bottom: 0.5px solid $red-purple;
+    border-bottom: 0.5px solid $color-link;
 
-    &:hover {
+    & :hover {
       background-image: none;
-      background-color: $lavender-blush;
-      border-bottom: solid 0.5px $red-purple;
+      background-color: $color-link-hover;
+      border-bottom: solid 0.5px $color-link;
       font-color: $tyrian-purple;
+    }
+  }
+  h2 {
+    color: $color-accent-1;
+  }
+  h2 a {
+    text-decoration: none;
+    border: 0px;
+    & :hover{
+      background-color:$color-background;
+      border-bottom: 0.5px solid $color-link;
     }
   }
   .icon {
@@ -43,52 +60,26 @@
     background: none;
     border: 0px;
 
-    &:hover {
-      color: $carnation-pink;
+    & :hover {
+      color: $color-accent-3;
       border: 0px;
     }
   }
-  h1 a,
-  .h1 a,
-  h2 a,
-  h3 a,
-  h4 a,
-  h5 a,
-  h6 a {
-    border: none;
+
+  .footnotes {
+    font-size: 0.875rem;
+    color: $color-meta !important;
+
+    & hr {
+        border: 0.25px solid $color-meta;
+      }
   }
-  h1 a:hover,
-  .h1 a:hover,
-  h2 a:hover,
-  h3 a:hover,
-  h4 a:hover,
-  h5 a:hover,
-  h6 a:hover {
-  }
-  h6 {
-    a {
-      border: none;
-    }
-  }
-  h6 {
-    a:hover {
-      border: none;
-    }
-  }
-  hr {
-    border: 0.5px solid $gunmetal;
-  }
+   hr {
+     border: 0.25px solid $color-meta !important;
+   }
 }
 
-.footnotes {
-  font-size: 0.875rem;
-  color: $space-cadet !important;
-
-  & hr {
-    border: 0.25px solid $space-cadet;
-  }
-}
-/* @import "partial/header"; */
+@import "partial/header";
 @import "partial/post/actions_desktop";
 @import "partial/post/actions_mobile";
 @import "partial/index";
@@ -103,7 +94,6 @@
 @import "partial/categories";
 
 pre {
-
   overflow-x: auto;
   padding: 15px 15px 10px 15px;
   border: 1px dotted $color-border;
@@ -142,7 +132,7 @@ pre {
     display: block;
     padding: 0;
     border: none;
-    background-color:$gunmetal;
+    background-color:$color-text;
   }
 }
 
@@ -158,18 +148,72 @@ code {
   #nav {
     ul {
       li {
-        border-right: 0.5px solid $gunmetal;
+        border-right: 0.5px solid $color-text;
         a {
-          color: $tyrian-purple;
-          font-size: 1.1rem;
+          color: $color-link;
+          font-size: 1rem;
           font-weight: 500;
           text-decoration: none;
           border-bottom: 0px;
           }
-        a :hover{
-          background-color: $gunmetal;
+        a:hover{
+          background-color: $color-link-hover;
+          border-bottom: 0.5px solid $color-text;
           }
         }
       }
     }
   }
+
+#index-categories
+  .category-list-title {
+    padding-left: 0px;
+  }
+  .category-list {
+    .category-list-item {
+      list-style-type: none;
+      text-align:left;
+      .category-list-count {
+        color: $color-meta;
+      }
+      .category-list-count:before {
+        content: " (";
+      }
+      .category-list-count:after {
+        content: ")";
+      }
+    }
+  }
+
+article {
+  header {
+    .posttitle {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: none;
+      font-size: 1.5em;
+      line-height: 1.25;
+    }
+    .meta {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: $color-meta;
+      font-size: .85rem;
+    }
+    .meta a {
+      border-bottom: 0px;
+    & a:hover {
+      border-bottom: 0px;
+      color: $color-link;
+      }
+    }
+    .author {
+      text-transform: uppercase;
+      letter-spacing: .01em;
+      font-weight: 700;
+    }
+    .postdate {
+      display: inline;
+    }
+  }
+}

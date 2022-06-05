@@ -20,6 +20,13 @@
     background: none;
     color: inherit;
     text-decoration: none;
+    border: 0px;
+  & :hover {
+    background: $color-background;
+    color: inherit;
+    text-decoration: none;
+    border: 0px;
+    }
   }
   #logo {
     display: inline-block;

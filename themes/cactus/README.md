@@ -38,15 +38,9 @@ hugo server
   colortheme = "white" # dark, light, white, or classic
 ```
 
-### Custom CSS
+### Custom SCSS
 
-```toml
-[params]
-  css = ["css/custom.css"]
-```
-
-You can add multiple custom stylesheets which will be loaded after the main theme css.
-For example, the above line will load the CSS-file placed at `/static/css/custom.css`.
+Add file to folder `assets/scss/custom.scss` to customize generated CSS.
 
 ### Navigation
 
@@ -112,7 +106,7 @@ weight = 4
 ```
 
 * show tagsoverview (default) or not
-* 
+*
 ```toml
 [params]
   tagsOverview = true
@@ -274,7 +268,7 @@ mathjax: true # or false
 
 The site config will be ignored when `mathjax` option exists in front matter.
 
-### Archive 
+### Archive
 Pagination on posts archive can be disabled to show all posts in chronological order
 
 ```toml
@@ -292,7 +286,7 @@ Pagination on posts archive can be disabled to show all posts in chronological o
 - [ ] toc template
 - [ ] Customizable copyright year
 - [ ] gallery
-- [ ] expose [mathjax configuration](https://docs.mathjax.org/en/latest/web/configuration.html#web-configuration) 
+- [ ] expose [mathjax configuration](https://docs.mathjax.org/en/latest/web/configuration.html#web-configuration)
 
 ## License
 

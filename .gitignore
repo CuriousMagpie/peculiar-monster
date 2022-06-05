@@ -1,10 +1,13 @@
 config-loveIt.toml
 config-cactus.toml
-
 .hugo_build.lock
 
 /peculiar-obsidian
+
 /themes/LoveIt
+/themes/cactus/layouts/partials/share.html
+/themes/cactus/layouts/partials/comments.html
+/themes/cactus/comments
 
 /assets/css/_custom-LoveIt.scss
 /assets/css/_variables-LoveIt.scss
