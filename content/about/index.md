@@ -23,16 +23,16 @@ toc:
 # Hello!
 
 I am:
-
+- pseudonymous--that is, everything that is written here should be credited to GigaMeow and not any portion of my legal name
+- not using any trackers, cookies, or analytics on this site--as I am respecting _your_ privacy, please respect mine
 - a cyborgified human being[^1]
-- femme non-binary
-- my pronouns are she/they
+- femme non-binary and my pronouns are she/they
 - married to a wonderful man since 2006, but we've been partners since 1998
 - chronically ill with a whole bunch of _fascinating_ things[^2]
 - owned by two cats, Miles and Ivan (_yes, nominative determinism is a thing_)
 - a voracious reader of speculative fiction and possessed of many opinions
-- including that George R.R. Martin can fuck off into the sun[^3]
-- loser of not one, but two Hugo Awards
+-   including that George R.R. Martin can fuck off into the sun[^3]
+- a loser of not one, but two Hugo Awards
 - a knitter, crocheter, and spinner
 - a failed poet
 - a watercolor painter and sticker collector

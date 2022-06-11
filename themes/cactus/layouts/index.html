@@ -15,6 +15,10 @@
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Bookwyrm">
           <i class="fas fa-book" aria-hidden="true"></i>
         </a>
+        {{ else if eq $elem.name "discord" }}
+        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Discord">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+        </a>
         {{ else if eq $elem.name "mastodon" }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Wandering Shop">
           <i class="fab fa-mastodon" aria-hidden="true"></i>

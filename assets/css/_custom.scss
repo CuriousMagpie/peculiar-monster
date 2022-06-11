@@ -11,6 +11,10 @@
   }
 }
 
+#writing h3 {
+  margin-bottom: 12px;
+}
+
 .content {
   display: block;
   overflow-wrap: normal;
@@ -28,16 +32,32 @@
     border-radius: 2px;
   }
   a {
-    color: $color-link;
+    color: $color-accent-1 !important;
     text-decoration: none;
     border-bottom: 0.5px solid $color-link;
 
-    & :hover {
+    &:hover {
       background-image: none;
       background-color: $color-link-hover;
       border-bottom: solid 0.5px $color-link;
-      font-color: $tyrian-purple;
+      color: $color-accent-2;
     }
+  }
+
+  blockquote {
+    border-left: $color-quote solid 4px;
+    margin-right: 32px;
+    background-color: lighten($color-quote, 47%);
+
+    p {
+      margin-left: 8px;
+      margin-bottom: 0px;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   h2 {
     color: $color-accent-1;
@@ -45,10 +65,14 @@
   h2 a {
     text-decoration: none;
     border: 0px;
-    & :hover{
+    &:hover{
       background-color:$color-background;
       border-bottom: 0.5px solid $color-link;
     }
+  }
+  ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   .icon {
     font-size: 1.3rem;
@@ -59,9 +83,10 @@
   a.icon {
     background: none;
     border: 0px;
+    color: $color-accent-1 !important;
 
-    & :hover {
-      color: $color-accent-3;
+    &:hover {
+      color: $color-accent-2 !important;
       border: 0px;
     }
   }
@@ -69,29 +94,11 @@
   .footnotes {
     font-size: 0.875rem;
     color: $color-meta !important;
-
-    & hr {
-        border: 0.25px solid $color-meta;
-      }
   }
    hr {
-     border: 0.25px solid $color-meta !important;
+     border: 0.25px solid $color-accent-1;
    }
 }
-
-@import "partial/header";
-@import "partial/post/actions_desktop";
-@import "partial/post/actions_mobile";
-@import "partial/index";
-@import "partial/article";
-@import "partial/archive";
-@import "partial/comments";
-@import "partial/footer";
-@import "partial/pagination";
-@import "partial/search";
-@import "partial/tags";
-@import "partial/tooltip";
-@import "partial/categories";
 
 pre {
   overflow-x: auto;
@@ -202,7 +209,7 @@ article {
     }
     .meta a {
       border-bottom: 0px;
-    & a:hover {
+    &a:hover {
       border-bottom: 0px;
       color: $color-link;
       }

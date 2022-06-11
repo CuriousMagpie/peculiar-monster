@@ -22,7 +22,7 @@ linkToMarkdown: false
 rssFullText: true
 
 toc:
-  enable: true
+  enable: false
   auto: true
 code:
   copy: true
@@ -31,7 +31,6 @@ code:
 
 I used to read so many blogs and other sources of information. Sadly, fewer and fewer folks are blogging on their own sites and instead opt for places like Twitter or Substack, the latter often behind a paywall (And yet, nearly all of the newsletters I'm going to recommend are on Substack; probably because Substack positions itself as a content provider and not a way to get people into your sales funnel).
 
-# Blogs
 ## Personal Blogs
 - [Anna Havron](https://www.annahavron.com)
 - [Cogito, Ergo Sumana](https://harihareswara.net/)
@@ -39,7 +38,6 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 - [Mimi Smartypants](https://mimismartypants.com/)
 - [ReaderWriterVille](https://readerwriterville.com/)
 - [Something More](https://myextensivereading.wordpress.com/)
-- [Techzerker](https://techzerker.com/)
 
 ## SFF-ish Blogs
 - [Camestros Felapton](https://camestrosfelapton.wordpress.com/)
@@ -52,14 +50,17 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 - [Theodora Goss's Blog](https://theodoragoss.com/)
 - [Will Tell Stories for Food](https://naomikritzer.com/)
 
+## Technical Blog
+- [Techzerker](https://techzerker.com/)
+- [Web3 is Going Just Great](https://web3isgoinggreat.com/)
+
 ## Topical Blogs
 - [Ask a Manager](https://www.askamanager.org/)
 - [Captain Awkward](https://captainawkward.com/)
 - [The Cramped](http://www.thecramped.com/)
 - [McMansion Hell](https://mcmansionhell.com/)
-- [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
-# Newsletters
+## Newsletters
 - [The Full Lid](https://mailchi.mp/5a1f74b9a7fd/thefulllid) Written by Alasdair Stuart and Marguerite Kenner, this is a weekly cornucopia of goodness.
 - [Amal Content](https://amal.substack.com/) Come for the puns, stay for Amal El-Mohtar's thoughtful and heartfelt posts.
 - [The Rest is Commentary](https://hanneblankboyd.substack.com/) Currently a placeholder, but as it's Hanne Blank Boyd's placeholder, I'm expecting great things here.

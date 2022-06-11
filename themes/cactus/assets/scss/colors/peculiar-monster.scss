@@ -1,0 +1,16 @@
+@import "../../../assets/css/peculiar-monster";
+
+$color-background: $white !default;
+$color-footer-mobile-1: darken($color-background, 4%) !default;
+$color-footer-mobile-2: darken($color-background, 10%) !default;
+$color-background-code: lighten($light-blue, 30%) !default;
+$color-border: $medium-blue !default;
+$color-meta: $black !default;
+$color-meta-code: lighten($color-meta, 10%) !default; 
+$color-link: $coral !default;
+$color-link-hover: $light-pink !default;
+$color-text: $black !default;
+$color-accent-1: $cobalt-blue !default;
+$color-accent-2: $fluorescent-red !default;
+$color-accent-3: $fluorescent-green !default;
+$color-quote: $bright-purple !default;
