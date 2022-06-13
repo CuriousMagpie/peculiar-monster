@@ -2,7 +2,7 @@
 title: "Coding and Thinking"
 slug: "coding-and-thinking"
 date: 2022-06-12T22:15:34-04:00
-draft: true
+draft: false
 author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
