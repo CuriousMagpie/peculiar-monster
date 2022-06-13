@@ -3,7 +3,7 @@ title: "F Stands for Fungible"
 slug: "f-stands-for-fungible"
 date: 2022-06-11T16:55:10-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 

@@ -3,7 +3,7 @@ title: "Trying to Post Images"
 slug: "image-posting"
 date: 2022-06-01T11:18:02-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 

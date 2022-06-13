@@ -3,7 +3,7 @@ title: "A Ridiculous Day"
 slug: "ridiculous-day"
 date: 2022-06-02T22:02:49-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 

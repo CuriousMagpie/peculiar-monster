@@ -9,27 +9,27 @@
       {{ range $index, $elem := .Site.Params.social}}
       {{ if eq $elem.name "rss" }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="RSS">
-          <i class="fas fa-rss" aria-hidden="true"></i>
+          <i class="fa-solid fa-square-rss" aria-hidden="true"></i>
         </a>
         {{ else if eq $elem.name "bookwyrm" }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Bookwyrm">
-          <i class="fas fa-book" aria-hidden="true"></i>
+          <i class="fa-solid fa-book" aria-hidden="true"></i>
         </a>
         {{ else if eq $elem.name "discord" }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Discord">
-          <i class="fab fa-discord" aria-hidden="true"></i>
+          <i class="fa-brands fa-discord" aria-hidden="true"></i> 
         </a>
         {{ else if eq $elem.name "mastodon" }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Wandering Shop">
-          <i class="fab fa-mastodon" aria-hidden="true"></i>
+          <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
         </a>
         {{ else if eq $elem.name "github" }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="GitHub">
-          <i class="fab fa-github" aria-hidden="true"></i>
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
         </a>
         {{ else }}
         <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="{{ $elem.name }}">
-          <i class="fab fa-{{ lower $elem.name }}" aria-hidden="true"></i>
+          <i class="fa-brands fa-{{ lower $elem.name }}" aria-hidden="true"></i>
         </a>
         {{ end }}
         {{ if (lt (add $index 2) $length) }}
@@ -48,7 +48,7 @@
   <section id="writing">
     <h2><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></h2>
 
-    <h3><i class="fas fa-pencil-alt"></i> Most Recent Posts</h3>
+    <h3><i class="fa-solid fa-pencil"></i>&nbsp;&nbsp;Recent Posts</h3>
 
     {{ $showAllPostsOnHomePage := false }}
     {{ if (isset .Site.Params "showallpostsonhomepage") }}
@@ -83,12 +83,7 @@
     </ul>
     {{ end }}
     {{ if (and (and (isset .Site.Params "tagoverview") (eq .Site.Params.tagOverview true)) (gt (len .Site.Taxonomies.categories) 0)) }}
-    <h3><i class="fas fa-archive"></i> Categories</h3>
-      <!-- <div class="tag-cloud-tags">
-        {{- range $.Site.Taxonomies.categories.ByCount -}}
-            <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }} ({{ .Count }})</a>&nbsp;
-        {{- end -}}
-      </div> -->
+    <h3><i class="fa-solid fa-archive"></i>&nbsp;&nbsp;Categories</h3>
       <div id= "index-categories" class="category-list">
         <ul class="category-list-title">
           {{ range .Site.Taxonomies.categories.ByCount }}

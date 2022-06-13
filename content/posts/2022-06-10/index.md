@@ -3,7 +3,7 @@ title: "My Current Feelings Towards SFF Fandom"
 slug: "sff-feelings-mood"
 date: 2022-06-10T13:25:06-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 

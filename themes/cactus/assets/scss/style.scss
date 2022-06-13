@@ -1,15 +1,11 @@
-@import "variables";
-@import "colors/{{ site.Params.colortheme | default "white" }}";
-@import "util";
-@import "mixins";
-// @import "extend";
-// @import "fonts";
-@import "custom";
-@import "../../assets/css/custom";
-@import "../../assets/css/custom-colors";
-@import "../../assets/css/override";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Forum&family=Inconsolata&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,300;1,300&display=swap');
 
-// global-reset()
+@import "variables";
+@import "colors/{{ site.Params.colortheme | default "peculiar-monster" }}";
+@import "mixins";
+@import "partial/index";
+@import '../../assets/css/custom-colors';
+@import "custom";
 
 *,
 *:before,
@@ -38,8 +34,6 @@ body {
   flex: 1;
 
   @include antialias();
-
-  @extend $base-style !optional;
 }
 .content {
   position: relative;
@@ -94,20 +88,6 @@ body {
   }
 }
 
-@import "partial/header";
-@import "partial/post/actions_desktop";
-@import "partial/post/actions_mobile";
-@import "partial/index";
-@import "partial/article";
-@import "partial/archive";
-@import "partial/comments";
-@import "partial/footer";
-@import "partial/pagination";
-@import "partial/search";
-@import "partial/tags";
-@import "partial/tooltip";
-@import "partial/categories";
-
 pre {
   overflow-x: auto;
   padding: 15px 15px 10px 15px;
@@ -126,7 +106,7 @@ pre {
     border: 0;
     border-radius: 0 2px;
     padding: 0;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: 800;
     font-size: 0.9em;
     line-height: 1.7;

@@ -18,6 +18,7 @@ article {
     }
     .postdate {
       display: inline;
+      padding: 0 5px 0 0;
     }
   }
   .content {
@@ -27,7 +28,7 @@ article {
         top: -4px;
         left: -1rem;
         color: $color-accent-1;
-        content: "#";
+        // content: "#";
         font-weight: bold;
         font-size: 1.2rem;
       }
@@ -122,7 +123,7 @@ article {
 .article-tag {
   .tag-link {
     &:before {
-      content: "#";
+      // content: "#";
     }
   }
 }
@@ -133,11 +134,14 @@ article {
 @media (min-width: 480px) {
   .article-read-time,
   .article-tag,
-  .article-category {
+  .article-category,
+  .article-wordcount {
     display: inline;
+    border-left: 0.5px solid $black;
+    padding-left:5px;
+    padding-right: 5px;
 
     &:before {
-      content: "|";
     }
   }
 };

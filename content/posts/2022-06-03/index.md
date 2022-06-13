@@ -3,7 +3,7 @@ title: "Better Colors?"
 slug: "better-colors"
 date: 2022-06-03T23:21:11-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 

@@ -3,7 +3,7 @@ title: "Random Thoughts (June 9)"
 slug: "random-thoughts"
 date: 2022-06-09T09:52:04-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 

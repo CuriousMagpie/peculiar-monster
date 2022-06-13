@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Oxygen:wght@300;400;700&family=Roboto:wght@300;400;500&family=Special+Elite&display=swap');
+
 // Fonts
-$font-family-body: "JetBrains Mono", monospace !default;
-$font-family-mono: "JetBrains Mono", monospace !default;
-$font-family-tt: "Inconsolata", monospace !default;
-$font-size: 14px !default;
+$font-family-body: "Oxygen", "Roboto", sans-serif !default;
+$font-family-mono: "Inconsolata", monospace !default;
+$font-family-header: "Special Elite", cursive !default;
+$font-size: 16px !default;
 $line-height: 1.725 !default;
 $page-width: 48rem !default;
 // Logo
@@ -10,4 +12,6 @@ $logo-width: 50px !default;
 $logo-height: 50px !default;
 $logo-grayout: true !default;
 // Colors
-$colors: "dark" // white dark light classic succulent
+$colors: "dark" // white dark light classic succulent peculiar-monster
+
+// this is an edited version of the original variables sheet

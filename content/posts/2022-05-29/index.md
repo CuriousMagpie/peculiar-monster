@@ -3,7 +3,7 @@ title: "Hello World"
 slug: "hello-world"
 date: 2022-05-29T20:06:00-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 
