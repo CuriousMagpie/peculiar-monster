@@ -3,7 +3,7 @@ title: "Blogroll"
 slug: "blogroll"
 date: 2022-05-29T17:09:43-04:00
 draft: false
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 
@@ -19,11 +19,11 @@ hiddenFromSearch: false
 twemoji: true
 fontawesome: true
 linkToMarkdown: false
-rssFullText: true
+rssFullText: false
 
 toc:
   enable: false
-  auto: true
+  auto: false
 code:
   copy: true
   maxShownLines: 50
@@ -33,13 +33,12 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 
 ## Personal Blogs
 - [Anna Havron](https://www.annahavron.com)
-- [Cogito, Ergo Sumana](https://harihareswara.net/)
 - [I Will Dare](https://www.iwilldare.com)
 - [Mimi Smartypants](https://mimismartypants.com/)
 - [ReaderWriterVille](https://readerwriterville.com/)
 - [Something More](https://myextensivereading.wordpress.com/)
 
-## SFF-ish Blogs
+## SFF Blogs
 - [Camestros Felapton](https://camestrosfelapton.wordpress.com/)
 - [Cora Buhlert](http://corabuhlert.com/)
 - [The Fly(er) on the Wall](https://flyeronthewall.wordpress.com/)
@@ -50,7 +49,13 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 - [Theodora Goss's Blog](https://theodoragoss.com/)
 - [Will Tell Stories for Food](https://naomikritzer.com/)
 
-## Technical Blog
+## Technical Blogs
+- [Adactio - Articles](https://adactio.com/articles/)
+- [Adactio - Links](https://adactio.com/links/)
+- [Astrid.tech](https://astrid.tech/)
+- [Cogito, Ergo Sumana](https://harihareswara.net/)
+- [Interdependent Thoughts](https://www.zylstra.org/blog/)
+- [Synesthesia](https://www.synesthesia.co.uk/)
 - [Techzerker](https://techzerker.com/)
 - [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
