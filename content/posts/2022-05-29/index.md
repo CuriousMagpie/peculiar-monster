@@ -35,7 +35,6 @@ While this is a new site, I am not new to blogging. I've been blogging one way o
 I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I'm not looking for visibility or followers or to become any sort of influencer.
 
 I'm looking for a place to document my life and how I'm living it.
-<!--more-->
 
 I _miss_ writing for its own sake. There are so many things I want to write about and haven't felt as if I can, in part because technology is getting in my way.
 

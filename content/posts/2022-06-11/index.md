@@ -29,7 +29,7 @@ code:
   maxShownLines: 50
 ---
 I started the process of mothballing my old site last night.
-<!--more-->
+
 It was really hard to go through nearly 700 posts and unpublish them, leaving only the ones I'm planning on archiving on a static site. 
 
 Really, really hard. Also hard was seeing people respond on Twitter to my statement a few days ago that I was shutting the site down. 

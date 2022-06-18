@@ -2,22 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>panopticon on Peculiar Monster</title>
-    <link>https://peculiar.monster/tags/panopticon/</link>
+    <link>/tags/panopticon/</link>
     <description>Recent content in panopticon on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 29 May 2022 20:06:00 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/panopticon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 20:06:00 -0400</lastBuildDate><atom:link href="/tags/panopticon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://peculiar.monster/posts/hello-world/</link>
+      <link>/posts/hello-world/</link>
       <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/hello-world/</guid>
+      <guid>/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
 &lt;p&gt;While this is a new site, I am not new to blogging. I&amp;rsquo;ve been blogging one way or another since 1999, give or take. I&amp;rsquo;ve had a lot of different sites over the years&amp;ndash;from Diaryland to Greymatter to Movable Type to LiveJournal to WordPress and now I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; because, to be quite honest, I am unhappy with the direction WordPress has taken their product&amp;ndash;they seem to assume that everyone wants to sell something and too often what&amp;rsquo;s for sale is a piece of someone&amp;rsquo;s soul.&lt;/p&gt;
 &lt;p&gt;I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I&amp;rsquo;m not looking for visibility or followers or to become any sort of influencer.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m looking for a place to document my life and how I&amp;rsquo;m living it.&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;m looking for a place to document my life and how I&amp;rsquo;m living it.&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;miss&lt;/em&gt; writing for its own sake. There are so many things I want to write about and haven&amp;rsquo;t felt as if I can, in part because technology is getting in my way.&lt;/p&gt;
+&lt;p&gt;WordPress is an unwieldy beast and every time I log on, there&amp;rsquo;s &lt;em&gt;something&lt;/em&gt; that needs updating. I hate that things I&amp;rsquo;d consider to be part of the core functionality of a CMS isn&amp;rsquo;t there and there&amp;rsquo;s a whole ecosystem of people making their living selling that core functionality to you&amp;ndash;and if they run on a freemium model, the plugins call home, which is a significant privacy and security concern.&lt;/p&gt;
+&lt;p&gt;I am planning to mothball my old site and unpublishing nearly all the posts; what I&amp;rsquo;m planning on leaving behind will be converted to static site, probably using &lt;a href=&#34;https://www.11ty.dev/&#34;&gt;11ty&lt;/a&gt;, because playing with frameworks is fun and their name makes me laugh.&lt;/p&gt;
+&lt;p&gt;Like many others, I have become increasingly disillusioned with the algorithmic web and with the centering of search engine optimization and selling when it comes to publishing online.&lt;/p&gt;
+&lt;p&gt;For example: Twitter doesn&amp;rsquo;t show me the tweets I&amp;rsquo;m interested in, instead it shows me what will make me angry or despairing. Facebook lets me know know which of my friends and family are not-so-secret bigots (I&amp;rsquo;d&amp;rsquo;ve deleted that by now except FB Messenger is the main way I talk to my sister and dad). Instagram seems to exist in order to make me feel bad about myself or to tempt me into buying things I really don&amp;rsquo;t need. None of this is good for my mental health.&lt;/p&gt;
+&lt;p&gt;I was &lt;a href=&#34;https://institute.global/policy/social-media-futures-what-brigading&#34;&gt;brigaded on Twitter&lt;/a&gt; earlier this year for a casual, off-hand remark I made to some friends after the Hugo Awards ceremony and the ringleaders harassed me for &lt;em&gt;months&lt;/em&gt; for no reason other that they &lt;em&gt;could&lt;/em&gt;. And because I was not someone that the wider SFF community perceived as important, I was more or less left to deal with it alone. (Those of you who did support me, you have my :purple_heart: forever. The rest of you? :fu: )&lt;/p&gt;
+&lt;p&gt;So this is an attempt to get back to basics&amp;ndash;to write a few times a week about how I&amp;rsquo;m feeling (current status: ow my pancreas), about what I&amp;rsquo;m reading, and whatever else I want. And most importantly: to work at becoming a &lt;em&gt;better&lt;/em&gt; writer.&lt;/p&gt;
+&lt;p&gt;I want to get away from the corporatized and capitalism-focused web and back to what attracted me to the internet in the first place: finding interesting people and reading what they have to say.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not planning on glossing over any of my health issues, but I&amp;rsquo;m not going to wallow in them or present myself as some sort of heroine fighting a battle with her body: my goal is to make peace with this body, as it&amp;rsquo;s the only one I get to have. And if I have to use assistive devices and medications in order to keep going, then that&amp;rsquo;s what I&amp;rsquo;m going to do. And I&amp;rsquo;m going to talk about it&amp;ndash;there are so few of us who have survived necrotizing pancreatitis writing honestly about what it&amp;rsquo;s like that I feel I owe it to my past self to do so.&lt;/p&gt;
+&lt;p&gt;But my disability isn&amp;rsquo;t all of who I am: I am also a voracious reader and I make things with yarn. I&amp;rsquo;m also a JavaScript developer and I work for a really neat little company and it&amp;rsquo;s so &lt;em&gt;good&lt;/em&gt;, especially when compared with my prior job, which was actively making my health worse through an abusive manager who knew how to use the corporate bureaucracy to her benefit.&lt;/p&gt;
+&lt;p&gt;I think most of you reading this have noticed that I&amp;rsquo;m not using any part of my legal name on this site, although it is not difficult to discover. I am asking that this deliberate omission be respected as much as possible. I&amp;rsquo;m respecting your privacy by not using any cookies or other tracking technologies, so please respect mine.&lt;/p&gt;
+&lt;p&gt;Finally: welcome, world. I&amp;rsquo;m glad you&amp;rsquo;re here for this journey. Let&amp;rsquo;s have some fun.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

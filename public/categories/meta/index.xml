@@ -2,41 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>meta on Peculiar Monster</title>
-    <link>https://peculiar.monster/categories/meta/</link>
+    <link>/categories/meta/</link>
     <description>Recent content in meta on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Fri, 03 Jun 2022 23:21:11 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jun 2022 23:21:11 -0400</lastBuildDate><atom:link href="/categories/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Better Colors?</title>
-      <link>https://peculiar.monster/posts/better-colors/</link>
+      <link>/posts/better-colors/</link>
       <pubDate>Fri, 03 Jun 2022 23:21:11 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/better-colors/</guid>
-      <description>The spaghetti that is this site&amp;rsquo;s CSS is really something else&amp;ndash;to the point where using the override files just doesn&amp;rsquo;t work because there&amp;rsquo;s so much stuff squirreled away in different places and it all takes different precedence.
-I&amp;rsquo;ve made a kanban board for the things I want to do and a bunch of them include &amp;ldquo;refactor and consolidate X, Y, or Z.&amp;rdquo; I suspect that when I&amp;rsquo;m done, it&amp;rsquo;ll be an entirely new template.</description>
+      <guid>/posts/better-colors/</guid>
+      <description>&lt;p&gt;The spaghetti that is this site&amp;rsquo;s CSS is really something else&amp;ndash;to the point where using the override files just doesn&amp;rsquo;t work because there&amp;rsquo;s so much stuff squirreled away in different places and it all takes different precedence.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve made a kanban board for the things I want to do and a bunch of them include &amp;ldquo;refactor and consolidate X, Y, or Z.&amp;rdquo; I suspect that when I&amp;rsquo;m done, it&amp;rsquo;ll be an entirely new template.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not thrilled with the colors and I think I need to rework them so there are more constrast colors and less four different shades of pinky-purple. But at least I managed to fix the damn fonts and hyphenation. The previous choices were&amp;ndash;choices. Yes. That&amp;rsquo;s the word.&lt;/p&gt;
+&lt;p&gt;I had a two hour nap with Miles this afternoon. He&amp;rsquo;s the only cat I&amp;rsquo;ve ever been able to nap with&amp;ndash;I can say to him, &amp;ldquo;Miles, want to come take a nap?&amp;rdquo; and he&amp;rsquo;ll get up from wherever he&amp;rsquo;s at (on a cat tree, in a sunbeam) to follow me into the bedroom and wait relatively patiently for me to get my glasses off and the white noise on and get into bed&amp;ndash;and then he&amp;rsquo;ll hop up and settle himself on my chest and we&amp;rsquo;ll both sleep and I&amp;rsquo;ll try to not suffocate in his fur.&lt;/p&gt;
+&lt;p&gt;When I&amp;rsquo;m having a bad body day, he&amp;rsquo;ll often herd me to bed to take a nap. It&amp;rsquo;s like he &lt;em&gt;knows&lt;/em&gt; somehow.&lt;/p&gt;
+&lt;p&gt;This doesn&amp;rsquo;t work at night&amp;ndash;he sometimes sleeps at the foot of the bed at night, but he prefers other places to do his important cat business overnight.&lt;/p&gt;
+&lt;p&gt;He&amp;rsquo;s a funny cat, but he&amp;rsquo;s my cat and I love him so much. He&amp;rsquo;s the very best black cat I&amp;rsquo;ve ever had. (I really can&amp;rsquo;t quantify which cat&amp;rsquo;s the best of the best, they&amp;rsquo;ve all been great in different ways&amp;ndash;all very different personalities.)&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Trying to Post Images</title>
-      <link>https://peculiar.monster/posts/image-posting/</link>
+      <link>/posts/image-posting/</link>
       <pubDate>Wed, 01 Jun 2022 11:18:02 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/image-posting/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m trying to figure out how to manage images; I don&amp;rsquo;t really want to do &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;page bundles&lt;/a&gt;&amp;hellip;but I guess I am for now. Meh.&lt;/p&gt;</description>
+      <guid>/posts/image-posting/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying to figure out how to manage images; I don&amp;rsquo;t really want to do &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;page bundles&lt;/a&gt;&amp;hellip;but I guess I am for now. Meh.&lt;/p&gt;
+&lt;p&gt;Annnnd, of course, I can&amp;rsquo;t get any of the theme&amp;rsquo;s built-in image shortcodes to actually &lt;em&gt;respect&lt;/em&gt; my settings&amp;ndash;do I want my images linked? No, no I do not. And why the FUCK is it not rendering the CSS that at least hides my link formatting? I have it in the right order, it&amp;rsquo;s just straight-up &lt;em&gt;ignoring&lt;/em&gt; me. I&amp;rsquo;m starting to think I need to find another, simpler theme to work with. This one is awfully finicky and NOT GOOD at respecting my choices. Which is why I wanted to get away from the WordPress ecosystem in the first place: to have better choices.&lt;/p&gt;
+&lt;p&gt;Anyhow. Enjoy this image of my African violet blooming&amp;ndash;I&amp;rsquo;ve never had one bloom before, and I&amp;rsquo;ve even managed to keep it alive for over a year. That&amp;rsquo;s a victory, for sure. The second image is of my current knitting project, &lt;a href=&#34;https://www.ravelry.com/patterns/library/mutual-admiration-society&#34;&gt;Mutual Admiration Society&lt;/a&gt; (Rav link, sorry), which I bought as a kit eons ago. It uses a technique new to me, mosaic knitting, which is slipping stitches on every row with two alternating colors. It looks a lot harder than it actually is. The gray speckled yarn is Miss Babs&amp;rsquo;s Yowza and it is incredible to work with&amp;ndash;I would love to make a sweater with this stuff, it&amp;rsquo;s so round and bouncy and nice to work with.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20220531-african-violet.jpeg&#34; alt=&#34;This is an African Violet.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20220531-mosaic-knitting.jpeg&#34; alt=&#34;This is mosaic knitting.&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://peculiar.monster/posts/hello-world/</link>
+      <link>/posts/hello-world/</link>
       <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/hello-world/</guid>
+      <guid>/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
 &lt;p&gt;While this is a new site, I am not new to blogging. I&amp;rsquo;ve been blogging one way or another since 1999, give or take. I&amp;rsquo;ve had a lot of different sites over the years&amp;ndash;from Diaryland to Greymatter to Movable Type to LiveJournal to WordPress and now I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; because, to be quite honest, I am unhappy with the direction WordPress has taken their product&amp;ndash;they seem to assume that everyone wants to sell something and too often what&amp;rsquo;s for sale is a piece of someone&amp;rsquo;s soul.&lt;/p&gt;
 &lt;p&gt;I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I&amp;rsquo;m not looking for visibility or followers or to become any sort of influencer.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m looking for a place to document my life and how I&amp;rsquo;m living it.&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;m looking for a place to document my life and how I&amp;rsquo;m living it.&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;miss&lt;/em&gt; writing for its own sake. There are so many things I want to write about and haven&amp;rsquo;t felt as if I can, in part because technology is getting in my way.&lt;/p&gt;
+&lt;p&gt;WordPress is an unwieldy beast and every time I log on, there&amp;rsquo;s &lt;em&gt;something&lt;/em&gt; that needs updating. I hate that things I&amp;rsquo;d consider to be part of the core functionality of a CMS isn&amp;rsquo;t there and there&amp;rsquo;s a whole ecosystem of people making their living selling that core functionality to you&amp;ndash;and if they run on a freemium model, the plugins call home, which is a significant privacy and security concern.&lt;/p&gt;
+&lt;p&gt;I am planning to mothball my old site and unpublishing nearly all the posts; what I&amp;rsquo;m planning on leaving behind will be converted to static site, probably using &lt;a href=&#34;https://www.11ty.dev/&#34;&gt;11ty&lt;/a&gt;, because playing with frameworks is fun and their name makes me laugh.&lt;/p&gt;
+&lt;p&gt;Like many others, I have become increasingly disillusioned with the algorithmic web and with the centering of search engine optimization and selling when it comes to publishing online.&lt;/p&gt;
+&lt;p&gt;For example: Twitter doesn&amp;rsquo;t show me the tweets I&amp;rsquo;m interested in, instead it shows me what will make me angry or despairing. Facebook lets me know know which of my friends and family are not-so-secret bigots (I&amp;rsquo;d&amp;rsquo;ve deleted that by now except FB Messenger is the main way I talk to my sister and dad). Instagram seems to exist in order to make me feel bad about myself or to tempt me into buying things I really don&amp;rsquo;t need. None of this is good for my mental health.&lt;/p&gt;
+&lt;p&gt;I was &lt;a href=&#34;https://institute.global/policy/social-media-futures-what-brigading&#34;&gt;brigaded on Twitter&lt;/a&gt; earlier this year for a casual, off-hand remark I made to some friends after the Hugo Awards ceremony and the ringleaders harassed me for &lt;em&gt;months&lt;/em&gt; for no reason other that they &lt;em&gt;could&lt;/em&gt;. And because I was not someone that the wider SFF community perceived as important, I was more or less left to deal with it alone. (Those of you who did support me, you have my :purple_heart: forever. The rest of you? :fu: )&lt;/p&gt;
+&lt;p&gt;So this is an attempt to get back to basics&amp;ndash;to write a few times a week about how I&amp;rsquo;m feeling (current status: ow my pancreas), about what I&amp;rsquo;m reading, and whatever else I want. And most importantly: to work at becoming a &lt;em&gt;better&lt;/em&gt; writer.&lt;/p&gt;
+&lt;p&gt;I want to get away from the corporatized and capitalism-focused web and back to what attracted me to the internet in the first place: finding interesting people and reading what they have to say.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not planning on glossing over any of my health issues, but I&amp;rsquo;m not going to wallow in them or present myself as some sort of heroine fighting a battle with her body: my goal is to make peace with this body, as it&amp;rsquo;s the only one I get to have. And if I have to use assistive devices and medications in order to keep going, then that&amp;rsquo;s what I&amp;rsquo;m going to do. And I&amp;rsquo;m going to talk about it&amp;ndash;there are so few of us who have survived necrotizing pancreatitis writing honestly about what it&amp;rsquo;s like that I feel I owe it to my past self to do so.&lt;/p&gt;
+&lt;p&gt;But my disability isn&amp;rsquo;t all of who I am: I am also a voracious reader and I make things with yarn. I&amp;rsquo;m also a JavaScript developer and I work for a really neat little company and it&amp;rsquo;s so &lt;em&gt;good&lt;/em&gt;, especially when compared with my prior job, which was actively making my health worse through an abusive manager who knew how to use the corporate bureaucracy to her benefit.&lt;/p&gt;
+&lt;p&gt;I think most of you reading this have noticed that I&amp;rsquo;m not using any part of my legal name on this site, although it is not difficult to discover. I am asking that this deliberate omission be respected as much as possible. I&amp;rsquo;m respecting your privacy by not using any cookies or other tracking technologies, so please respect mine.&lt;/p&gt;
+&lt;p&gt;Finally: welcome, world. I&amp;rsquo;m glad you&amp;rsquo;re here for this journey. Let&amp;rsquo;s have some fun.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

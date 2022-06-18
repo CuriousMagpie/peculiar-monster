@@ -33,7 +33,6 @@ Oof. I went in for my monthly-ish paracentesis yesterday morning.
 
 If you don't know what this is, here's [a handy explainer from Wikipedia](https://en.wikipedia.org/wiki/Paracentesis).
 
-<!--more-->
 First of all, I was up entirely too early for my own good. But it did mean I was able to take my meds and eat breakfast before having to leave for the hospital, so that's something, yes?
 
 Normally, it's not too bad, but the doctor doing them yesterday was a resident and while she was very nice and perfectly competent, she was also still a _resident_, which means that she wasn't as skilled as some of the doctors who have been there for years. And I'm a bit of a tough case--I get tapped on my left side, not the right, and I'm not a high volume person anymore (thank God--that's 5L or more).

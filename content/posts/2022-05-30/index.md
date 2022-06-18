@@ -29,7 +29,6 @@ code:
   maxShownLines: 50
 ---
 And of course, no sooner than I finished my previous post and decided to deploy the site than I ran into a bunch of problems, some bigger than others.
-<!--more-->
 
 First, I had to set the DNS record to point at GitHub Pages. And that takes time to propogate and I am _impatient_.
 

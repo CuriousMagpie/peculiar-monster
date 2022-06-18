@@ -32,8 +32,6 @@ Did you know that I have not one, but two kanban boards? One for getting this si
 
 They both have a LOT of things on them. It's gonna be a lot of work.
 
-<!--more-->
-
 But this evening, I knocked out a fair number of backend things I wanted to fix on this site, primarily with the CSS. I figured out what all the different files were doing, removed the parts that were irrelevant (goodbye stupid jquery menu on mobile), and did my various imports in a way that made sense for me. 
 
 I also replaced a few things with links to CDNs instead of hosting the entire content here--that allows me to keep up to date with the most current version of things but it does add a vulnerability in case those CDNs go down. They're mostly for things like some of the icons and the CSS frameword the original author chose to use. If the CDNs do go down, things will degrade gracefully until they come back up again. 

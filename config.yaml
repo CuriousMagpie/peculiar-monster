@@ -1,0 +1,70 @@
+baseURL: '/'
+languageCode: en-us
+title: Peculiar Monster
+theme: peculiar-monster 
+copyright: GigaMeow
+paginate: 1
+
+menu:
+  main:
+    - name: About
+      url: /about
+      weight: 2
+    - name: Words
+      url: /posts
+      weight: 2
+    - name: Categories
+      url: /categories
+      weight: 3
+    - name: Tags
+      url: /tags
+      weight: 4
+    - name: Blogroll
+      url: /blogroll
+      weight: 5
+    - name: Home
+      url: /
+      weight: 1
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: true
+    style: dracula
+    tabWidth: 4
+params:
+  colortheme: peculiar-monster
+  rssFullText: true
+  showAllPostsArchive: true
+  fontawesome: true
+  description: Welcome! I've been blogging for a very long time and need a break from doing it under my real name, hence GigaMeow. 
+  privacyStatement: I'm not using any analytics or other tracking methods, so I don't know who you are. I ask that you respect my privacy as I am respecting yours.
+  mainSection: posts
+  showAllPostsOnHomePage: false
+  postsOnHomePage: 5
+  tagOverview: true
+  showProjectsList: true
+  projectsUrl: 'https://github.com/CuriousMagpie'
+  dateFormat: '2006-01-02'
+  show_updated: true
+  showReadTime: true
+  showWordCount: true
+  social:
+    - name: github
+      link: 'https://github.com/CuriousMagpie'
+    - name: mastodon
+      link: 'https://wandering.shop/@eilatan'
+    - name: discord
+      link: 'https://discordapp.com/users/gigameow#9964'
+    - name: bookwyrm
+      link: 'https://bookwyrm.social/user/peculiar-monster'
+    - name: rss
+      link: 'https://peculiar.monster/posts/index.xml'

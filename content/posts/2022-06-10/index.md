@@ -31,4 +31,3 @@ code:
 ![An Animal Crossing New Horizons character sitting in a cheap lawn chair in the evening with a tray table full of empty alcohol bottles next to them. In front of them is a burning oil barrel, two bags of trash, a can of gasoline, and a fire extinguisher. The character is wearing a red hat and a blue shirt that has a white cat on it shooting laser beam out of its eyes. The character's eyes are half-closed, their mouth is open in dismay, and there are two bubble floating near their head. It's evening.](acnh-big-mood.png)
 
 This is a fairly accurate description of how I'm currently feeling about SFF fandom. Burn it all down, my children.
-<!--more-->

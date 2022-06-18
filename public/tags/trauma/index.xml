@@ -2,20 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trauma on Peculiar Monster</title>
-    <link>https://peculiar.monster/tags/trauma/</link>
+    <link>/tags/trauma/</link>
     <description>Recent content in trauma on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/trauma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="/tags/trauma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding and Thinking</title>
-      <link>https://peculiar.monster/posts/coding-and-thinking/</link>
+      <link>/posts/coding-and-thinking/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/coding-and-thinking/</guid>
+      <guid>/posts/coding-and-thinking/</guid>
       <description>&lt;p&gt;Did you know that I have not one, but two kanban boards? One for getting this site set up as I want it to be, and another for mothballing my old site.&lt;/p&gt;
-&lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;</description>
+&lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;
+&lt;p&gt;But this evening, I knocked out a fair number of backend things I wanted to fix on this site, primarily with the CSS. I figured out what all the different files were doing, removed the parts that were irrelevant (goodbye stupid jquery menu on mobile), and did my various imports in a way that made sense for me.&lt;/p&gt;
+&lt;p&gt;I also replaced a few things with links to CDNs instead of hosting the entire content here&amp;ndash;that allows me to keep up to date with the most current version of things but it does add a vulnerability in case those CDNs go down. They&amp;rsquo;re mostly for things like some of the icons and the CSS frameword the original author chose to use. If the CDNs do go down, things will degrade gracefully until they come back up again.&lt;/p&gt;
+&lt;p&gt;On a completely different topic:&lt;/p&gt;
+&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I wanted to give an example of the sort of lifting of phrasing/ideas in such a way that it&amp;rsquo;s clear that my work was the inspiration&amp;ndash;I ran across this just last night:&lt;/p&gt;
+&lt;p&gt;I wrote on August 1, 2020:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Martin made the decision to first mention her unprecedented accomplishment of winning the Best Novel three years in a row–-no one else of any race or gender has ever accomplished a Best Novel hat trick–-and then attempt to undermine it&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And in the the essay I ran across yesterday, that author wrote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Martin has also been criticized for disrespecting the award winners, mispronouncing names and undercutting accomplishments like N. K. Jemisin’s “hat trick” of three Hugo awards for best novel in as many years,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s not a word for word lifting, but as far as I know, I am the person who first referred to Jemisin&amp;rsquo;s historic achievement as a &amp;ldquo;hat trick,&amp;rdquo; and I immedately followed it with Martin&amp;rsquo;s attempt to undermine it. (I included the content of his undermining attempt, too.)&lt;/p&gt;
+&lt;p&gt;In this piece, the author uses undercut before mentioning Jemisin&amp;rsquo;s achievement. I know that undercut &lt;strong&gt;isn&amp;rsquo;t&lt;/strong&gt; the same word, but it can be used interchangeably with undermine in this context.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not linking the essay in question because I don&amp;rsquo;t want to stir up trouble, but this is the sort of low-grade theft I&amp;rsquo;ve dealt with for the last decade. My essays are good enough to read and gain inspiration from, but not good enough to cite.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll also note that apart my words, the author did an excellent job both sourcing and citing their sources.&lt;/p&gt;
+&lt;p&gt;Please think about why that may be.&lt;/p&gt;
+&lt;p&gt;In the aftermath of my post, I was accused of posting for clout, for hating George, for using indecent language, for being jealous, fo being all sorts of things I just wasn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;You know why I posted it? I was angry. I was angry that someone with the stature of George R.R. Martin couldn&amp;rsquo;t be bothered to take the time to learn how to say people&amp;rsquo;s names, but took the time to figure out which hat he was going to wear for which segment and which action figures he was going to put on display. I was angry that he made the entire ceremony about how good the past was, with no acknowledgement that the past SUCKED for a lot of people and still SUCKS for them STILL. I was angry on behalf of my friends and colleagues who had turned on the ceremony excited to see their works celebrated and who instead THAT.&lt;/p&gt;
+&lt;p&gt;Yeah, I swore. And yeah, I used a metaphor involving the sun. And yeeting people into it.&lt;/p&gt;
+&lt;p&gt;And I happened to be the first person to post any sort of response online. Which is the only reason it got the audience that it did.&lt;/p&gt;
+&lt;p&gt;Now, imagine, how I felt afterwards, being accused of everything I wasn&amp;rsquo;t and also knowing that I couldn&amp;rsquo;t defend myself. It was like all those writing workshops all over again: I had to sit and take the abuse in silence. And I&amp;rsquo;ve been taking the abuse in (relative) silence for nearly two years now.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s just been a lot. And I&amp;rsquo;m probably going to be writing a lot about my trauma here&amp;ndash;not just with regards to fandom, but also about my childhood.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ve been forewarned.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,23 @@
+name: 'Peculiar Monster'
+license: MIT
+licenselink: ''
+description: >-
+  Heavily modified Cactus Theme by @monkeyWzr. Forked from hexo theme cactus
+  created by @probberechts.
+homepage: ''
+demosite: ''
+tags:
+  - blog
+  - responsive
+  - opinionated
+features:
+  - customizable
+  - color
+min_version: '0.10'
+author:
+  name: GigaMeow
+  homepage: 'https://peculiar.monster/'
+original:
+  name: Zeran Wu
+  homepage: 'https://github.com/monkeyWzr'
+  repo: 'https://github.com/monkeyWzr/hugo-theme-cactus'

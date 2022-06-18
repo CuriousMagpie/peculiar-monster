@@ -1,0 +1,11 @@
+{{ $content := .Content }}
+
+{{ if $content }}
+
+    {{ if .Fontawesome }}
+        {{ $content = partial "function/fontawesome.html" $content }}
+    {{ end }}
+
+{{ end }}
+
+{{ return $content }}

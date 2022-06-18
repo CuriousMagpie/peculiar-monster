@@ -2,20 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>meta on Peculiar Monster</title>
-    <link>https://peculiar.monster/tags/meta/</link>
+    <link>/tags/meta/</link>
     <description>Recent content in meta on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Thu, 09 Jun 2022 09:52:04 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jun 2022 09:52:04 -0400</lastBuildDate><atom:link href="/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Random Thoughts (June 9)</title>
-      <link>https://peculiar.monster/posts/random-thoughts/</link>
+      <link>/posts/random-thoughts/</link>
       <pubDate>Thu, 09 Jun 2022 09:52:04 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/random-thoughts/</guid>
+      <guid>/posts/random-thoughts/</guid>
       <description>&lt;p&gt;Oof. I went in for my monthly-ish paracentesis yesterday morning.&lt;/p&gt;
-&lt;p&gt;If you don&amp;rsquo;t know what this is, here&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Paracentesis&#34;&gt;a handy explainer from Wikipedia&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;If you don&amp;rsquo;t know what this is, here&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Paracentesis&#34;&gt;a handy explainer from Wikipedia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First of all, I was up entirely too early for my own good. But it did mean I was able to take my meds and eat breakfast before having to leave for the hospital, so that&amp;rsquo;s something, yes?&lt;/p&gt;
+&lt;p&gt;Normally, it&amp;rsquo;s not too bad, but the doctor doing them yesterday was a resident and while she was very nice and perfectly competent, she was also still a &lt;em&gt;resident&lt;/em&gt;, which means that she wasn&amp;rsquo;t as skilled as some of the doctors who have been there for years. And I&amp;rsquo;m a bit of a tough case&amp;ndash;I get tapped on my left side, not the right, and I&amp;rsquo;m not a high volume person anymore (thank God&amp;ndash;that&amp;rsquo;s 5L or more).&lt;/p&gt;
+&lt;p&gt;When I got home, I took my pain meds and went directly to bed. I ended up spending most of the day in bed, which meant I didn&amp;rsquo;t get good sleep last night&amp;ndash;which means I was up at 4:30 am this morning for a few hours (I was able to see the day restart on Animal Crossing, which I&amp;rsquo;d never done before, so yay?) and then was able to get back to sleep for a couple of hours and then I was up for the day. And I&amp;rsquo;m still in a bit of pain. Boo.&lt;/p&gt;
+&lt;p&gt;My code editor&amp;ndash;Atom&amp;ndash;is being sunset at the end of the year, so I&amp;rsquo;m looking for alternatives. I&amp;rsquo;m leaning towards Sublime Text and Sublime Merge over VSCode, mainly because I feel like VSCode is bloated as all get out. It makes me cranky, though, because I &lt;em&gt;finally&lt;/em&gt; got a good workflow going in Atom and managed to learn a bunch of keyboard shortcuts and now I&amp;rsquo;m going to have to learn different ones. Meh.&lt;/p&gt;
+&lt;p&gt;Still haven&amp;rsquo;t had a chance to rework the colors here, but maybe this weekend? There&amp;rsquo;s a lot of weirdness in the CSS&amp;ndash;like the theme&amp;rsquo;s author made a &lt;em&gt;separate&lt;/em&gt; CSS file for each partial template and is importing them into the main CSS which is, just, weird.&lt;/p&gt;
+&lt;p&gt;This is mostly a post to make a post. I&amp;rsquo;ve been thinking a lot about SFF fandom and how Certain Parties just seem so intent on stirring shit up with their ridiculous s&amp;mdash;-core concept, something which defines a &lt;em&gt;negative&lt;/em&gt; and not what they&amp;rsquo;re doing, which is a lot of body horror. I don&amp;rsquo;t think SFF necessarily needs more body horror, thanks.&lt;/p&gt;
+&lt;p&gt;Also, these people don&amp;rsquo;t actually seem to be very widely read in SFF and therefore think that no one is reading or writing &amp;ldquo;dark&amp;rdquo; fiction and well, that&amp;rsquo;s a crock of shit. And they&amp;rsquo;re &lt;em&gt;very&lt;/em&gt; intent on lionizing GRRM for some reason. I don&amp;rsquo;t know why.&lt;/p&gt;
+&lt;p&gt;Anyhow, I&amp;rsquo;ve been doing a lot of thinking about this whole thing for the past few months and I&amp;rsquo;m hoping, at some point, to be able to write something coherent about it as opposed to what I&amp;rsquo;ve just written.&lt;/p&gt;
+&lt;p&gt;And now? It&amp;rsquo;s time for me to get to work! Work! How glorious it is to be able to work at a job that I really enjoy and that I seem to be reasonably good at? I mean, still a newbie developer, but I&amp;rsquo;m learning and seem to be learning fast enough.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

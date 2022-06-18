@@ -2,79 +2,236 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tech on Peculiar Monster</title>
-    <link>https://peculiar.monster/tags/tech/</link>
+    <link>/tags/tech/</link>
     <description>Recent content in tech on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding and Thinking</title>
-      <link>https://peculiar.monster/posts/coding-and-thinking/</link>
+      <link>/posts/coding-and-thinking/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/coding-and-thinking/</guid>
+      <guid>/posts/coding-and-thinking/</guid>
       <description>&lt;p&gt;Did you know that I have not one, but two kanban boards? One for getting this site set up as I want it to be, and another for mothballing my old site.&lt;/p&gt;
-&lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;</description>
+&lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;
+&lt;p&gt;But this evening, I knocked out a fair number of backend things I wanted to fix on this site, primarily with the CSS. I figured out what all the different files were doing, removed the parts that were irrelevant (goodbye stupid jquery menu on mobile), and did my various imports in a way that made sense for me.&lt;/p&gt;
+&lt;p&gt;I also replaced a few things with links to CDNs instead of hosting the entire content here&amp;ndash;that allows me to keep up to date with the most current version of things but it does add a vulnerability in case those CDNs go down. They&amp;rsquo;re mostly for things like some of the icons and the CSS frameword the original author chose to use. If the CDNs do go down, things will degrade gracefully until they come back up again.&lt;/p&gt;
+&lt;p&gt;On a completely different topic:&lt;/p&gt;
+&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I wanted to give an example of the sort of lifting of phrasing/ideas in such a way that it&amp;rsquo;s clear that my work was the inspiration&amp;ndash;I ran across this just last night:&lt;/p&gt;
+&lt;p&gt;I wrote on August 1, 2020:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Martin made the decision to first mention her unprecedented accomplishment of winning the Best Novel three years in a row–-no one else of any race or gender has ever accomplished a Best Novel hat trick–-and then attempt to undermine it&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And in the the essay I ran across yesterday, that author wrote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Martin has also been criticized for disrespecting the award winners, mispronouncing names and undercutting accomplishments like N. K. Jemisin’s “hat trick” of three Hugo awards for best novel in as many years,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s not a word for word lifting, but as far as I know, I am the person who first referred to Jemisin&amp;rsquo;s historic achievement as a &amp;ldquo;hat trick,&amp;rdquo; and I immedately followed it with Martin&amp;rsquo;s attempt to undermine it. (I included the content of his undermining attempt, too.)&lt;/p&gt;
+&lt;p&gt;In this piece, the author uses undercut before mentioning Jemisin&amp;rsquo;s achievement. I know that undercut &lt;strong&gt;isn&amp;rsquo;t&lt;/strong&gt; the same word, but it can be used interchangeably with undermine in this context.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not linking the essay in question because I don&amp;rsquo;t want to stir up trouble, but this is the sort of low-grade theft I&amp;rsquo;ve dealt with for the last decade. My essays are good enough to read and gain inspiration from, but not good enough to cite.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll also note that apart my words, the author did an excellent job both sourcing and citing their sources.&lt;/p&gt;
+&lt;p&gt;Please think about why that may be.&lt;/p&gt;
+&lt;p&gt;In the aftermath of my post, I was accused of posting for clout, for hating George, for using indecent language, for being jealous, fo being all sorts of things I just wasn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;You know why I posted it? I was angry. I was angry that someone with the stature of George R.R. Martin couldn&amp;rsquo;t be bothered to take the time to learn how to say people&amp;rsquo;s names, but took the time to figure out which hat he was going to wear for which segment and which action figures he was going to put on display. I was angry that he made the entire ceremony about how good the past was, with no acknowledgement that the past SUCKED for a lot of people and still SUCKS for them STILL. I was angry on behalf of my friends and colleagues who had turned on the ceremony excited to see their works celebrated and who instead THAT.&lt;/p&gt;
+&lt;p&gt;Yeah, I swore. And yeah, I used a metaphor involving the sun. And yeeting people into it.&lt;/p&gt;
+&lt;p&gt;And I happened to be the first person to post any sort of response online. Which is the only reason it got the audience that it did.&lt;/p&gt;
+&lt;p&gt;Now, imagine, how I felt afterwards, being accused of everything I wasn&amp;rsquo;t and also knowing that I couldn&amp;rsquo;t defend myself. It was like all those writing workshops all over again: I had to sit and take the abuse in silence. And I&amp;rsquo;ve been taking the abuse in (relative) silence for nearly two years now.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s just been a lot. And I&amp;rsquo;m probably going to be writing a lot about my trauma here&amp;ndash;not just with regards to fandom, but also about my childhood.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ve been forewarned.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Random Thoughts (June 9)</title>
-      <link>https://peculiar.monster/posts/random-thoughts/</link>
+      <link>/posts/random-thoughts/</link>
       <pubDate>Thu, 09 Jun 2022 09:52:04 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/random-thoughts/</guid>
+      <guid>/posts/random-thoughts/</guid>
       <description>&lt;p&gt;Oof. I went in for my monthly-ish paracentesis yesterday morning.&lt;/p&gt;
-&lt;p&gt;If you don&amp;rsquo;t know what this is, here&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Paracentesis&#34;&gt;a handy explainer from Wikipedia&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;If you don&amp;rsquo;t know what this is, here&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Paracentesis&#34;&gt;a handy explainer from Wikipedia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First of all, I was up entirely too early for my own good. But it did mean I was able to take my meds and eat breakfast before having to leave for the hospital, so that&amp;rsquo;s something, yes?&lt;/p&gt;
+&lt;p&gt;Normally, it&amp;rsquo;s not too bad, but the doctor doing them yesterday was a resident and while she was very nice and perfectly competent, she was also still a &lt;em&gt;resident&lt;/em&gt;, which means that she wasn&amp;rsquo;t as skilled as some of the doctors who have been there for years. And I&amp;rsquo;m a bit of a tough case&amp;ndash;I get tapped on my left side, not the right, and I&amp;rsquo;m not a high volume person anymore (thank God&amp;ndash;that&amp;rsquo;s 5L or more).&lt;/p&gt;
+&lt;p&gt;When I got home, I took my pain meds and went directly to bed. I ended up spending most of the day in bed, which meant I didn&amp;rsquo;t get good sleep last night&amp;ndash;which means I was up at 4:30 am this morning for a few hours (I was able to see the day restart on Animal Crossing, which I&amp;rsquo;d never done before, so yay?) and then was able to get back to sleep for a couple of hours and then I was up for the day. And I&amp;rsquo;m still in a bit of pain. Boo.&lt;/p&gt;
+&lt;p&gt;My code editor&amp;ndash;Atom&amp;ndash;is being sunset at the end of the year, so I&amp;rsquo;m looking for alternatives. I&amp;rsquo;m leaning towards Sublime Text and Sublime Merge over VSCode, mainly because I feel like VSCode is bloated as all get out. It makes me cranky, though, because I &lt;em&gt;finally&lt;/em&gt; got a good workflow going in Atom and managed to learn a bunch of keyboard shortcuts and now I&amp;rsquo;m going to have to learn different ones. Meh.&lt;/p&gt;
+&lt;p&gt;Still haven&amp;rsquo;t had a chance to rework the colors here, but maybe this weekend? There&amp;rsquo;s a lot of weirdness in the CSS&amp;ndash;like the theme&amp;rsquo;s author made a &lt;em&gt;separate&lt;/em&gt; CSS file for each partial template and is importing them into the main CSS which is, just, weird.&lt;/p&gt;
+&lt;p&gt;This is mostly a post to make a post. I&amp;rsquo;ve been thinking a lot about SFF fandom and how Certain Parties just seem so intent on stirring shit up with their ridiculous s&amp;mdash;-core concept, something which defines a &lt;em&gt;negative&lt;/em&gt; and not what they&amp;rsquo;re doing, which is a lot of body horror. I don&amp;rsquo;t think SFF necessarily needs more body horror, thanks.&lt;/p&gt;
+&lt;p&gt;Also, these people don&amp;rsquo;t actually seem to be very widely read in SFF and therefore think that no one is reading or writing &amp;ldquo;dark&amp;rdquo; fiction and well, that&amp;rsquo;s a crock of shit. And they&amp;rsquo;re &lt;em&gt;very&lt;/em&gt; intent on lionizing GRRM for some reason. I don&amp;rsquo;t know why.&lt;/p&gt;
+&lt;p&gt;Anyhow, I&amp;rsquo;ve been doing a lot of thinking about this whole thing for the past few months and I&amp;rsquo;m hoping, at some point, to be able to write something coherent about it as opposed to what I&amp;rsquo;ve just written.&lt;/p&gt;
+&lt;p&gt;And now? It&amp;rsquo;s time for me to get to work! Work! How glorious it is to be able to work at a job that I really enjoy and that I seem to be reasonably good at? I mean, still a newbie developer, but I&amp;rsquo;m learning and seem to be learning fast enough.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Better Colors?</title>
-      <link>https://peculiar.monster/posts/better-colors/</link>
+      <link>/posts/better-colors/</link>
       <pubDate>Fri, 03 Jun 2022 23:21:11 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/better-colors/</guid>
-      <description>The spaghetti that is this site&amp;rsquo;s CSS is really something else&amp;ndash;to the point where using the override files just doesn&amp;rsquo;t work because there&amp;rsquo;s so much stuff squirreled away in different places and it all takes different precedence.
-I&amp;rsquo;ve made a kanban board for the things I want to do and a bunch of them include &amp;ldquo;refactor and consolidate X, Y, or Z.&amp;rdquo; I suspect that when I&amp;rsquo;m done, it&amp;rsquo;ll be an entirely new template.</description>
+      <guid>/posts/better-colors/</guid>
+      <description>&lt;p&gt;The spaghetti that is this site&amp;rsquo;s CSS is really something else&amp;ndash;to the point where using the override files just doesn&amp;rsquo;t work because there&amp;rsquo;s so much stuff squirreled away in different places and it all takes different precedence.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve made a kanban board for the things I want to do and a bunch of them include &amp;ldquo;refactor and consolidate X, Y, or Z.&amp;rdquo; I suspect that when I&amp;rsquo;m done, it&amp;rsquo;ll be an entirely new template.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not thrilled with the colors and I think I need to rework them so there are more constrast colors and less four different shades of pinky-purple. But at least I managed to fix the damn fonts and hyphenation. The previous choices were&amp;ndash;choices. Yes. That&amp;rsquo;s the word.&lt;/p&gt;
+&lt;p&gt;I had a two hour nap with Miles this afternoon. He&amp;rsquo;s the only cat I&amp;rsquo;ve ever been able to nap with&amp;ndash;I can say to him, &amp;ldquo;Miles, want to come take a nap?&amp;rdquo; and he&amp;rsquo;ll get up from wherever he&amp;rsquo;s at (on a cat tree, in a sunbeam) to follow me into the bedroom and wait relatively patiently for me to get my glasses off and the white noise on and get into bed&amp;ndash;and then he&amp;rsquo;ll hop up and settle himself on my chest and we&amp;rsquo;ll both sleep and I&amp;rsquo;ll try to not suffocate in his fur.&lt;/p&gt;
+&lt;p&gt;When I&amp;rsquo;m having a bad body day, he&amp;rsquo;ll often herd me to bed to take a nap. It&amp;rsquo;s like he &lt;em&gt;knows&lt;/em&gt; somehow.&lt;/p&gt;
+&lt;p&gt;This doesn&amp;rsquo;t work at night&amp;ndash;he sometimes sleeps at the foot of the bed at night, but he prefers other places to do his important cat business overnight.&lt;/p&gt;
+&lt;p&gt;He&amp;rsquo;s a funny cat, but he&amp;rsquo;s my cat and I love him so much. He&amp;rsquo;s the very best black cat I&amp;rsquo;ve ever had. (I really can&amp;rsquo;t quantify which cat&amp;rsquo;s the best of the best, they&amp;rsquo;ve all been great in different ways&amp;ndash;all very different personalities.)&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>A Ridiculous Day</title>
-      <link>https://peculiar.monster/posts/ridiculous-day/</link>
+      <link>/posts/ridiculous-day/</link>
       <pubDate>Thu, 02 Jun 2022 22:02:49 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/ridiculous-day/</guid>
-      <description>&lt;p&gt;Today&amp;rsquo;s been a day of a lot of ridiculous all over the board.&lt;/p&gt;</description>
+      <guid>/posts/ridiculous-day/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s been a day of a lot of ridiculous all over the board.&lt;/p&gt;
+&lt;p&gt;First off, the day started with therapy. Which wasn&amp;rsquo;t ridiculous, but it was 8:15 in the morning so there&amp;rsquo;s a certain degree of waaaah going on (every week, my appointment is at 8:15 am every week) just in general. Talked about EMDR a little bit to help me deal with my DESNOS/cPTSD (the &lt;em&gt;name&lt;/em&gt; of the thing is shifting: DESNOS is the name in the current edition of the DSM, cPTSD is what it&amp;rsquo;s generally known by these days). I&amp;rsquo;m really good at masking, so it&amp;rsquo;s often hard to tell when I&amp;rsquo;m losing my shit or really anxious orm, to be honest, even when I&amp;rsquo;m really depressed.&lt;/p&gt;
+&lt;p&gt;After therapy, I had to scoot along to my appointment with the PA at the Infectious Disease practice that&amp;rsquo;s been following me since 2018. They&amp;rsquo;re all great and the doctor who initially treated me, I&amp;rsquo;m convinced is the one who helped turn the tide for me&amp;ndash;not just by treating the massive infection I had as a result of the necrosis happening in my abdomen, but by advocating for me with other hospital staff. Sadly, they&amp;rsquo;re going to be following me for likely the rest of my life: I had sepsis 3 times in the fourth quarter of 2020&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, so I&amp;rsquo;m on prophylactic oral antibiotics and need regular check-ins with them to make sure everything&amp;rsquo;s still fine. I did graduate from every 3 months to every 6 months for appointments, though!&lt;/p&gt;
+&lt;p&gt;But see, I was sneaky and I took a little time before therapy and before my Infectious Disease appointment to mess around here; I decided last night that the theme I&amp;rsquo;d initially chosen was too complex both for my needs and for my level of ability, so I decided on Cactus as something a bit more streamlined if less flashy (I do like the color-changing cactus icon but I am going to replace it with something else). So I attempted to clone it in as a git submodule and I &lt;em&gt;really&lt;/em&gt; shouldn&amp;rsquo;t have done that&amp;ndash;I have terrible luck with the git submodule at work, I don&amp;rsquo;t know why I thought this was any different. Like I fucked things up so badly the site wouldn&amp;rsquo;t deploy and I had to go to &lt;a href=&#34;https://ohshitgit.com/&#34;&gt;Oh Shit, Git!?!&lt;/a&gt; to find what I needed to fix things.&lt;/p&gt;
+&lt;p&gt;But fix them I did and after I got home it was to work! In the spare room!&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The first thing I do every day is review the to do list I (hopefully) made the day before&amp;ndash;I only work 5-6 hours a day, so I have to make sure those hours count. By the time I got settled in and done with the list review, it was time for a meeting. The meeting ran short, so I started on my top task: pulling user IDs out of the beta database so we could award beta testers a special achievement in production. The PR for the achievement is still in queue to be deployed, but I wanted to have all the user IDs and usernames and email addresses in place.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;and it took me all fucking afternoon. Because our database is MongoDB, which is noSQL which means there are no relations between the different collections (they&amp;rsquo;re not even tables, they&amp;rsquo;re just JSON files, sob) and because the beta test involved testing group functionality and both parties and guilds fall under groups&amp;hellip;and while you can only be in one party, you can be in as many guilds as you want. I only had the email address of one person per guild and needed to be able to award the achievement to everyone in the group that participated. And I&amp;rsquo;m not great at queryng MongoDB because the operands and syntax are just so foreign to me after so many years of working with a terribly design SQL database. So it took me all fucking afternoon.&lt;/p&gt;
+&lt;p&gt;With an intermission where I checked on the status of my insulin prescription, which was supposed to be released from hold earlier this week and was not. I&amp;rsquo;ve been trying to get it filled for the better part of a week&amp;ndash;I was able to get all my other prescriptions transferred to my new insurance and filled with no problem, bu the insulin has been terrible.&lt;/p&gt;
+&lt;p&gt;First, there was no response from my doctor&amp;rsquo;s office when CVS/caremark (OF COURSE IT&amp;rsquo;S THEM) contacted them for &lt;em&gt;either&lt;/em&gt; a new prescription &lt;em&gt;or&lt;/em&gt; a prior authorization&amp;ndash;nevermind that those are &lt;em&gt;two completely different things&lt;/em&gt;, why there&amp;rsquo;s the same message for both statuses on the customer end is beyond my understanding but most things on the CVS/caremark website are beyond my understanding. Like why is it so slow? Why do the apps suck so much?&lt;/p&gt;
+&lt;p&gt;Anyhow, I digress.&lt;/p&gt;
+&lt;p&gt;I had to contact my doctor&amp;rsquo;s office three times before someone got back to me&amp;ndash;I sent a message, which was never forwarded, I called and spoke to someone who claimed that I hadn&amp;rsquo;t sent a message and that they hadn&amp;rsquo;t received anything from CVS/caremark, and then I finally sent a third message which did make it through. And it turned out that a prior authorization was needed.&lt;/p&gt;
+&lt;p&gt;For a medication without which I will &lt;a href=&#34;https://en.wikipedia.org/wiki/Diabetic_ketoacidosis&#34;&gt;&lt;strong&gt;&lt;em&gt;DIE A TERRIBLE DEATH&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;I received a robo-call and then a form letter from my insurer informing me that they were going to allow me to continue to live by granting me a prior authoriztion for my insulin until I am 65, at which point I suppose I become Medicare&amp;rsquo;s problem. If there still is a Medicare in 2039.&lt;/p&gt;
+&lt;p&gt;So on Tuesday, I called to see about getting the prescription off hold and filled. The person I spoke to assured me that she had accomplished this.&lt;/p&gt;
+&lt;p&gt;One thing that CVS/caremark is good at is sending email. I got a number of emails informing me about all sorts of things over the last two days, but nothing about my insulin. So I decided to take a small break from work and check the status online. It was still on hold. I called. The prior authorization had not yet made its way through the system to the point where my prescription could be filled. The rep told me I needed a prior authorization and I told him that I would be happy to tell him the reference number on the letter I received from my insurer. He did a bit more checking and lo, there it was. And now it&amp;rsquo;s supposedly free to be filled and shipped to me next week.&lt;/p&gt;
+&lt;p&gt;Let us now take a moment to contemplate how this ridiculous system hurts people who can&amp;rsquo;t manage their insurer or CVS/caremark&amp;rsquo;s website either because they&amp;rsquo;re hard to use or because lack of internet access. How it hurts people who can&amp;rsquo;t make phone call after phone call to sort things out. How this hurts people who don&amp;rsquo;t know that they need to keep that piece of paper they got in the mail. How this hurts people with various kinds of disabilities who have to rely on their caregivers to navigate this system on their behalf. On all sorts of people, really. I am &lt;em&gt;lucky&lt;/em&gt; that I am able to go Full Karen if needed to get this shit taken care of&amp;ndash;not everyone can. And not everyone is as persistent or as stubborn as I am.&lt;/p&gt;
+&lt;p&gt;My stubbornness has served me well.&lt;/p&gt;
+&lt;p&gt;And after that delightful intermission, I went back to work. I finally got the data completed so we will be able to grant folks their achievement when it goes live and then I decided it would be fun to work on this site.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s still a lot I want to do to move things around to my liking&amp;ndash;the icon, the colors, the font and spacing&amp;ndash;but the structure of this theme is significantly more simple than the other one and I was even able to leave a helpful comment on one of the issues on GitHub about the tags page. Even though it looks like the developer has abandoned the project&amp;ndash;there are two open PRs to fix the same problem, but neither of them actually fix it!&lt;/p&gt;
+&lt;p&gt;But you know, it keeps me out of trouble. And only scares me a little bit, that I might be turning into my father, who spent most of my childhood and well into my adulthood sitting in front of a computer, coding. (In other words, I come by this naturally. Or something.)&lt;/p&gt;
+&lt;p&gt;Things I want to do, in no particular order:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New image in the header&lt;/li&gt;
+&lt;li&gt;Previous/Next links on individual pages&lt;/li&gt;
+&lt;li&gt;Post wordcount because why not?&lt;/li&gt;
+&lt;li&gt;Removing the &amp;ldquo;Home&amp;rdquo; menu link on the home page, golly that drives me up a wall&lt;/li&gt;
+&lt;li&gt;New font and colors
+&lt;ul&gt;
+&lt;li&gt;Get rid of the embedded font files, who does that in the year of our Lord 2022 just find a nice Google font and let it goooooo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Emoji support&lt;/li&gt;
+&lt;li&gt;Stripping out all the code I don&amp;rsquo;t want to use, like the comments and the jquery and the analytics&lt;/li&gt;
+&lt;li&gt;Combining desktop and mobile page navigation into one file&lt;/li&gt;
+&lt;li&gt;Killing the image gallery deader than a doornail&lt;/li&gt;
+&lt;li&gt;Looking into adding support for &lt;a href=&#34;https://indieweb.org/&#34;&gt;IndieWeb&lt;/a&gt; stuff!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And here&amp;rsquo;s your reward: a picture of the first roses of the season. This a polyanthus variety called &amp;ldquo;The Fairy,&amp;rdquo; the blooms are only about 1&amp;quot; in diameter and there are loads of them. They don&amp;rsquo;t smell, though, and they&amp;rsquo;re prickly as all get out. I love them.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20220602-first-roses.jpeg&#34; alt=&#34;First Roses of the Year&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;I was hospitalized for a week and was sent home with a PICC line for at-home IV antibiotics each time, which required time to administer and a weekly visit from a nurse to change the dressing. Before I had this series of hospitalizations, I was&amp;ndash;according to my former manager&amp;ndash;on track to achieve my goals for 2020. Afterwards, though, she characterized me in my annual review as &amp;ldquo;unreliable&amp;rdquo; and &amp;ldquo;inconsistent.&amp;rdquo; Hmmmmm.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;I actually have a very nice WFH set up, thank you salary from OldJob, you&amp;rsquo;re about the only thing I miss.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Huh. Apparently the way the scientists were first able to extract and purify insulin for use in people was &lt;a href=&#34;https://en.wikipedia.org/wiki/Insulin#Extraction_and_purification&#34;&gt;by giving dogs what amounted to surgically induced pancreatic necrosis&lt;/a&gt;. Those poor dogs.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Trying to Post Images</title>
-      <link>https://peculiar.monster/posts/image-posting/</link>
+      <link>/posts/image-posting/</link>
       <pubDate>Wed, 01 Jun 2022 11:18:02 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/image-posting/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m trying to figure out how to manage images; I don&amp;rsquo;t really want to do &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;page bundles&lt;/a&gt;&amp;hellip;but I guess I am for now. Meh.&lt;/p&gt;</description>
+      <guid>/posts/image-posting/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m trying to figure out how to manage images; I don&amp;rsquo;t really want to do &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;page bundles&lt;/a&gt;&amp;hellip;but I guess I am for now. Meh.&lt;/p&gt;
+&lt;p&gt;Annnnd, of course, I can&amp;rsquo;t get any of the theme&amp;rsquo;s built-in image shortcodes to actually &lt;em&gt;respect&lt;/em&gt; my settings&amp;ndash;do I want my images linked? No, no I do not. And why the FUCK is it not rendering the CSS that at least hides my link formatting? I have it in the right order, it&amp;rsquo;s just straight-up &lt;em&gt;ignoring&lt;/em&gt; me. I&amp;rsquo;m starting to think I need to find another, simpler theme to work with. This one is awfully finicky and NOT GOOD at respecting my choices. Which is why I wanted to get away from the WordPress ecosystem in the first place: to have better choices.&lt;/p&gt;
+&lt;p&gt;Anyhow. Enjoy this image of my African violet blooming&amp;ndash;I&amp;rsquo;ve never had one bloom before, and I&amp;rsquo;ve even managed to keep it alive for over a year. That&amp;rsquo;s a victory, for sure. The second image is of my current knitting project, &lt;a href=&#34;https://www.ravelry.com/patterns/library/mutual-admiration-society&#34;&gt;Mutual Admiration Society&lt;/a&gt; (Rav link, sorry), which I bought as a kit eons ago. It uses a technique new to me, mosaic knitting, which is slipping stitches on every row with two alternating colors. It looks a lot harder than it actually is. The gray speckled yarn is Miss Babs&amp;rsquo;s Yowza and it is incredible to work with&amp;ndash;I would love to make a sweater with this stuff, it&amp;rsquo;s so round and bouncy and nice to work with.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20220531-african-violet.jpeg&#34; alt=&#34;This is an African Violet.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;20220531-mosaic-knitting.jpeg&#34; alt=&#34;This is mosaic knitting.&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Code, Why Are You Like This?</title>
-      <link>https://peculiar.monster/posts/code-why-are-you-like-this/</link>
+      <link>/posts/code-why-are-you-like-this/</link>
       <pubDate>Mon, 30 May 2022 11:35:21 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/code-why-are-you-like-this/</guid>
-      <description>&lt;p&gt;And of course, no sooner than I finished my previous post and decided to deploy the site than I ran into a bunch of problems, some bigger than others.&lt;/p&gt;</description>
+      <guid>/posts/code-why-are-you-like-this/</guid>
+      <description>&lt;p&gt;And of course, no sooner than I finished my previous post and decided to deploy the site than I ran into a bunch of problems, some bigger than others.&lt;/p&gt;
+&lt;p&gt;First, I had to set the DNS record to point at GitHub Pages. And that takes time to propogate and I am &lt;em&gt;impatient&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The DNS wasn&amp;rsquo;t propogating and GH was tellng me that I&amp;rsquo;d configured something wrong, so it recommended that I set &lt;code&gt;A&lt;/code&gt; records to point at the GitHub Pages IP addresses&amp;hellip;except it didn&amp;rsquo;t actually link to where I could &lt;em&gt;find&lt;/em&gt; those IP addresses.&lt;/p&gt;
+&lt;p&gt;I finally found them buried in GH&amp;rsquo;s documentation, but I&amp;rsquo;ll be damned if I can find the page again, even with searching through my browser history.&lt;/p&gt;
+&lt;p&gt;I also set up the &lt;code&gt;CNAME&lt;/code&gt; record at the same time.&lt;/p&gt;
+&lt;p&gt;Then I had to set up the GitHub workflow to actually deploy from my repo to the page&amp;ndash;and unbeknownst to me, there was a &lt;em&gt;critical&lt;/em&gt; piece of missing information from the workflow as written.&lt;/p&gt;
+&lt;p&gt;And that piece of information was setting &lt;code&gt;cname: peculiar.monster&lt;/code&gt; in the deploy script.&lt;/p&gt;
+&lt;p&gt;Seriously. &lt;code&gt;CNAME&lt;/code&gt; kept on disappearing from the &lt;code&gt;gh-pages&lt;/code&gt; branch and I couldn&amp;rsquo;t figure out why until I looked at &lt;a href=&#34;https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-add-cname-file-cname&#34;&gt;this GH Action&lt;/a&gt; which mentioned setting &lt;code&gt;CNAME&lt;/code&gt;, while &lt;a href=&#34;https://github.com/marketplace/actions/hugo-setup&#34;&gt;the Hugo-specific action&lt;/a&gt;&amp;ndash;the one I chose to use&amp;ndash;did not mention it anywhere. No wonder it was being removed!&lt;/p&gt;
+&lt;p&gt;So, with that sorted, I turned my attention to why either the theme or Hugo wasn&amp;rsquo;t respecting my `&lt;/p&gt;
+&lt;p&gt;` tag. Turned out that &lt;em&gt;Hugo&lt;/em&gt; was respecting it just fine and the theme absolutely was not&amp;ndash;and of course, this isn&amp;rsquo;t actually documented &lt;em&gt;in&lt;/em&gt; the theme.&lt;/p&gt;
+&lt;p&gt;After digging through the CSS, I figured out where the problem was, it was in a bit of code from &lt;code&gt;themes/LoveIt/assets/css/_page/_home.scss&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;.home&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;data-home&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;posts&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2&lt;/span&gt;&lt;span&gt;  &lt;span style=&#34;color:#50fa7b&#34;&gt;.summary&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#50fa7b&#34;&gt;.content&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#ff79c6&#34;&gt;@include&lt;/span&gt; box(vertical);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;-webkit-line-clamp&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;3&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;margin-top&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;.3&lt;/span&gt;&lt;span style=&#34;color:#8be9fd&#34;&gt;rem&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#8be9fd&#34;&gt;%&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;overflow&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; hidden;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;text-overflow&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; ellipsis;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#ff79c6&#34;&gt;@include&lt;/span&gt; overflow-wrap(break-word);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;$global-font-secondary-color&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12&lt;/span&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13&lt;/span&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I did delete the classes that weren&amp;rsquo;t relevant to the problem at hand&amp;ndash;the &lt;code&gt;home[data-home=posts]&lt;/code&gt; class has a &lt;em&gt;lot&lt;/em&gt; going on, more than is relevant to explain the current problem.&lt;/p&gt;
+&lt;p&gt;A bit of research, however, quickly helped me to figure out that &lt;code&gt;-webkit-line-clamp: 3;&lt;/code&gt; was the culprit. It was restricting the summary display to three lines, it was a class I am not familiar with, and I wasn&amp;rsquo;t sure what the options were.&lt;/p&gt;
+&lt;p&gt;Now, how to fix it?&lt;/p&gt;
+&lt;p&gt;I am not a methodical sort of person, alas&amp;ndash;and looking at the code condensed like I did above actually helped me to get to a solution&amp;ndash;but my normal way of doing things is to just throw lines of code at the problem and see if anything sticks. This is a terrible habit that I&amp;rsquo;m trying to break&amp;ndash;it was fine when coding was something I did occasionally and for fun, but it&amp;rsquo;s not great when I&amp;rsquo;m trying to write code at work.&lt;/p&gt;
+&lt;p&gt;And here&amp;rsquo;s the answer, to the LoveIt theme disrespecting summary length and the &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt; tag, placed within &lt;code&gt;assets/css/_custom.scss&lt;/code&gt;. :sweat_smile:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;.home&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;data-home&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;posts&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;  &lt;span style=&#34;color:#50fa7b&#34;&gt;.summary&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#50fa7b&#34;&gt;.content&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;-webkit-line-clamp&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; none;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6&lt;/span&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then there was the problem with the paragraphs not being properly separated and the spacing just being weird. That was easy to solve, just a few more lines:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;.home&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;data-home&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;posts&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;  &lt;span style=&#34;color:#50fa7b&#34;&gt;.summary&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;    &lt;span style=&#34;color:#50fa7b&#34;&gt;.content&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;p&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;&lt;span&gt;      &lt;span style=&#34;color:#50fa7b&#34;&gt;display&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; block;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6&lt;/span&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And there, everything is so much more to my liking. :tada:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://peculiar.monster/posts/hello-world/</link>
+      <link>/posts/hello-world/</link>
       <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
       
-      <guid>https://peculiar.monster/posts/hello-world/</guid>
+      <guid>/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
 &lt;p&gt;While this is a new site, I am not new to blogging. I&amp;rsquo;ve been blogging one way or another since 1999, give or take. I&amp;rsquo;ve had a lot of different sites over the years&amp;ndash;from Diaryland to Greymatter to Movable Type to LiveJournal to WordPress and now I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; because, to be quite honest, I am unhappy with the direction WordPress has taken their product&amp;ndash;they seem to assume that everyone wants to sell something and too often what&amp;rsquo;s for sale is a piece of someone&amp;rsquo;s soul.&lt;/p&gt;
 &lt;p&gt;I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I&amp;rsquo;m not looking for visibility or followers or to become any sort of influencer.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m looking for a place to document my life and how I&amp;rsquo;m living it.&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;m looking for a place to document my life and how I&amp;rsquo;m living it.&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;miss&lt;/em&gt; writing for its own sake. There are so many things I want to write about and haven&amp;rsquo;t felt as if I can, in part because technology is getting in my way.&lt;/p&gt;
+&lt;p&gt;WordPress is an unwieldy beast and every time I log on, there&amp;rsquo;s &lt;em&gt;something&lt;/em&gt; that needs updating. I hate that things I&amp;rsquo;d consider to be part of the core functionality of a CMS isn&amp;rsquo;t there and there&amp;rsquo;s a whole ecosystem of people making their living selling that core functionality to you&amp;ndash;and if they run on a freemium model, the plugins call home, which is a significant privacy and security concern.&lt;/p&gt;
+&lt;p&gt;I am planning to mothball my old site and unpublishing nearly all the posts; what I&amp;rsquo;m planning on leaving behind will be converted to static site, probably using &lt;a href=&#34;https://www.11ty.dev/&#34;&gt;11ty&lt;/a&gt;, because playing with frameworks is fun and their name makes me laugh.&lt;/p&gt;
+&lt;p&gt;Like many others, I have become increasingly disillusioned with the algorithmic web and with the centering of search engine optimization and selling when it comes to publishing online.&lt;/p&gt;
+&lt;p&gt;For example: Twitter doesn&amp;rsquo;t show me the tweets I&amp;rsquo;m interested in, instead it shows me what will make me angry or despairing. Facebook lets me know know which of my friends and family are not-so-secret bigots (I&amp;rsquo;d&amp;rsquo;ve deleted that by now except FB Messenger is the main way I talk to my sister and dad). Instagram seems to exist in order to make me feel bad about myself or to tempt me into buying things I really don&amp;rsquo;t need. None of this is good for my mental health.&lt;/p&gt;
+&lt;p&gt;I was &lt;a href=&#34;https://institute.global/policy/social-media-futures-what-brigading&#34;&gt;brigaded on Twitter&lt;/a&gt; earlier this year for a casual, off-hand remark I made to some friends after the Hugo Awards ceremony and the ringleaders harassed me for &lt;em&gt;months&lt;/em&gt; for no reason other that they &lt;em&gt;could&lt;/em&gt;. And because I was not someone that the wider SFF community perceived as important, I was more or less left to deal with it alone. (Those of you who did support me, you have my :purple_heart: forever. The rest of you? :fu: )&lt;/p&gt;
+&lt;p&gt;So this is an attempt to get back to basics&amp;ndash;to write a few times a week about how I&amp;rsquo;m feeling (current status: ow my pancreas), about what I&amp;rsquo;m reading, and whatever else I want. And most importantly: to work at becoming a &lt;em&gt;better&lt;/em&gt; writer.&lt;/p&gt;
+&lt;p&gt;I want to get away from the corporatized and capitalism-focused web and back to what attracted me to the internet in the first place: finding interesting people and reading what they have to say.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not planning on glossing over any of my health issues, but I&amp;rsquo;m not going to wallow in them or present myself as some sort of heroine fighting a battle with her body: my goal is to make peace with this body, as it&amp;rsquo;s the only one I get to have. And if I have to use assistive devices and medications in order to keep going, then that&amp;rsquo;s what I&amp;rsquo;m going to do. And I&amp;rsquo;m going to talk about it&amp;ndash;there are so few of us who have survived necrotizing pancreatitis writing honestly about what it&amp;rsquo;s like that I feel I owe it to my past self to do so.&lt;/p&gt;
+&lt;p&gt;But my disability isn&amp;rsquo;t all of who I am: I am also a voracious reader and I make things with yarn. I&amp;rsquo;m also a JavaScript developer and I work for a really neat little company and it&amp;rsquo;s so &lt;em&gt;good&lt;/em&gt;, especially when compared with my prior job, which was actively making my health worse through an abusive manager who knew how to use the corporate bureaucracy to her benefit.&lt;/p&gt;
+&lt;p&gt;I think most of you reading this have noticed that I&amp;rsquo;m not using any part of my legal name on this site, although it is not difficult to discover. I am asking that this deliberate omission be respected as much as possible. I&amp;rsquo;m respecting your privacy by not using any cookies or other tracking technologies, so please respect mine.&lt;/p&gt;
+&lt;p&gt;Finally: welcome, world. I&amp;rsquo;m glad you&amp;rsquo;re here for this journey. Let&amp;rsquo;s have some fun.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
