@@ -33,6 +33,7 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 
 ## Personal Blogs
 - [Anna Havron](https://www.annahavron.com)
+- [Hypertext Monster](https://hypertext.monster)
 - [I Will Dare](https://www.iwilldare.com)
 - [Mimi Smartypants](https://mimismartypants.com/)
 - [ReaderWriterVille](https://readerwriterville.com/)

@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 slug: ""
 date: {{ .Date }}
 draft: true
-author: "gigameow"
+author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 
@@ -18,12 +18,12 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: true
 fontawesome: true
-linkToMarkdown: false
+linkToMarkdown: true
 rssFullText: true
 
 toc:
-  enable: true
-  auto: true
+  enable: false
+  auto: false
 code:
   copy: true
   maxShownLines: 50
