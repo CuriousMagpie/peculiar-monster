@@ -3,22 +3,26 @@
     {
       "name":"Habitica",
       "url":"https://github.com/CuriousMagpie/habitica",
-      "desc":"Also known as my day job. This is my fork of the main repo."
+      "desc":"A gamified productivity application.",
+      "notes":"Also known as my day job. This is my fork of the main repo."
     },
     {
       "name":"Peculiar Monster",
       "url":"https://github.com/CuriousMagpie/peculiar-monster",
-      "desc":"This here site. Laugh at my coding errors! Fucking curly bois."
-    },
-    {
-      "name":"Dark Sublime Syntax",
-      "url":"https://github.com/CuriousMagpie/dark-sublime-syntax",
-      "desc":"A lower contrast dark Atom syntax theme."
+      "desc":"This site, a perpetual work in progress.",
+      "notes":"I am a coder in progress. This is where I experiment."
     },
     {
       "name":"Hyper Dark Sublime",
       "url":"https://github.com/CuriousMagpie/hyper-dark-sublime",
-      "desc":"Hyper Terminal theme inspired by the Atom One Dark (Vivid) theme with lower contrast colors. "
+      "desc":"Hyper Terminal theme inspired by the Atom One Dark (Vivid) theme.",
+      "notes":"Look, I'm old. I can't do super high contrast themes--my eyes can't deal."
+    },
+    {
+      "name":"Dark Sublime Syntax",
+      "url":"https://github.com/CuriousMagpie/dark-sublime-syntax",
+      "desc":"A lower contrast dark Atom syntax theme.",
+      "notes":"Since Atom is being sunset at the end of 2022, I'm no longer updating this theme."
     }
   ]
 }

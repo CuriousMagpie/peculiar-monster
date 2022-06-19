@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>writing on Peculiar Monster</title>
-    <link>/tags/writing/</link>
+    <link>https://peculiar.monster/tags/writing/</link>
     <description>Recent content in writing on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding and Thinking</title>
-      <link>/posts/coding-and-thinking/</link>
+      <link>https://peculiar.monster/posts/coding-and-thinking/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/posts/coding-and-thinking/</guid>
+      <guid>https://peculiar.monster/posts/coding-and-thinking/</guid>
       <description>&lt;p&gt;Did you know that I have not one, but two kanban boards? One for getting this site set up as I want it to be, and another for mothballing my old site.&lt;/p&gt;
 &lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;
 &lt;p&gt;But this evening, I knocked out a fair number of backend things I wanted to fix on this site, primarily with the CSS. I figured out what all the different files were doing, removed the parts that were irrelevant (goodbye stupid jquery menu on mobile), and did my various imports in a way that made sense for me.&lt;/p&gt;
 &lt;p&gt;I also replaced a few things with links to CDNs instead of hosting the entire content here&amp;ndash;that allows me to keep up to date with the most current version of things but it does add a vulnerability in case those CDNs go down. They&amp;rsquo;re mostly for things like some of the icons and the CSS frameword the original author chose to use. If the CDNs do go down, things will degrade gracefully until they come back up again.&lt;/p&gt;
 &lt;p&gt;On a completely different topic:&lt;/p&gt;
-&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;https://peculiar.monster/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I wanted to give an example of the sort of lifting of phrasing/ideas in such a way that it&amp;rsquo;s clear that my work was the inspiration&amp;ndash;I ran across this just last night:&lt;/p&gt;
 &lt;p&gt;I wrote on August 1, 2020:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>F Stands for Fungible</title>
-      <link>/posts/f-stands-for-fungible/</link>
+      <link>https://peculiar.monster/posts/f-stands-for-fungible/</link>
       <pubDate>Sat, 11 Jun 2022 16:55:10 -0400</pubDate>
       
-      <guid>/posts/f-stands-for-fungible/</guid>
+      <guid>https://peculiar.monster/posts/f-stands-for-fungible/</guid>
       <description>&lt;p&gt;I started the process of mothballing my old site last night.&lt;/p&gt;
 &lt;p&gt;It was really hard to go through nearly 700 posts and unpublish them, leaving only the ones I&amp;rsquo;m planning on archiving on a static site.&lt;/p&gt;
 &lt;p&gt;Really, really hard. Also hard was seeing people respond on Twitter to my statement a few days ago that I was shutting the site down.&lt;/p&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>/posts/hello-world/</link>
+      <link>https://peculiar.monster/posts/hello-world/</link>
       <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
       
-      <guid>/posts/hello-world/</guid>
+      <guid>https://peculiar.monster/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
 &lt;p&gt;While this is a new site, I am not new to blogging. I&amp;rsquo;ve been blogging one way or another since 1999, give or take. I&amp;rsquo;ve had a lot of different sites over the years&amp;ndash;from Diaryland to Greymatter to Movable Type to LiveJournal to WordPress and now I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; because, to be quite honest, I am unhappy with the direction WordPress has taken their product&amp;ndash;they seem to assume that everyone wants to sell something and too often what&amp;rsquo;s for sale is a piece of someone&amp;rsquo;s soul.&lt;/p&gt;
 &lt;p&gt;I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I&amp;rsquo;m not looking for visibility or followers or to become any sort of influencer.&lt;/p&gt;

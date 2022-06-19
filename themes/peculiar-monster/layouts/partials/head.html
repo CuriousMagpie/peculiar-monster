@@ -12,7 +12,7 @@
   {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
-  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="googlebot" content="index">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{ .Scratch.Set "colortheme" "peculiar-monster"}}
@@ -37,16 +37,4 @@
   ` | safeHTML }}
 
   {{ partial "favicon.html" . }}
-  {{ if .Site.Params.rss }}
-  {{ with .OutputFormats.Get "RSS" }}
-    {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
-  {{ end }}
-  {{ end }}
-  {{ if .Site.GoogleAnalytics }}
-  {{ if .Site.Params.googleAnalyticsAsync }}
-    {{ template "_internal/google_analytics_async.html" . }}
-  {{ else }}
-    {{ template "_internal/google_analytics.html" . }}
-  {{ end }}
-  {{ end }}
 </head>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>personal on Peculiar Monster</title>
-    <link>/categories/personal/</link>
+    <link>https://peculiar.monster/categories/personal/</link>
     <description>Recent content in personal on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding and Thinking</title>
-      <link>/posts/coding-and-thinking/</link>
+      <link>https://peculiar.monster/posts/coding-and-thinking/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/posts/coding-and-thinking/</guid>
+      <guid>https://peculiar.monster/posts/coding-and-thinking/</guid>
       <description>&lt;p&gt;Did you know that I have not one, but two kanban boards? One for getting this site set up as I want it to be, and another for mothballing my old site.&lt;/p&gt;
 &lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;
 &lt;p&gt;But this evening, I knocked out a fair number of backend things I wanted to fix on this site, primarily with the CSS. I figured out what all the different files were doing, removed the parts that were irrelevant (goodbye stupid jquery menu on mobile), and did my various imports in a way that made sense for me.&lt;/p&gt;
 &lt;p&gt;I also replaced a few things with links to CDNs instead of hosting the entire content here&amp;ndash;that allows me to keep up to date with the most current version of things but it does add a vulnerability in case those CDNs go down. They&amp;rsquo;re mostly for things like some of the icons and the CSS frameword the original author chose to use. If the CDNs do go down, things will degrade gracefully until they come back up again.&lt;/p&gt;
 &lt;p&gt;On a completely different topic:&lt;/p&gt;
-&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;https://peculiar.monster/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I wanted to give an example of the sort of lifting of phrasing/ideas in such a way that it&amp;rsquo;s clear that my work was the inspiration&amp;ndash;I ran across this just last night:&lt;/p&gt;
 &lt;p&gt;I wrote on August 1, 2020:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>F Stands for Fungible</title>
-      <link>/posts/f-stands-for-fungible/</link>
+      <link>https://peculiar.monster/posts/f-stands-for-fungible/</link>
       <pubDate>Sat, 11 Jun 2022 16:55:10 -0400</pubDate>
       
-      <guid>/posts/f-stands-for-fungible/</guid>
+      <guid>https://peculiar.monster/posts/f-stands-for-fungible/</guid>
       <description>&lt;p&gt;I started the process of mothballing my old site last night.&lt;/p&gt;
 &lt;p&gt;It was really hard to go through nearly 700 posts and unpublish them, leaving only the ones I&amp;rsquo;m planning on archiving on a static site.&lt;/p&gt;
 &lt;p&gt;Really, really hard. Also hard was seeing people respond on Twitter to my statement a few days ago that I was shutting the site down.&lt;/p&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>My Current Feelings Towards SFF Fandom</title>
-      <link>/posts/sff-feelings-mood/</link>
+      <link>https://peculiar.monster/posts/sff-feelings-mood/</link>
       <pubDate>Fri, 10 Jun 2022 13:25:06 -0400</pubDate>
       
-      <guid>/posts/sff-feelings-mood/</guid>
+      <guid>https://peculiar.monster/posts/sff-feelings-mood/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;acnh-big-mood.png&#34; alt=&#34;An Animal Crossing New Horizons character sitting in a cheap lawn chair in the evening with a tray table full of empty alcohol bottles next to them. In front of them is a burning oil barrel, two bags of trash, a can of gasoline, and a fire extinguisher. The character is wearing a red hat and a blue shirt that has a white cat on it shooting laser beam out of its eyes. The character&amp;amp;rsquo;s eyes are half-closed, their mouth is open in dismay, and there are two bubble floating near their head. It&amp;amp;rsquo;s evening.&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is a fairly accurate description of how I&amp;rsquo;m currently feeling about SFF fandom. Burn it all down, my children.&lt;/p&gt;
 </description>
@@ -104,10 +104,10 @@
     
     <item>
       <title>Random Thoughts (June 9)</title>
-      <link>/posts/random-thoughts/</link>
+      <link>https://peculiar.monster/posts/random-thoughts/</link>
       <pubDate>Thu, 09 Jun 2022 09:52:04 -0400</pubDate>
       
-      <guid>/posts/random-thoughts/</guid>
+      <guid>https://peculiar.monster/posts/random-thoughts/</guid>
       <description>&lt;p&gt;Oof. I went in for my monthly-ish paracentesis yesterday morning.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t know what this is, here&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Paracentesis&#34;&gt;a handy explainer from Wikipedia&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First of all, I was up entirely too early for my own good. But it did mean I was able to take my meds and eat breakfast before having to leave for the hospital, so that&amp;rsquo;s something, yes?&lt;/p&gt;
@@ -124,10 +124,10 @@
     
     <item>
       <title>Better Colors?</title>
-      <link>/posts/better-colors/</link>
+      <link>https://peculiar.monster/posts/better-colors/</link>
       <pubDate>Fri, 03 Jun 2022 23:21:11 -0400</pubDate>
       
-      <guid>/posts/better-colors/</guid>
+      <guid>https://peculiar.monster/posts/better-colors/</guid>
       <description>&lt;p&gt;The spaghetti that is this site&amp;rsquo;s CSS is really something else&amp;ndash;to the point where using the override files just doesn&amp;rsquo;t work because there&amp;rsquo;s so much stuff squirreled away in different places and it all takes different precedence.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve made a kanban board for the things I want to do and a bunch of them include &amp;ldquo;refactor and consolidate X, Y, or Z.&amp;rdquo; I suspect that when I&amp;rsquo;m done, it&amp;rsquo;ll be an entirely new template.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m not thrilled with the colors and I think I need to rework them so there are more constrast colors and less four different shades of pinky-purple. But at least I managed to fix the damn fonts and hyphenation. The previous choices were&amp;ndash;choices. Yes. That&amp;rsquo;s the word.&lt;/p&gt;
@@ -140,10 +140,10 @@
     
     <item>
       <title>A Ridiculous Day</title>
-      <link>/posts/ridiculous-day/</link>
+      <link>https://peculiar.monster/posts/ridiculous-day/</link>
       <pubDate>Thu, 02 Jun 2022 22:02:49 -0400</pubDate>
       
-      <guid>/posts/ridiculous-day/</guid>
+      <guid>https://peculiar.monster/posts/ridiculous-day/</guid>
       <description>&lt;p&gt;Today&amp;rsquo;s been a day of a lot of ridiculous all over the board.&lt;/p&gt;
 &lt;p&gt;First off, the day started with therapy. Which wasn&amp;rsquo;t ridiculous, but it was 8:15 in the morning so there&amp;rsquo;s a certain degree of waaaah going on (every week, my appointment is at 8:15 am every week) just in general. Talked about EMDR a little bit to help me deal with my DESNOS/cPTSD (the &lt;em&gt;name&lt;/em&gt; of the thing is shifting: DESNOS is the name in the current edition of the DSM, cPTSD is what it&amp;rsquo;s generally known by these days). I&amp;rsquo;m really good at masking, so it&amp;rsquo;s often hard to tell when I&amp;rsquo;m losing my shit or really anxious orm, to be honest, even when I&amp;rsquo;m really depressed.&lt;/p&gt;
 &lt;p&gt;After therapy, I had to scoot along to my appointment with the PA at the Infectious Disease practice that&amp;rsquo;s been following me since 2018. They&amp;rsquo;re all great and the doctor who initially treated me, I&amp;rsquo;m convinced is the one who helped turn the tide for me&amp;ndash;not just by treating the massive infection I had as a result of the necrosis happening in my abdomen, but by advocating for me with other hospital staff. Sadly, they&amp;rsquo;re going to be following me for likely the rest of my life: I had sepsis 3 times in the fourth quarter of 2020&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, so I&amp;rsquo;m on prophylactic oral antibiotics and need regular check-ins with them to make sure everything&amp;rsquo;s still fine. I did graduate from every 3 months to every 6 months for appointments, though!&lt;/p&gt;

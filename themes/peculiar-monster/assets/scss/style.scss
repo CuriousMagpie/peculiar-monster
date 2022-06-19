@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Forum&family=Inconsolata&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,300;1,300&display=swap');
 
+@import '../../assets/css/custom-colors';
 @import "variables";
 @import "colors/{{ site.Params.colortheme | default "peculiar-monster" }}";
 @import "mixins";
 @import "partial/index";
-@import '../../assets/css/custom-colors';
 @import "custom";
 
 *,

@@ -1,7 +1,8 @@
-baseURL: '/'
+baseURL: 'https://peculiar.monster/'
 languageCode: en-us
 title: Peculiar Monster
 theme: peculiar-monster 
+author: 'GigaMeow'
 copyright: GigaMeow
 paginate: 1
 
@@ -9,7 +10,7 @@ menu:
   main:
     - name: About
       url: /about
-      weight: 2
+      weight: 1
     - name: Words
       url: /posts
       weight: 2
@@ -22,9 +23,7 @@ menu:
     - name: Blogroll
       url: /blogroll
       weight: 5
-    - name: Home
-      url: /
-      weight: 1
+
 markup:
   tableOfContents:
     endLevel: 3
@@ -40,13 +39,16 @@ markup:
     noClasses: true
     style: dracula
     tabWidth: 4
+
 params:
   colortheme: peculiar-monster
   rssFullText: true
   showAllPostsArchive: true
   fontawesome: true
-  description: Welcome! I've been blogging for a very long time and need a break from doing it under my real name, hence GigaMeow. 
-  privacyStatement: I'm not using any analytics or other tracking methods, so I don't know who you are. I ask that you respect my privacy as I am respecting yours.
+  description: Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow. 
+  privacyStatementHeader: Peculiar Monster Privacy Statement
+  privacyStatement: I'm not using analytics or other tracking methods. I am using CDNs for fonts and a CSS framework and those may use tracking, but I have no access to that information. Please respect my privacy.
+  landAcknowledgement: Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people.
   mainSection: posts
   showAllPostsOnHomePage: false
   postsOnHomePage: 5
@@ -57,6 +59,7 @@ params:
   show_updated: true
   showReadTime: true
   showWordCount: true
+  
   social:
     - name: github
       link: 'https://github.com/CuriousMagpie'

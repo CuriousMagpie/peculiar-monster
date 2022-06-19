@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>personal on Peculiar Monster</title>
-    <link>/tags/personal/</link>
+    <link>https://peculiar.monster/tags/personal/</link>
     <description>Recent content in personal on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sat, 11 Jun 2022 16:55:10 -0400</lastBuildDate><atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 16:55:10 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F Stands for Fungible</title>
-      <link>/posts/f-stands-for-fungible/</link>
+      <link>https://peculiar.monster/posts/f-stands-for-fungible/</link>
       <pubDate>Sat, 11 Jun 2022 16:55:10 -0400</pubDate>
       
-      <guid>/posts/f-stands-for-fungible/</guid>
+      <guid>https://peculiar.monster/posts/f-stands-for-fungible/</guid>
       <description>&lt;p&gt;I started the process of mothballing my old site last night.&lt;/p&gt;
 &lt;p&gt;It was really hard to go through nearly 700 posts and unpublish them, leaving only the ones I&amp;rsquo;m planning on archiving on a static site.&lt;/p&gt;
 &lt;p&gt;Really, really hard. Also hard was seeing people respond on Twitter to my statement a few days ago that I was shutting the site down.&lt;/p&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>/posts/hello-world/</link>
+      <link>https://peculiar.monster/posts/hello-world/</link>
       <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
       
-      <guid>/posts/hello-world/</guid>
+      <guid>https://peculiar.monster/posts/hello-world/</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
 &lt;p&gt;While this is a new site, I am not new to blogging. I&amp;rsquo;ve been blogging one way or another since 1999, give or take. I&amp;rsquo;ve had a lot of different sites over the years&amp;ndash;from Diaryland to Greymatter to Movable Type to LiveJournal to WordPress and now I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; because, to be quite honest, I am unhappy with the direction WordPress has taken their product&amp;ndash;they seem to assume that everyone wants to sell something and too often what&amp;rsquo;s for sale is a piece of someone&amp;rsquo;s soul.&lt;/p&gt;
 &lt;p&gt;I have no desire to make this site generate any sort of regular source of income or to leverage it into something bigger than what it is. I&amp;rsquo;m not looking for visibility or followers or to become any sort of influencer.&lt;/p&gt;

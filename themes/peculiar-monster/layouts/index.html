@@ -3,9 +3,6 @@
   {{ if isSet .Site.Params "description" }}
     <p>{{ .Site.Params.description | $.Page.RenderString }}</p>
   {{ end }}
-    {{ if isSet .Site.Params "privacyStatement" }}
-    <p>{{ .Site.Params.privacyStatement | $.Page.RenderString }}</p>
-  {{ end }}
   {{ if isSet .Site.Params "social" }}
       <p>Other places you can find me: 
       {{ $length := (len .Site.Params.social) }}
@@ -23,7 +20,7 @@
           <i class="fa-brands fa-discord" aria-hidden="true"></i> 
         </a>
         {{ else if eq $elem.name "mastodon" }}
-        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Wandering Shop">
+        <a class="icon" target="_blank" rel="me" href="{{ $elem.link }}" aria-label="Wandering Shop">
           <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
         </a>
         {{ else if eq $elem.name "github" }}
@@ -115,11 +112,23 @@
     <h2><a href="{{ $projectsUrl }}">Projects</a></h2>
     <ul class="project-list">
         {{ range .Site.Data.projects.list }}
-        <li class="project-item">
+        <li class="project-list">
           <a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
+          <ul class="project-list">
+          <li class="project-notes">{{ .notes }}</li>
+          </ul>
         </li>
         {{ end }}
     </ul>
   </section>
   {{ end }}
+  <section id="privacy-statement">
+    <div class="privacy-statement">
+    {{ if .Site.Params.privacyStatement }}
+    <h4>{{ print .Site.Params.privacyStatementHeader | $.Page.RenderString }}:</h4>
+    <p>{{ print .Site.Params.privacyStatement | $.Page.RenderString }}</p>
+    {{ else }}
+    {{ end }}
+    </div>
+  </section>
 {{ end }}

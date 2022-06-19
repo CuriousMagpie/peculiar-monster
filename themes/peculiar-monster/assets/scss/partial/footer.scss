@@ -1,26 +1,19 @@
 #footer {
-  position: absolute;
-  bottom: 0;
   margin-bottom: 0px;
   width: 100%;
   color: $color-meta;
-  vertical-align: bottom;
-  text-align: center;
   font-size: 0.875rem;
-  line-height: 18px;
 
   ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    line-height: 18px;
   }
   li {
     display: inline-block;
     margin-right: 15px;
     border-right: 0.5px solid;
     border-color: $color-border;
-    vertical-align: middle;
 
     a {
       margin-right: 15px;
@@ -36,17 +29,21 @@
   }
   a {
     color: $color-link;
-    /* text-decoration: underline; */
     border:0px;
-    background-image: none;
   }
   a:hover {
     color: lighten($color-link-hover, 20%);
   }
+  
   .footer-left {
-    height: 18px;
-    vertical-align: middle;
-    line-height: 16px;
+  }
+  .footer-right {
+  }
+
+  #land-acknowledgement {
+    margin-top:16px;
+    font-size: 0.8rem;
+    width: 100%;
   }
 }
 @media (min-width: 624px) {
@@ -54,15 +51,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
     margin-bottom: 0px;
-    // .footer-left {
-    //   align-self: flex-start;
-    //   margin-right: 20px;
-    // }
-    // .footer-right {
-    //   align-self: flex-end;
-    // }
   }
 };

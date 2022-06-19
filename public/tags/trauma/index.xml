@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trauma on Peculiar Monster</title>
-    <link>/tags/trauma/</link>
+    <link>https://peculiar.monster/tags/trauma/</link>
     <description>Recent content in trauma on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="/tags/trauma/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/trauma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding and Thinking</title>
-      <link>/posts/coding-and-thinking/</link>
+      <link>https://peculiar.monster/posts/coding-and-thinking/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/posts/coding-and-thinking/</guid>
+      <guid>https://peculiar.monster/posts/coding-and-thinking/</guid>
       <description>&lt;p&gt;Did you know that I have not one, but two kanban boards? One for getting this site set up as I want it to be, and another for mothballing my old site.&lt;/p&gt;
 &lt;p&gt;They both have a LOT of things on them. It&amp;rsquo;s gonna be a lot of work.&lt;/p&gt;
 &lt;p&gt;But this evening, I knocked out a fair number of backend things I wanted to fix on this site, primarily with the CSS. I figured out what all the different files were doing, removed the parts that were irrelevant (goodbye stupid jquery menu on mobile), and did my various imports in a way that made sense for me.&lt;/p&gt;
 &lt;p&gt;I also replaced a few things with links to CDNs instead of hosting the entire content here&amp;ndash;that allows me to keep up to date with the most current version of things but it does add a vulnerability in case those CDNs go down. They&amp;rsquo;re mostly for things like some of the icons and the CSS frameword the original author chose to use. If the CDNs do go down, things will degrade gracefully until they come back up again.&lt;/p&gt;
 &lt;p&gt;On a completely different topic:&lt;/p&gt;
-&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Folks on Twitter have been so kind and I wrote yesterday about the &lt;a href=&#34;https://peculiar.monster/posts/f-stands-for-fungible&#34;&gt;reasons I&amp;rsquo;ve chosen to distance myself from fandom&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I wanted to give an example of the sort of lifting of phrasing/ideas in such a way that it&amp;rsquo;s clear that my work was the inspiration&amp;ndash;I ran across this just last night:&lt;/p&gt;
 &lt;p&gt;I wrote on August 1, 2020:&lt;/p&gt;
 &lt;blockquote&gt;

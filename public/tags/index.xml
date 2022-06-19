@@ -2,153 +2,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Peculiar Monster</title>
-    <link>/tags/</link>
+    <link>https://peculiar.monster/tags/</link>
     <description>Recent content in Tags on Peculiar Monster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GigaMeow</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 22:15:34 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sff</title>
-      <link>/tags/sff/</link>
+      <link>https://peculiar.monster/tags/sff/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/tags/sff/</guid>
+      <guid>https://peculiar.monster/tags/sff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>/tags/tech/</link>
+      <link>https://peculiar.monster/tags/tech/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/tags/tech/</guid>
+      <guid>https://peculiar.monster/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trauma</title>
-      <link>/tags/trauma/</link>
+      <link>https://peculiar.monster/tags/trauma/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/tags/trauma/</guid>
+      <guid>https://peculiar.monster/tags/trauma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>writing</title>
-      <link>/tags/writing/</link>
+      <link>https://peculiar.monster/tags/writing/</link>
       <pubDate>Sun, 12 Jun 2022 22:15:34 -0400</pubDate>
       
-      <guid>/tags/writing/</guid>
+      <guid>https://peculiar.monster/tags/writing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mental health</title>
-      <link>/tags/mental-health/</link>
+      <link>https://peculiar.monster/tags/mental-health/</link>
       <pubDate>Sat, 11 Jun 2022 16:55:10 -0400</pubDate>
       
-      <guid>/tags/mental-health/</guid>
+      <guid>https://peculiar.monster/tags/mental-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>personal</title>
-      <link>/tags/personal/</link>
+      <link>https://peculiar.monster/tags/personal/</link>
       <pubDate>Sat, 11 Jun 2022 16:55:10 -0400</pubDate>
       
-      <guid>/tags/personal/</guid>
+      <guid>https://peculiar.monster/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>animal crossing</title>
-      <link>/tags/animal-crossing/</link>
+      <link>https://peculiar.monster/tags/animal-crossing/</link>
       <pubDate>Fri, 10 Jun 2022 13:25:06 -0400</pubDate>
       
-      <guid>/tags/animal-crossing/</guid>
+      <guid>https://peculiar.monster/tags/animal-crossing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>health</title>
-      <link>/tags/health/</link>
+      <link>https://peculiar.monster/tags/health/</link>
       <pubDate>Thu, 09 Jun 2022 09:52:04 -0400</pubDate>
       
-      <guid>/tags/health/</guid>
+      <guid>https://peculiar.monster/tags/health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meta</title>
-      <link>/tags/meta/</link>
+      <link>https://peculiar.monster/tags/meta/</link>
       <pubDate>Thu, 09 Jun 2022 09:52:04 -0400</pubDate>
       
-      <guid>/tags/meta/</guid>
+      <guid>https://peculiar.monster/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>/tags/css/</link>
+      <link>https://peculiar.monster/tags/css/</link>
       <pubDate>Fri, 03 Jun 2022 23:21:11 -0400</pubDate>
       
-      <guid>/tags/css/</guid>
+      <guid>https://peculiar.monster/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://peculiar.monster/tags/hugo/</link>
       <pubDate>Fri, 03 Jun 2022 23:21:11 -0400</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://peculiar.monster/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>miles</title>
-      <link>/tags/miles/</link>
+      <link>https://peculiar.monster/tags/miles/</link>
       <pubDate>Fri, 03 Jun 2022 23:21:11 -0400</pubDate>
       
-      <guid>/tags/miles/</guid>
+      <guid>https://peculiar.monster/tags/miles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>/tags/github/</link>
+      <link>https://peculiar.monster/tags/github/</link>
       <pubDate>Thu, 02 Jun 2022 22:02:49 -0400</pubDate>
       
-      <guid>/tags/github/</guid>
+      <guid>https://peculiar.monster/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>flora</title>
-      <link>/tags/flora/</link>
+      <link>https://peculiar.monster/tags/flora/</link>
       <pubDate>Wed, 01 Jun 2022 11:18:02 -0400</pubDate>
       
-      <guid>/tags/flora/</guid>
+      <guid>https://peculiar.monster/tags/flora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>knitting</title>
-      <link>/tags/knitting/</link>
+      <link>https://peculiar.monster/tags/knitting/</link>
       <pubDate>Wed, 01 Jun 2022 11:18:02 -0400</pubDate>
       
-      <guid>/tags/knitting/</guid>
+      <guid>https://peculiar.monster/tags/knitting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>panopticon</title>
-      <link>/tags/panopticon/</link>
+      <link>https://peculiar.monster/tags/panopticon/</link>
       <pubDate>Sun, 29 May 2022 20:06:00 -0400</pubDate>
       
-      <guid>/tags/panopticon/</guid>
+      <guid>https://peculiar.monster/tags/panopticon/</guid>
       <description></description>
     </item>
     
