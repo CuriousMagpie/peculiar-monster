@@ -1,134 +1,136 @@
 {{ define "main" }}
-  <section id="about">
-  {{ if isSet .Site.Params "description" }}
-    <p>{{ .Site.Params.description | $.Page.RenderString }}</p>
-  {{ end }}
-  {{ if isSet .Site.Params "social" }}
-      <p>Other places where you can find me: 
-      {{ $length := (len .Site.Params.social) }}
-      {{ range $index, $elem := .Site.Params.social}}
-      {{ if eq $elem.name "rss" }}
-        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="RSS">
-          <i class="fa-solid fa-square-rss" aria-hidden="true"></i>
-        </a>
-        {{ else if eq $elem.name "bookwyrm" }}
-        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Bookwyrm">
-          <i class="fa-solid fa-book" aria-hidden="true"></i>
-        </a>
-        {{ else if eq $elem.name "discord" }}
-        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Discord">
-          <i class="fa-brands fa-discord" aria-hidden="true"></i> 
-        </a>
-        {{ else if eq $elem.name "mastodon" }}
-        <a class="icon" target="_blank" rel="me" href="{{ $elem.link }}" aria-label="Wandering Shop">
-          <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
-        </a>
-        {{ else if eq $elem.name "github" }}
-        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="GitHub">
-          <i class="fa-brands fa-github" aria-hidden="true"></i>
-        </a>
-        {{ else }}
-        <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="{{ $elem.name }}">
-          <i class="fa-brands fa-{{ lower $elem.name }}" aria-hidden="true"></i>
-        </a>
-        {{ end }}
-        {{ if (lt (add $index 2) $length) }}
-          {{- print " , " -}}
-        {{ else if (lt (add $index 1) $length) }}
-          {{- print ", and " -}}
-        {{ else }}
-          {{- print "." -}}
-        {{ end }}
-      {{ end }}
-      </p>
-  {{ end }}
-  <p>{{ partial "optional-about.html" . }}</p>
-  </section>
-
-  <section id="writing">
-    <h2><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></h2>
-
-    <h3><i class="fa-solid fa-pencil"></i>&nbsp;&nbsp;Recent Posts</h3>
-
-    {{ $showAllPostsOnHomePage := false }}
-    {{ if (isSet .Site.Params "showallpostsonhomepage") }}
-      {{ $showAllPostsOnHomePage = .Site.Params.ShowAllPostsOnHomePage }}
+  <div class="page-content">
+    <section id="about">
+    {{ if isSet .Site.Params "description" }}
+      <p>{{ .Site.Params.description | $.Page.RenderString }}</p>
     {{ end }}
-    {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
-    {{ $mainPosts := (sort ( where site.RegularPages "Type" "in" site.Params.mainSection ) "Date" "desc") }}
-    {{ if $showAllPostsOnHomePage }}
-    <ul class="post-list">
-      {{ range (.Paginate $mainPosts).Pages }}
-        <li class="post-item">
-          <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
-          <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
-        </li>
-      {{ end }}
-    </ul>
-
-    {{ partial "pagination.html" . }}
-
-    {{ else }}
-    <ul class="post-list">
-      {{ .Scratch.Set "count" 5 }}
-      {{ if isSet .Site.Params "postsonhomepage" }}
-        {{ .Scratch.Set "count" .Site.Params.postsOnHomePage }}
-      {{ end }}
-      {{ range (first (.Scratch.Get "count") $mainPosts) }}
-        <li class="post-item">
-          <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
-          <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
-        </li>
-      {{ end }}
-    </ul>
+    {{ if isSet .Site.Params "social" }}
+        <p>Other places where you can find me: 
+        {{ $length := (len .Site.Params.social) }}
+        {{ range $index, $elem := .Site.Params.social}}
+        {{ if eq $elem.name "rss" }}
+          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="RSS">
+            <i class="fa-solid fa-square-rss" aria-hidden="true"></i>
+          </a>
+          {{ else if eq $elem.name "bookwyrm" }}
+          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Bookwyrm">
+            <i class="fa-solid fa-book" aria-hidden="true"></i>
+          </a>
+          {{ else if eq $elem.name "discord" }}
+          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Discord">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i> 
+          </a>
+          {{ else if eq $elem.name "mastodon" }}
+          <a class="icon" target="_blank" rel="me" href="{{ $elem.link }}" aria-label="Wandering Shop">
+            <i class="fa-brands fa-mastodon" aria-hidden="true"></i>
+          </a>
+          {{ else if eq $elem.name "github" }}
+          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="GitHub">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+          {{ else }}
+          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="{{ $elem.name }}">
+            <i class="fa-brands fa-{{ lower $elem.name }}" aria-hidden="true"></i>
+          </a>
+          {{ end }}
+          {{ if (lt (add $index 2) $length) }}
+            {{- print " , " -}}
+          {{ else if (lt (add $index 1) $length) }}
+            {{- print ", and " -}}
+          {{ else }}
+            {{- print "." -}}
+          {{ end }}
+        {{ end }}
+        </p>
     {{ end }}
-    {{ if (and (and (isSet .Site.Params "tagoverview") (eq .Site.Params.tagOverview true)) (gt (len .Site.Taxonomies.categories) 0)) }}
-    <h3><i class="fa-solid fa-archive"></i>&nbsp;&nbsp;Categories</h3>
-      <div id= "index-categories" class="category-list">
-        <ul class="category-list-title">
-          {{ range .Site.Taxonomies.categories.ByCount }}
-          <li class="category-list-item">
-            <a class="category-list-link" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-            <span class="category-list-count">{{ .Count }}</span>
+    <p>{{ partial "optional-about.html" . }}</p>
+    </section>
+
+    <section id="writing">
+      <h2><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></h2>
+
+      <h3><i class="fa-solid fa-pencil"></i>&nbsp;&nbsp;Recent Posts</h3>
+
+      {{ $showAllPostsOnHomePage := false }}
+      {{ if (isSet .Site.Params "showallpostsonhomepage") }}
+        {{ $showAllPostsOnHomePage = .Site.Params.ShowAllPostsOnHomePage }}
+      {{ end }}
+      {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+      {{ $mainPosts := (sort ( where site.RegularPages "Type" "in" site.Params.mainSection ) "Date" "desc") }}
+      {{ if $showAllPostsOnHomePage }}
+      <ul class="post-list">
+        {{ range (.Paginate $mainPosts).Pages }}
+          <li class="post-item">
+            <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
+            <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
+          </li>
+        {{ end }}
+      </ul>
+
+      {{ partial "pagination.html" . }}
+
+      {{ else }}
+      <ul class="post-list">
+        {{ .Scratch.Set "count" 5 }}
+        {{ if isSet .Site.Params "postsonhomepage" }}
+          {{ .Scratch.Set "count" .Site.Params.postsOnHomePage }}
+        {{ end }}
+        {{ range (first (.Scratch.Get "count") $mainPosts) }}
+          <li class="post-item">
+            <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
+            <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
+          </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{ if (and (and (isSet .Site.Params "tagoverview") (eq .Site.Params.tagOverview true)) (gt (len .Site.Taxonomies.categories) 0)) }}
+      <h3><i class="fa-solid fa-archive"></i>&nbsp;&nbsp;Categories</h3>
+        <div id= "index-categories" class="category-list">
+          <ul class="category-list-title">
+            {{ range .Site.Taxonomies.categories.ByCount }}
+            <li class="category-list-item">
+              <a class="category-list-link" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+              <span class="category-list-count">{{ .Count }}</span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    </section>
+
+    {{ $showProjectsList := false }}
+    {{ if (isSet .Site.Params "showprojectslist") }}
+      {{ $showProjectsList = .Site.Params.showProjectsList }}
+    {{ else if .Site.Data.projects }}
+      {{ $showProjectsList = true }}
+    {{ end }}
+    {{ if $showProjectsList }}
+      {{ $projectsUrl := "#" }}
+      {{ if isSet .Site.Params "projectsurl" }}
+        {{ $projectsUrl = .Site.Params.projectsUrl }}
+      {{ end }}
+    <section id="projects">
+      <h2><a href="{{ $projectsUrl }}">Projects</a></h2>
+      <ul class="project-list">
+          {{ range .Site.Data.projects.list }}
+          <li class="project-list">
+            <a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
+            <ul class="project-list">
+            <li class="project-notes">{{ .notes }}</li>
+            </ul>
           </li>
           {{ end }}
-        </ul>
+      </ul>
+    </section>
+    {{ end }}
+    <section id="privacy-statement">
+      <div class="privacy-statement">
+      {{ if .Site.Params.privacyStatement }}
+      <h4>{{ print .Site.Params.privacyStatementHeader | $.Page.RenderString }}:</h4>
+      <p>{{ print .Site.Params.privacyStatement | $.Page.RenderString }}</p>
+      {{ else }}
+      {{ end }}
       </div>
-    {{ end }}
-  </section>
-
-  {{ $showProjectsList := false }}
-  {{ if (isSet .Site.Params "showprojectslist") }}
-    {{ $showProjectsList = .Site.Params.showProjectsList }}
-  {{ else if .Site.Data.projects }}
-    {{ $showProjectsList = true }}
+    </section>
+  </div>
   {{ end }}
-  {{ if $showProjectsList }}
-    {{ $projectsUrl := "#" }}
-    {{ if isSet .Site.Params "projectsurl" }}
-      {{ $projectsUrl = .Site.Params.projectsUrl }}
-    {{ end }}
-  <section id="projects">
-    <h2><a href="{{ $projectsUrl }}">Projects</a></h2>
-    <ul class="project-list">
-        {{ range .Site.Data.projects.list }}
-        <li class="project-list">
-          <a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
-          <ul class="project-list">
-          <li class="project-notes">{{ .notes }}</li>
-          </ul>
-        </li>
-        {{ end }}
-    </ul>
-  </section>
-  {{ end }}
-  <section id="privacy-statement">
-    <div class="privacy-statement">
-    {{ if .Site.Params.privacyStatement }}
-    <h4>{{ print .Site.Params.privacyStatementHeader | $.Page.RenderString }}:</h4>
-    <p>{{ print .Site.Params.privacyStatement | $.Page.RenderString }}</p>
-    {{ else }}
-    {{ end }}
-    </div>
-  </section>
-{{ end }}

@@ -38,6 +38,12 @@
     }
   }
 
+  .page-content {
+    display: flex;
+    flex-flow: column;
+    position: inherit;
+  }
+
   blockquote {
     border-left: $color-quote solid 4px;
     margin-right: 32px;
