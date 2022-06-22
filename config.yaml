@@ -43,22 +43,25 @@ markup:
 params:
   colortheme: peculiar-monster
   rssFullText: true
-  showAllPostsArchive: true
-  fontawesome: true
+  dateFormat: '2006-01-02'
+  
   description: Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow. 
-  privacyStatementHeader: Peculiar Monster Privacy Statement
-  privacyStatement: I'm not using analytics or other tracking methods. I am using CDNs for fonts and a CSS framework and those may use tracking, but I have no access to that information. Please respect my privacy.
-  landAcknowledgement: Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people.
   mainSection: posts
-  showAllPostsOnHomePage: false
   postsOnHomePage: 5
-  tagOverview: true
+  showAllPostsOnHomePage: false
   showProjectsList: true
   projectsUrl: 'https://github.com/CuriousMagpie'
-  dateFormat: '2006-01-02'
+  landAcknowledgement: Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people.
+
+  privacyStatementHeader: Peculiar Monster Privacy Statement
+  privacyStatement: I'm not using analytics or other tracking methods. I am using CDNs for fonts and a CSS framework and those may use tracking, but I have no access to that information. Please respect my privacy.
+
+  tagOverview: true
+  showAllPostsArchive: true
   show_updated: true
   showReadTime: true
   showWordCount: true
+  fontawesome: true
   
   social:
     - name: github
