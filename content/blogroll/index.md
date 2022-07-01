@@ -51,20 +51,23 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 - [Will Tell Stories for Food](https://naomikritzer.com/)
 
 ## Technical Blogs
-- [Adactio - Articles](https://adactio.com/articles/)
-- [Adactio - Links](https://adactio.com/links/)
 - [Astrid.tech](https://astrid.tech/)
 - [Cogito, Ergo Sumana](https://harihareswara.net/)
 - [Interdependent Thoughts](https://www.zylstra.org/blog/)
+- [Jon Udell - Strategies for Internet citizens](https://blog.jonudell.net)
+- [Maggie Appleton](https://maggieappleton.com)
+- [Miriam Suzanne](https://www.miriamsuzanne.com/)
 - [Synesthesia](https://www.synesthesia.co.uk/)
 - [Techzerker](https://techzerker.com/)
 - [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
 ## Topical Blogs
-- [Ask a Manager](https://www.askamanager.org/)
-- [Captain Awkward](https://captainawkward.com/)
-- [The Cramped](http://www.thecramped.com/)
-- [McMansion Hell](https://mcmansionhell.com/)
+- [Ask a Manager](https://www.askamanager.org/) - advice column about work
+- [Captain Awkward](https://captainawkward.com/) - advice column about life
+- [McMansion Hell](https://mcmansionhell.com/) - terrible home architecture
+- [The Cramped](http://www.thecramped.com/) - analog journaling and links
+- [mnmlscholar](https://www.mnmlscholar.com/) - an academic writes about fountain pens
+
 
 ## Newsletters
 - [The Full Lid](https://mailchi.mp/5a1f74b9a7fd/thefulllid) Written by Alasdair Stuart and Marguerite Kenner, this is a weekly cornucopia of goodness.
