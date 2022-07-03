@@ -32,7 +32,7 @@ I've been spending a lot of time over the last week falling into various rabbit 
 
 But one thing I keep coming back to is how, on my previous blog, I felt paralyzed by the weight of perfection. As if I were under so much scrutiny that the smallest mistake would cause a shitstorm.
 
-This feeling was only exacerbated by the fact that when I did say something stupid on Twitter, a group of leftier than thou folks who enjoy brigading other people for the tiniest of ideological differences decided to brigade me. And suddenly: I found that I was unable to speak in that space any longer--that the [years of abuse](https://peculiar.momnster/f-is-for-fungible/) had simply destroyed my ability to write or engage at all in that space.
+This feeling was only exacerbated by the fact that when I did say something stupid on Twitter, a group of leftier than thou folks who enjoy brigading other people for the tiniest of ideological differences decided to brigade me. And suddenly: I found that I was unable to speak in that space any longer--that the [years of abuse](https://peculiar.monster/posts/f-is-for-fungible/) had simply destroyed my ability to write or engage at all in that space.
 
 That's the lens I have been looking through as I read through all these different essays and short pieces about being a person on the internet.
 
@@ -81,7 +81,7 @@ Whereas the amount of time it took me to get [Hugo](https://gohugo.io/) up and r
 
 There are *significant* technical barriers involved with using a static site generator for a blog: you have to be comfortable getting into the nuts and bolts of the templates and learn how to write a variant of [Go](https://go.dev/), which is a language I had no familiarity with prior to starting this project. I am *still* struggling to get pagination working.
 
-But I find this sort of work satisfying and I'm able to surmount the gaps in my technical knowledge through sheer stubbornness, a willingness to make mistake, and making liberal use of a search engine. Not everyone does. Most folks want an out of the box tool that just works.
+But I find this sort of work satisfying and I'm able to surmount the gaps in my technical knowledge through sheer stubbornness, a willingness to make mistakes, and making liberal use of a search engine. Not everyone does. Most folks want an out of the box tool that just works.
 
 And the third concept and probably the most important one is from [this essay](https://matthiasott.com/notes/just-put-stuff-out-there) by Matthias Ott: Just put stuff out there:
 
@@ -91,7 +91,9 @@ And the third concept and probably the most important one is from [this essay](h
 
 Another idea I've been poking at are personal knowledge bases and different ways of keeping all the threads of my life in some sort of knowledge management system.
 
-I'm intrigued by the concepts behind Tiago Forte's [Building a Second Brain](https://www.buildingasecondbrain.com/) but considering that the website has no mention of how much the course costs and that there's a waitlist for the next cohort, I find that I have very little interest in taking the course. Instead, [I've looked over Maggie Appleton's notes from several years ago](https://maggieappleton.com/basb) (and I note that in her disclaimer she mentions the "blossoming" price which is a hilarious way of describing the inevitable upwards creep of course costs as the instructor/guru becomes more influential) and have come to the conclusion that I'll pick up the book when it comes out in paperback, probably next year.
+I'm intrigued by the concepts behind Tiago Forte's [Building a Second Brain](https://www.buildingasecondbrain.com/) but considering that the website has no mention of how much the course costs and that there's a waitlist for the next cohort, I find that I have very little interest in taking the course. 
+
+Instead, [I've looked over Maggie Appleton's notes from several years ago](https://maggieappleton.com/basb) (and I note that in her disclaimer she mentions the "blossoming" price which is a hilarious way of describing the inevitable upwards creep of course costs as the instructor/guru becomes more influential) and have come to the conclusion that I'll pick up the book when it comes out in paperback, probably next year.
 
 But with this incredibly important caveat: ["People who write extensively about note-taking rarely have a serious context of use"](https://notes.andymatuschak.org/zUMFE66dxeweppDvgbNAb5hukXzXQu8ErVNv); that is: most productivity "experts" primary output is more advice on how to be productive and they are often disconnected from the contexts in which people take and use notes.
 
