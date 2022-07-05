@@ -47,11 +47,20 @@
   blockquote {
     border-left: $color-quote solid 4px;
     margin-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: lighten($color-quote, 47%);
 
     p {
-      margin-left: 8px;
-      margin-bottom: 0px;
+      margin-left: 16px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    
+    h1, h2, h3 {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-left: 16px;
     }
   }
 
