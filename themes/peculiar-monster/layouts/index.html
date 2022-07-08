@@ -47,9 +47,9 @@
     </section>
 
     <section id="writing">
-      <h2><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></h2>
+      <h2 class="words"><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default "Words" }}</a></h2>
 
-      <h3><i class="fa-solid fa-pencil"></i>&nbsp;&nbsp;Recent Posts</h3>
+      <h3 class="words-header"><i class="fa-solid fa-pencil"></i>&nbsp;&nbsp;Recent Posts</h3>
 
       {{ $showAllPostsOnHomePage := false }}
       {{ if (isSet .Site.Params "showallpostsonhomepage") }}
@@ -84,7 +84,7 @@
       </ul>
       {{ end }}
       {{ if (and (and (isSet .Site.Params "tagoverview") (eq .Site.Params.tagOverview true)) (gt (len .Site.Taxonomies.categories) 0)) }}
-      <h3><i class="fa-solid fa-archive"></i>&nbsp;&nbsp;Categories</h3>
+      <h3 class="words-header"><i class="fa-solid fa-archive"></i>&nbsp;&nbsp;Categories</h3>
         <div id= "index-categories" class="category-list">
           <ul class="category-list-title">
             {{ range .Site.Taxonomies.categories.ByCount }}
@@ -110,7 +110,7 @@
         {{ $projectsUrl = .Site.Params.projectsUrl }}
       {{ end }}
     <section id="projects">
-      <h2><a href="{{ $projectsUrl }}">Projects</a></h2>
+      <h2 class="projects"><a href="{{ $projectsUrl }}">Projects</a></h2>
       <ul class="project-list">
           {{ range .Site.Data.projects.list }}
           <li class="project-list">
