@@ -7,26 +7,9 @@ author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
 
-categories: []
-tags: []
-
-images: []
-featuredImage: ""
-featuredImagePreview: ""
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
 twemoji: true
 fontawesome: true
 linkToMarkdown: false
-rssFullText: false
-
-toc:
-  enable: false
-  auto: false
-code:
-  copy: true
-  maxShownLines: 50
 ---
 
 I used to read so many blogs and other sources of information. Sadly, fewer and fewer folks are blogging on their own sites and instead opt for places like Twitter or Substack, the latter often behind a paywall (And yet, nearly all of the newsletters I'm going to recommend are on Substack; probably because Substack positions itself as a content provider and not a way to get people into your sales funnel).
@@ -53,20 +36,19 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 ## Technical Blogs
 - [Astrid.tech](https://astrid.tech/)
 - [Cogito, Ergo Sumana](https://harihareswara.net/)
-- [Interdependent Thoughts](https://www.zylstra.org/blog/)
 - [Jon Udell - Strategies for Internet citizens](https://blog.jonudell.net)
 - [Maggie Appleton](https://maggieappleton.com)
 - [Miriam Suzanne](https://www.miriamsuzanne.com/)
 - [Synesthesia](https://www.synesthesia.co.uk/)
 - [Techzerker](https://techzerker.com/)
-- [Web3 is Going Just Great](https://web3isgoinggreat.com/)
 
 ## Topical Blogs
 - [Ask a Manager](https://www.askamanager.org/) - advice column about work
 - [Captain Awkward](https://captainawkward.com/) - advice column about life
 - [McMansion Hell](https://mcmansionhell.com/) - terrible home architecture
 - [The Cramped](http://www.thecramped.com/) - analog journaling and links
-- [mnmlscholar](https://www.mnmlscholar.com/) - an academic writes about fountain pens
+- [mnmlscholar](https://www.mnmlscholar.com/) - an academic writes about fountain pens, notebooks, and other things
+- [Web3 is Going Just Great](https://web3isgoinggreat.com/) - want to watch crypto meltdown in real time? 
 
 
 ## Newsletters
