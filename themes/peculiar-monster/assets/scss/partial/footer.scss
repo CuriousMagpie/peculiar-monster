@@ -3,6 +3,10 @@
   width: 100%;
   color: $color-meta;
   font-size: 0.875rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  bottom: 16px;
 
   ul {
     margin: 0;
@@ -44,13 +48,6 @@
     margin-top:16px;
     font-size: 0.8rem;
     width: 100%;
-  }
-}
-@media (min-width: 624px) {
-  #footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    bottom: 16px;
+    text-align: center;
   }
 };

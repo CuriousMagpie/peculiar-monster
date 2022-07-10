@@ -5,8 +5,13 @@
   }
 }
 
+#about {
+  .other {
+    margin-top: 24px;
+  }
+}
+
 #writing h3 {
-  margin-bottom: 12px;
 }
 
 .content {
@@ -211,6 +216,7 @@ code {
 #index-categories
   .category-list-title {
     padding-left: 0px;
+    margin-top: 4px !important;
   }
   .category-list {
     .category-list-item {
@@ -228,10 +234,25 @@ code {
     }
   }
 
+footer {
+  a {
+  color: $color-accent-1 !important;
+  text-decoration: none;
+  border-bottom: 0.5px solid $color-link;
+
+  &:hover {
+    background-image: none;
+    background-color: $color-link-hover;
+    border-bottom: solid 0.5px $color-link;
+    color: $color-accent-2;
+  }
+}
+}
+
 article {
   header {
     .posttitle {
-      margin-top: 0;
+      margin-top: 30px;
       margin-bottom: 0;
       text-transform: none;
       font-size: 1.5em;
@@ -257,6 +278,15 @@ article {
     }
     .postdate {
       display: inline;
+    }
+  }
+  ul {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+    li { 
+      padding-top: 0px;
+      padding-bottom: 0px;
     }
   }
 }

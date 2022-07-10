@@ -39,7 +39,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 100%;
   overflow-wrap: break-word;
 
   a {
@@ -79,12 +78,6 @@ body {
   .my4 {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-}
-
-@media (min-width: 480px) {
-  p {
-    text-align: justify;
   }
 }
 
