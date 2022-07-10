@@ -5,16 +5,16 @@
       <p>{{ .Site.Params.description | $.Page.RenderString }}</p>
     {{ end }}
     {{ if isSet .Site.Params "social" }}
-        <p>Other places where you can find me: 
+        <p class="other">Other places where I can be found:
         {{ $length := (len .Site.Params.social) }}
         {{ range $index, $elem := .Site.Params.social}}
         {{ if eq $elem.name "rss" }}
           <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="RSS">
             <i class="fa-solid fa-square-rss" aria-hidden="true"></i>
           </a>
-          {{ else if eq $elem.name "bookwyrm" }}
-          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Bookwyrm">
-            <i class="fa-solid fa-book" aria-hidden="true"></i>
+          {{ else if eq $elem.name "goodreads" }}
+          <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Goodreads">
+            <i class="fa-brands fa-goodreads" aria-hidden="true"></i>
           </a>
           {{ else if eq $elem.name "discord" }}
           <a class="icon" target="_blank" rel="noopener" href="{{ $elem.link }}" aria-label="Discord">

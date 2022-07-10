@@ -14,11 +14,9 @@
       </ul>
   </div>
   <div id="land-acknowledgement">
-    <div class="flex justify-center">
     {{ if .Site.Params.landAcknowledgement }} 
     {{ print .Site.Params.landAcknowledgement | markdownify }} 
     {{ else }} 
     {{ end }}
-    </div>
   </div>
 </footer>
