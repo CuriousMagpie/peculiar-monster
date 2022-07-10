@@ -70,7 +70,7 @@ params:
       link: 'https://wandering.shop/@eilatan'
     - name: discord
       link: 'https://discordapp.com/users/gigameow#9964'
-    - name: bookwyrm
-      link: 'https://bookwyrm.social/user/peculiar-monster'
+    - name: goodreads
+      link: 'https://www.goodreads.com/peculiar-monster'
     - name: rss
       link: 'https://peculiar.monster/posts/index.xml'
