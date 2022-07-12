@@ -59,6 +59,5 @@ I used to read so many blogs and other sources of information. Sadly, fewer and 
 - [The Lynchline](https://scottlynch.substack.com) Scott Lynch's newsletter. Infrequent posts, but they're always super extra good.
 - [The Third Place](https://maxgladstone.substack.com/) While Max Gladstone doesn't post more than once or twice a month, it's absolutely worth your while to subscribe. All essays are free to read, but commenting requires a token subscription.
 - [Today in Tabs](https://www.todayintabs.com) Most content is free, the paid version gets you access to the Friday open posts and a Discord server which is high traffic but full of good peeps.
-- [Homeculture](https://homeculture.substack.com/) One free essay a week, commenting and any other extra essays requires a paid subscription. I do want to note that Meg Conley is rather assertive about asking for payment but she does so in the context that subscriptions help pay for her childcare which then allows her the time she needs to write. And since one of her main topic is care work, it makes total sense.
 - [Griefbacon](https://griefbacon.substack.com/) Confessional, personal essays by Helena Fitzgerald.
 - [Pop Culture Spirit Wow](https://jimmcdermott.substack.com) A Jesuit writes weekly updates about what he finds interesting in pop culture every week. It's great.
