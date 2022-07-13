@@ -2,7 +2,7 @@
 date: 2022-07-13T16:04:19-04:00
 title: This Meatsuit is Annoying
 slug: "this-meatsuit-is-annoying"
-draft: true
+draft: false
 author: "GigaMeow"
 authorLink: "https://peculiar.monster"
 description: ""
