@@ -19,7 +19,6 @@ twemoji: true
 fontawesome: true
 rssFullText: true
 ---
-# The Art of Losing
 
 > The art of losing isn’t hard to master;  
 > so many things seem filled with the intent  
