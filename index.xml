@@ -5,8 +5,8 @@
     <link>https://peculiar.monster/</link>
     <description>Recent content on Peculiar Monster</description>
     <image>
-      <url>https://peculiar.monster/images/logo.png</url>
-      <link>https://peculiar.monster/images/logo.png</link>
+      <url>https://peculiar.monster/logo.png</url>
+      <link>https://peculiar.monster/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 24 Jul 2022 16:07:19 -0400</lastBuildDate><atom:link href="https://peculiar.monster/index.xml" rel="self" type="application/rss+xml" />
