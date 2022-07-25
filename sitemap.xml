@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peculiar.monster/tags/capitalism/</loc>
-    <lastmod>2022-07-24T16:07:19-04:00</lastmod>
-  </url><url>
     <loc>https://peculiar.monster/categories/</loc>
+    <lastmod>2022-07-25T18:24:02-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/colophon/</loc>
+    <lastmod>2022-07-25T18:24:02-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/</loc>
+    <lastmod>2022-07-25T18:24:02-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/categories/tech/</loc>
+    <lastmod>2022-07-25T18:24:02-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/capitalism/</loc>
     <lastmod>2022-07-24T16:07:19-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/tags/commentary/</loc>
@@ -24,9 +33,6 @@
     <lastmod>2022-07-24T16:07:19-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/tags/nature/</loc>
-    <lastmod>2022-07-24T16:07:19-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/</loc>
     <lastmod>2022-07-24T16:07:19-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/posts/</loc>

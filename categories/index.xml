@@ -9,7 +9,16 @@
       <link>https://peculiar.monster/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 24 Jul 2022 16:07:19 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2022 18:24:02 -0400</lastBuildDate><atom:link href="https://peculiar.monster/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tech</title>
+      <link>https://peculiar.monster/categories/tech/</link>
+      <pubDate>Mon, 25 Jul 2022 18:24:02 -0400</pubDate>
+      
+      <guid>https://peculiar.monster/categories/tech/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>links</title>
       <link>https://peculiar.monster/categories/links/</link>
