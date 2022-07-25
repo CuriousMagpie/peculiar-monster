@@ -3,15 +3,8 @@ config-cactus.toml
 old-config.yaml
 hugo-theme-cactus-main.zip
 
-/peculiar-obsidian
-
 /themes/LoveIt
 /themes/peculiar-monster
-/themes/peculiar-monster/layouts/partials/share.html
-/themes/peculiar-monster/layouts/partials/comments.html
-/themes/peculiar-monster/comments
-/themes/peculiar-monster/static/lib
-/themes/peculiar-monster/exampleSite
 
 
 /assets/css/_custom-LoveIt.scss
