@@ -18,7 +18,7 @@ params:
   description: "Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow."
   keywords: [blog, personal site]
   author: GigaMeow
-  images: ["https://peculiar.monster/images/logo.png"]
+  images: ["https://peculiar.monster/logo.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
   disableThemeToggle: true
@@ -42,15 +42,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://peculiar.monster/images/favicon.ico"
-    favicon16x16: "https://peculiar.monster/images/favicon.ico"
-    favicon32x32: "https://peculiar.monster/images/favicon.ico"
-    apple_touch_icon: "https://peculiar.monster/images/favicon.ico"
-    safari_pinned_tab: "https://peculiar.monster/images/favicon.ico"
+    favicon: "https://peculiar.monster/favicon.ico"
+    favicon16x16: "https://peculiar.monster/favicon.ico"
+    favicon32x32: "https://peculiar.monster/favicon.ico"
+    apple_touch_icon: "https://peculiar.monster/favicon.ico"
+    safari_pinned_tab: "https://peculiar.monster/favicon.ico"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: /logo.png
     iconHeight: 35
 
   # profile-mode
