@@ -58,7 +58,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Peculiar Monster
     subtitle: "Human being, coder in progress, science fiction nerd, and troublemaker."
-    imageUrl: "https://peculiar.monster/images/logo.png"
+    imageUrl: "https://peculiar.monster/logo.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: GigaMeow
