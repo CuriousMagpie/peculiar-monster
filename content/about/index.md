@@ -1,11 +1,11 @@
 ---
-title: "About Gigameow"
+title: "Call Me Gigameow"
 slug: "about"
 date: 2022-05-25T07:07:02-04:00
 draft: false
 author: "GigaMeow"
 
-categories: []
+categories: [personal]
 
 featuredImage: ""
 featuredImagePreview: ""
