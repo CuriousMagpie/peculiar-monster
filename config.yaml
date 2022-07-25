@@ -20,13 +20,14 @@ params:
   author: GigaMeow
   images: ["/logo.png"]
   DateFormat: "January 2, 2006"
-  defaultTheme: light # dark, light
+  defaultTheme: light
   disableThemeToggle: true
+  colophon: true
 
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true

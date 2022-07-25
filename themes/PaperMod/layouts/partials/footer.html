@@ -10,11 +10,15 @@
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
     {{- end }}
     <br />
+    {{- if site.Params.colophon }}
+        <a href="{{ "/colophon/" | relURL }}">Colophon</a>
+    {{- else }}
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
+    {{- end }}
     <br />
     <span>
         Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people.

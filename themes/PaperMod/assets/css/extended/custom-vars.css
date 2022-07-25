@@ -5,22 +5,29 @@
 :root {
     --font: "Roboto", Oxygen, "Open Sans", sans-serif;
     --code-font: Inconsolata, mono;
-    --theme: #F7F2F8;
-    --entry: #F2F7F6;
+    --theme: #F2F8F7; 
+    --entry: #E7F2F0; 
     --primary: #1C1D21;
     --secondary: #8D8E90;
     --tertiary: #E8E8E8;
     --content: #1C1D21;
-    --hljs-bg: #1C1D21;
-    --code-bg: #F7F2F8;
-    --border: #7C98B3;
+    --hljs-bg: #323337;
+    --code-bg:#CFD9D8; 
+    --border: #A1A9A8;
     --border-hover: #F2F7F6;
     --link: #E02C29;
-    --white: #F7F2F8; /*background white */
+
+    /*specific colors & where they're used*/
+    --white: #F2F8F7; /*background white */
     --blue-white: #F2F7F6;
+    --pale-green-grey: #F2F8F7;
+    --green-grey: #E7F2F0;
+    --medium-green-grey:  ##CFD9D8;
+    --dark-green-grey: #A1A9A8;
     --black: #1C1D21;  /*text black*/
-    --medium-gray: #8D8E90;
-    --light-gray:  #E8E8E8;
+    --muted-black: #323337;
+    --medium-grey: #8D8E90;
+    --light-grey:  #E8E8E8;
     --light-blue: #B6C5D1; /*code background light gray blue*/
     --medium-blue: #7C98B3;  /*border medium gray blue*/
     --purple: #9B55D2; /*meta purple*/

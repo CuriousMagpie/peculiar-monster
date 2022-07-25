@@ -36,7 +36,7 @@ a:hover {
  }
 
 .button {
-    border: 1px solid var(--bright-purple);
+    border: 1px solid var(--border);
     background: var(--tertiary);
     color: var(--primary);
 }
@@ -49,7 +49,7 @@ a:hover {
 .post-tags a {
     color:var(--bright-purple);
     background:var(--tertiary);
-    border:1px solid var(--bright-purple);  
+    border:1px solid var(--border);  
 }
 
 .post-tags a:hover {
@@ -59,8 +59,8 @@ a:hover {
 
 .paginav {
  border-radius:var(--radius);
- background:var(--code-bg);
- border:1px solid var(--bright-purple);
+ background:var(--tertiary);
+ border:1px solid var(--border);
 }
 
 .paginav a {
@@ -78,4 +78,6 @@ a:hover {
     margin-bottom: 16px;
     font-size: 0.75rem;
     line-height: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
 }
