@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swears on Peculiar Monster</title><link>https://peculiar.monster/tags/swears/</link><description>Recent content in swears on Peculiar Monster</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>GigaMeow</copyright><lastBuildDate>Sun, 24 Jul 2022 16:07:19 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/swears/index.xml" rel="self" type="application/rss+xml"/><item><title>Links of Note, July 2022</title><link>https://peculiar.monster/posts/links-of-note-july-2022/</link><pubDate>Sun, 24 Jul 2022 16:07:19 -0400</pubDate><guid>https://peculiar.monster/posts/links-of-note-july-2022/</guid><description>&lt;p>In an attempt to clean out my bookmarks/saved links on Pocket, I share with you a short list of things I found interesting, amusing, or thought-provoking. I&amp;rsquo;ll leave it as an exercise for the reader which is which.&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.theatlantic.com/science/archive/2022/07/woodpeckers-brain-injury-protection-evolutionary-adaptation/670516/">The Real Reason Woodpeckers Don’t Get Concussions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.theatlantic.com/science/archive/2022/06/pumpkin-toadlet-frogs-uncontrolled-landing-jumps/661262/">A Frog So Small, It Could Not Frog&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stitchmediamix.com/2021/12/01/the-evolution-of-anti-critical-consumption-thinking-anti-anti-fandom/">The Evolution of Anti-Critical Consumption/Thinking “Anti-Anti” Fandom&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://distributedweb.care/posts/community/">Community Over Commodity&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://buttondown.email/charliejane/archive/some-other-words-that-trans-people-should-destroy/">Some Other Words That Trans People Should Destroy, Now That You Can&amp;rsquo;t Say &amp;ldquo;Woman&amp;rdquo;&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://colinmorris.github.io/blog/compound-curse-words">Compound pejoratives on Reddit – from &amp;lsquo;buttface&amp;rsquo; to &amp;lsquo;wankpuffin&amp;rsquo;&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>It&amp;rsquo;s been incredibly hot here. So hot that the cats have melted:&lt;/p>
-&lt;p>&lt;img src="melted-cats.png" alt="the cats, they have melted">&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>swears on Peculiar Monster</title>
+    <link>https://peculiar.monster/tags/swears/</link>
+    <description>Recent content in swears on Peculiar Monster</description>
+    <image>
+      <url>https://peculiar.monster/images/logo.png</url>
+      <link>https://peculiar.monster/images/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 24 Jul 2022 16:07:19 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/swears/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links of Note, July 2022</title>
+      <link>https://peculiar.monster/posts/links-of-note-july-2022/</link>
+      <pubDate>Sun, 24 Jul 2022 16:07:19 -0400</pubDate>
+      
+      <guid>https://peculiar.monster/posts/links-of-note-july-2022/</guid>
+      <description>a short collection of links I&amp;#39;ve found interesting</description>
+    </item>
+    
+  </channel>
+</rss>

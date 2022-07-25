@@ -1,53 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sass on Peculiar Monster</title><link>https://peculiar.monster/tags/sass/</link><description>Recent content in sass on Peculiar Monster</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>GigaMeow</copyright><lastBuildDate>Fri, 08 Jul 2022 12:02:13 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/sass/index.xml" rel="self" type="application/rss+xml"/><item><title>It's Been Busy Around Here</title><link>https://peculiar.monster/posts/its-been-busy-around-here/</link><pubDate>Fri, 08 Jul 2022 12:02:13 -0400</pubDate><guid>https://peculiar.monster/posts/its-been-busy-around-here/</guid><description>&lt;p>It has been a &lt;em>week&lt;/em> here.&lt;/p>
-&lt;p>I have:&lt;/p>
-&lt;ul>
-&lt;li>successfully wrangled custom radio button hover and focus states
-&lt;ul>
-&lt;li>the html radio buttons were offset from the custom ones and moving them helped the hover happen in the right places&lt;/li>
-&lt;li>I am still mad at whoever originally coded the component, though&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>got a chunk of coding done for the mobile version of the site footer
-&lt;ul>
-&lt;li>the desktop version is good to go, but I have a few more bootstrap/flexbox things to figure out&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>helped a user regain access to their account using nothing more than an old photograph of their phone&amp;rsquo;s screen and a vague list of tasks. I felt like a fucking wizard.&lt;/li>
-&lt;li>installed &lt;a href="https://www.11ty.dev">11ty&lt;/a> to use for the Pretty Terrible archive
-&lt;ul>
-&lt;li>it&amp;rsquo;s mostly done, but I&amp;rsquo;m still messing with the css and attempting to get some data to show up the way I&amp;rsquo;d like it to&lt;/li>
-&lt;li>I also need to pull the images that the posts I&amp;rsquo;m keeping need&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>managed to write an &lt;code>npm start&lt;/code> script for the 11ty site which launches the local server and runs sass so I can map color hex codes to variables along with other things
-&lt;ul>
-&lt;li>this makes me happy, because it&amp;rsquo;s easier to change colors uses sass variables&lt;/li>
-&lt;li>also, the easier the command is for me to launch something on the command line, the happier I am&lt;/li>
-&lt;li>I&amp;rsquo;m now trying to figure out how to do this for some of my personal Habitica scripts&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>fiddled with the template here a tiny bit, but not as much as I&amp;rsquo;d like&lt;/li>
-&lt;li>thought about changing the template here, but the sunk cost fallacy has come into play so I don&amp;rsquo;t know&lt;/li>
-&lt;li>finished re-reading Katherine Addison&amp;rsquo;s &lt;em>The Goblin Emperor&lt;/em> and I&amp;rsquo;m now re-reading &lt;em>Witness for the Dead&lt;/em> and I&amp;rsquo;ll probably re-read &lt;em>Grief of Stones&lt;/em>, too&amp;ndash;I have an essay started about that one, so I do want to be sure of the themes, etc.&lt;/li>
-&lt;li>beat Tetris Effects Journey mode on Beginner&lt;/li>
-&lt;li>called the local hospital system to make sure that all my bills are accounted for in the billing system and figured out how to access my account online; they keep changing systems (MAKE UP YOUR MINDS, PEOPLE) and access is a constant struggle and they are constantly sending me paper bills&lt;/li>
-&lt;li>paid a lingering Labcorp bill&lt;/li>
-&lt;li>paid my therapist&lt;/li>
-&lt;li>paid the household bills and balanced the household budget
-&lt;ul>
-&lt;li>this included re-registering my car and filing the deed which came in the mail since my car is all paid off now&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>messaged my GI doctor about medical marijuana&lt;/li>
-&lt;li>did a bunch of knitting
-&lt;ul>
-&lt;li>I had to more or less rip out a mostly-complete project that had been in hibernation for at least five years due to breaks in the yarn&lt;/li>
-&lt;li>It was weird, the breaks were &lt;em>only&lt;/em> in the gray yarn and not the variegated, so I don&amp;rsquo;t know what happened&lt;/li>
-&lt;li>BUT on the plus side, I&amp;rsquo;ve done way more of this designer&amp;rsquo;s patterns in the time between putting this project in hibernation and now, so the bits I was struggling with that made me shove this in a bag and forget about it aren&amp;rsquo;t really an issue anymore&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>I still have a few things to do today. I have an appointment for a paracentesis this afternoon. I was planning on working between therapy and shortly before I had to leave, but I woke up this morning feeling like utter garbage so bailed.&lt;/p>
-&lt;p>Miles has been very attentive&amp;ndash;he knows when I&amp;rsquo;m not feeling well and will pester me to go to bed. I think that&amp;rsquo;s what his attentiveness this morning was about, but he has since given up and is napping on his perch by the front window.&lt;/p>
-&lt;p>I also gave in and purchased an Amazon spy speaker. My SIL has them in her house and it was really convenient to just be able to ask it to play music or to tell me when an hour had passed. Yes, I know this is how they get you. I am probably going to get a couple more on Prime Day.&lt;/p>
-&lt;p>Weekend plans include more fussing with 11ty and the PT archive and probably more work on this site&amp;rsquo;s template. I&amp;rsquo;m also going to go all out and knit, play Animal Crossing, and do some laundry. I know, my life is so exciting!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>sass on Peculiar Monster</title>
+    <link>https://peculiar.monster/tags/sass/</link>
+    <description>Recent content in sass on Peculiar Monster</description>
+    <image>
+      <url>https://peculiar.monster/images/logo.png</url>
+      <link>https://peculiar.monster/images/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Jul 2022 12:02:13 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s Been Busy Around Here</title>
+      <link>https://peculiar.monster/posts/its-been-busy-around-here/</link>
+      <pubDate>Fri, 08 Jul 2022 12:02:13 -0400</pubDate>
+      
+      <guid>https://peculiar.monster/posts/its-been-busy-around-here/</guid>
+      <description>It has been a week here.
+I have:
+ successfully wrangled custom radio button hover and focus states  the html radio buttons were offset from the custom ones and moving them helped the hover happen in the right places I am still mad at whoever originally coded the component, though   got a chunk of coding done for the mobile version of the site footer  the desktop version is good to go, but I have a few more bootstrap/flexbox things to figure out   helped a user regain access to their account using nothing more than an old photograph of their phone&amp;rsquo;s screen and a vague list of tasks.</description>
+    </item>
+    
+  </channel>
+</rss>

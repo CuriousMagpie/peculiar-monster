@@ -1,206 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>history on Peculiar Monster</title><link>https://peculiar.monster/tags/history/</link><description>Recent content in history on Peculiar Monster</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>GigaMeow</copyright><lastBuildDate>Sun, 03 Jul 2022 16:40:10 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Thoughts on Digital Gardening and Information Organization</title><link>https://peculiar.monster/posts/thoughts-on-digital-gardening-and-information-organization/</link><pubDate>Sun, 03 Jul 2022 16:40:10 -0400</pubDate><guid>https://peculiar.monster/posts/thoughts-on-digital-gardening-and-information-organization/</guid><description>&lt;p>I&amp;rsquo;ve been spending a lot of time over the last week falling into various rabbit holes. So many.&lt;/p>
-&lt;p>But one thing I keep coming back to is how, on my previous blog, I felt paralyzed by the weight of perfection. As if I were under so much scrutiny that the smallest mistake would cause a shitstorm.&lt;/p>
-&lt;p>This feeling was only exacerbated by the fact that when I did say something stupid on Twitter, a group of leftier than thou folks who enjoy brigading other people for the tiniest of ideological differences decided to brigade me. And suddenly: I found that I was unable to speak in that space any longer&amp;ndash;that the &lt;a href="https://peculiar.monster/posts/f-is-for-fungible/">years of abuse&lt;/a> had simply destroyed my ability to write or engage at all in that space.&lt;/p>
-&lt;p>That&amp;rsquo;s the lens I have been looking through as I read through all these different essays and short pieces about being a person on the internet.&lt;/p>
-&lt;p>The first big concept I find myself intrigued by is that of digital gardening. &lt;a href="https://maggieappleton.com">Maggie Appleton&lt;/a> has written a fair bit about this; I found her &lt;a href="https://maggieappleton.com/garden-history">brief history of digital gardening&lt;/a> extremely informative and honestly, quite fascinating:&lt;/p>
-&lt;blockquote>
-&lt;p>A garden is a collection of evolving ideas that aren&amp;rsquo;t strictly organised by their publication date. They&amp;rsquo;re inherently exploratory – notes are linked through contextual associations. They aren&amp;rsquo;t refined or complete - notes are published as half-finished thoughts that will grow and evolve over time. They&amp;rsquo;re less rigid, less performative, and less perfect than the personal websites we&amp;rsquo;re used to seeing.&lt;/p>
-&lt;/blockquote>
-&lt;p>I ended up reading a lot of the different essays on her site and found a lot of food for thought and I&amp;rsquo;m not sure how I&amp;rsquo;m going to integrate some of these concepts into this site, but I like the idea of getting away from the chronological blog post sort of situation.&lt;/p>
-&lt;p>So the second concept is around Amy Hoy&amp;rsquo;s essay on &lt;a href="https://stackingthebricks.com/how-blogs-broke-the-web/">how the blog broke the web&lt;/a>, rings very true to me despite there being a great honking factual error in it:&lt;/p>
-&lt;blockquote>
-&lt;p>[Movable Type] &amp;hellip;was also the first web-based CMS that you could download for free, install, and run on your own web host.&lt;/p>
-&lt;/blockquote>
-&lt;p>In fact, it was not the first. There was &lt;a href="https://en.wikipedia.org/wiki/Greymatter_(software)">Greymatter&lt;/a> (which I used) and possibly some other systems&amp;ndash;Blogger was around at that time, but my hazy memory is that it was a royal pain in the ass to use, as the FTP portion of the software was fairly flaky.&lt;/p>
-&lt;p>At any rate, I think Amy Hoy is onto something in this essay: the fact that Movable Type was incredibly powerful &lt;em>and&lt;/em> under constant development made it irresistible for folks who wanted to create personal websites but didn&amp;rsquo;t want to deal with hand-coding everything. I remember that the templates were fairly easy to customize and you could import and export entries as part of the built in functionality. There wasn&amp;rsquo;t a large or robust plug-in community like there is with what ultimately came to dominate the blogging software world: WordPress.&lt;/p>
-&lt;p>Movable Type is still around, but I know of only two blogs which still use it: &lt;a href="https://nielsenhayden.com/makinglight/index.html">Making Light&lt;/a>, on a very old and lovingly maintained version on which it appears that the CSS is currently not working, and &lt;a href="https://www.kottke.org/">Kottke&lt;/a>, who uses it but doesn&amp;rsquo;t specify if he&amp;rsquo;s using the commercial version or the open source version (the latter of which you have to do a &lt;em>lot&lt;/em> of hunting for &lt;a href="https://movabletype.org/downloads/stable/">in order to find&lt;/a>).&lt;/p>
-&lt;p>Around the time of the great brouhaha around MT licensing happened, I was maintaining both my MT site and a LiveJournal. I eventually abandoned the MT site and wrote exclusively on LiveJournal until it was sold to the Russians, at which point I made all my posts private and stopped writing there.&lt;/p>
-&lt;p>But I digress. Hoy&amp;rsquo;s central thesis is that tools like Movable Type were the thin part of the wedge that forced large chunks of the web into a reverse-chronological hellscape, a wedge the prioritized form over function: instead of allowing users to set up their sites however they wanted, the way you could when you were coding HTML by hand, you could make of of two choices. Here&amp;rsquo;s Hoy on that:&lt;/p>
-&lt;blockquote>
-&lt;p>Homepage production became suddenly a question of economics:&lt;/p>
-&lt;ol>
-&lt;li>Go with the system’s default format: zero work.&lt;/li>
-&lt;li>Customizing the system to your format: way more work than pure HTML ever was&lt;/li>
-&lt;/ol>
-&lt;p>And who, once offered a path of least resistance, has the energy to fight it all the way?&lt;/p>
-&lt;p>The format won.&lt;/p>
-&lt;p>It was easier — faster! — to literally go with the flow… of &lt;em>time&lt;/em>.&lt;/p>
-&lt;/blockquote>
-&lt;p>I really can&amp;rsquo;t disagree with this: I remember spending hours tweaking my templates so they were just right.&lt;/p>
-&lt;p>But at least you &lt;em>could&lt;/em>. Have you ever tried to modify a WordPress template? Not customize the stylesheet, but the actual template itself? Good luck. They&amp;rsquo;re a maze of PHP with includes and god knows what else. And extraordinarily vulnerable to various exploits, including one that injected malicious JavaScript on my site and forced me to change templates about this time last year. An entire industry sprung up around frameworks&amp;ndash;I mean &amp;ldquo;parent themes&amp;rdquo;&amp;ndash;to optimize SEO and providing different hooks you could use to customize the functionality without touching much code.&lt;/p>
-&lt;p>But really, it was just &lt;em>easier&lt;/em> to go with the templates that came with WordPress, to go with that flow, so every new blog looked the same. Hell, if you look at one of the most influential blogs in the SFF world, it&amp;rsquo;s using a barely modified stock WordPress theme, to the point where it&amp;rsquo;s just pathetic and laughable. The owner of the site has won a number of Hugos for it, you would think that he&amp;rsquo;d be able to get someone to make him a pretty site.&lt;/p>
-&lt;p>Another thing that came with WordPress was the plug-in community. There are a lot of plugins to enable what should be basic functionality: contact pages, dynamic tables, spam protection and other site security measures, and so on and so forth. And the problem with these plug-ins is that they have become a source of revenue for the folks who make them, so there&amp;rsquo;s usually a freemium version as well as a paid one. I don&amp;rsquo;t like the security and privacy implications of this model.&lt;/p>
-&lt;p>But the big advantage WordPress has, especially the hosted WordPress.com service has is that it just works. You can create a blog and be up and running in a matter of minutes. There&amp;rsquo;s very little configuration to do and no template system to learn (unless you want to).&lt;/p>
-&lt;p>Whereas the amount of time it took me to get &lt;a href="https://gohugo.io/">Hugo&lt;/a> up and running&amp;ndash;well, Hugo installed easily enough on my machines, but you also have to have a working knowledge of git, GitHub, and an understanding of the different options to deploy the working site. It took me quite a while to get the deploy script working because the instructions omitted setting &lt;code>CNAME&lt;/code> on the &lt;code>gh-pages&lt;/code> branch of my repo&amp;ndash;but I was able to see that that was an issue.&lt;/p>
-&lt;p>There are &lt;em>significant&lt;/em> technical barriers involved with using a static site generator for a blog: you have to be comfortable getting into the nuts and bolts of the templates and learn how to write a variant of &lt;a href="https://go.dev/">Go&lt;/a>, which is a language I had no familiarity with prior to starting this project. I am &lt;em>still&lt;/em> struggling to get pagination working.&lt;/p>
-&lt;p>But I find this sort of work satisfying and I&amp;rsquo;m able to surmount the gaps in my technical knowledge through sheer stubbornness, a willingness to make mistakes, and making liberal use of a search engine. Not everyone does. Most folks want an out of the box tool that just works.&lt;/p>
-&lt;p>And the third concept and probably the most important one is from &lt;a href="https://matthiasott.com/notes/just-put-stuff-out-there">this essay&lt;/a> by Matthias Ott: Just put stuff out there:&lt;/p>
-&lt;blockquote>
-&lt;p>Maybe, we are overthinking it. Maybe, the one thing we should care most about is just putting stuff out there. At least, this is the primary reason we have a personal website, right? We have it to document and share random thoughts, things we learned, and nuggets we found. If we don’t put stuff out there, why have a website in the first place?&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;p>Another idea I&amp;rsquo;ve been poking at are personal knowledge bases and different ways of keeping all the threads of my life in some sort of knowledge management system.&lt;/p>
-&lt;p>I&amp;rsquo;m intrigued by the concepts behind Tiago Forte&amp;rsquo;s &lt;a href="https://www.buildingasecondbrain.com/">Building a Second Brain&lt;/a> but considering that the website has no mention of how much the course costs and that there&amp;rsquo;s a waitlist for the next cohort, I find that I have very little interest in taking the course.&lt;/p>
-&lt;p>Instead, &lt;a href="https://maggieappleton.com/basb">I&amp;rsquo;ve looked over Maggie Appleton&amp;rsquo;s notes from several years ago&lt;/a> (and I note that in her disclaimer she mentions the &amp;ldquo;blossoming&amp;rdquo; price which is a hilarious way of describing the inevitable upwards creep of course costs as the instructor/guru becomes more influential) and have come to the conclusion that I&amp;rsquo;ll pick up the book when it comes out in paperback, probably next year.&lt;/p>
-&lt;p>But with this incredibly important caveat: &lt;a href="https://notes.andymatuschak.org/zUMFE66dxeweppDvgbNAb5hukXzXQu8ErVNv">&amp;ldquo;People who write extensively about note-taking rarely have a serious context of use&amp;rdquo;&lt;/a>; that is: most productivity &amp;ldquo;experts&amp;rdquo; primary output is more advice on how to be productive and they are often disconnected from the contexts in which people take and use notes.&lt;/p>
-&lt;p>Until then, the Appleton&amp;rsquo;s sketchnote version is good enough for me to get a reasonable overview. I have a significant file organization problem&amp;ndash;I can usually find things, but I have literally over 30 years of different files stored (in the cloud) and I&amp;rsquo;d like to organize them a bit better and do better with my current working files.&lt;/p>
-&lt;p>So there&amp;rsquo;s Forte&amp;rsquo;s &lt;a href="https://fortelabs.co/blog/para/">PARA system&lt;/a>, where the letters stand for:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>P&lt;/strong>rojects - a specific endpoint or deadline&lt;/li>
-&lt;li>&lt;strong>A&lt;/strong>reas of Responsibility - continuous areas of commitment&lt;/li>
-&lt;li>&lt;strong>R&lt;/strong>esources - topic or theme of ongoing interest&lt;/li>
-&lt;li>&lt;strong>A&lt;/strong>rchive - inactive items from the other categories.&lt;/li>
-&lt;/ul>
-&lt;p>Which, okay, but. It just doesn&amp;rsquo;t seem to provide enough differentiation for me. I like the idea of keeping Resources and clearly identifying my Archive files, however, how to organize within each folder? That&amp;rsquo;s sort of where I stumble. The PARA system calls for there to be no more than 4 levels of organization below each of the 4 major groupings. I don&amp;rsquo;t know.&lt;/p>
-&lt;p>So a file structure organized with the PARA system would be:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1&lt;/span>Projects
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2&lt;/span> Peculiar Monster Redesign 2022
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3&lt;/span> domain-registration-receipt.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4&lt;/span> Research and Inspiration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5&lt;/span> Technology 1.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6&lt;/span> Technology 2.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7&lt;/span> Inspiration 1.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8&lt;/span> Research.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9&lt;/span> Design Files
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10&lt;/span> Images
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11&lt;/span> Logo Image.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12&lt;/span> Divider Image.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13&lt;/span> Mockups
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14&lt;/span> Template Mockup.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15&lt;/span> Code
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16&lt;/span> Tech Stack
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17&lt;/span> Tech Stack.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18&lt;/span> Styling
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19&lt;/span> Style.css
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20&lt;/span> Style2.css
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span> colors.sass
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span> Templates
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span> index.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span> archive.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span> partial-header.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span> partial-footer.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span> JavaScript
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span> cool script.js
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span> cooler script.js
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span> Knitting
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span> pattern1.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span> pattern2.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span> Crochet
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34&lt;/span> pattern1.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35&lt;/span> Writing
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36&lt;/span> poem1.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37&lt;/span> poem2.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38&lt;/span> Essay 1
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39&lt;/span> essay1.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40&lt;/span> notes.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41&lt;/span> links.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42&lt;/span> Essay 2
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43&lt;/span> notes.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44&lt;/span>
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45&lt;/span>Areas
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46&lt;/span> Medical
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47&lt;/span> doctors.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48&lt;/span> hospitals.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49&lt;/span> medications.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50&lt;/span> Lab Results
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51&lt;/span> labcorp 2022-07-01
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52&lt;/span> Disability Paperwork
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53&lt;/span> Job #1
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54&lt;/span> Benefits
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55&lt;/span> Performance Evaluations
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56&lt;/span> Paystubs
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57&lt;/span> 2022-04.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58&lt;/span> 2022-05.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59&lt;/span>
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60&lt;/span>Research
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61&lt;/span> Area of Interest #1
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62&lt;/span> Area of Interest #2
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63&lt;/span> Area of Interest #3
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64&lt;/span>
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65&lt;/span>Archive
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66&lt;/span> Peculiar Monster Redesign 2021
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67&lt;/span> Knitting
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68&lt;/span> completed pattern1.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69&lt;/span> completed pattern2.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70&lt;/span> completed pattern3.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71&lt;/span> Academic Work
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72&lt;/span> English Papers
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73&lt;/span> History Papers
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74&lt;/span> Writing
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75&lt;/span> Published Essays
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76&lt;/span> Trunked
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then there&amp;rsquo;s &lt;a href="https://johnnydecimal.com/">Johnny Decimal&lt;/a>, which I find really, really interesting. It&amp;rsquo;s a lot more granular than the PARA but also has limits. With Johnny Decimal, you use a numbering system to set up ten different areas, and each area can have ten categories beneath it. So you can have a file that look something like this: &lt;code>37.15 Grocery List 2022-07-03&lt;/code> where &lt;code>3&lt;/code> is &lt;code>Household&lt;/code> and &lt;code>7&lt;/code> is &lt;code>Shopping Lists&lt;/code> and &lt;code>15&lt;/code> is the fifteenth item you&amp;rsquo;ve put in that category, so if you want to look at all your household shopping lists, you know to look in your main folder structure for a folder prepended with &lt;code>30.07&lt;/code>.&lt;/p>
-&lt;p>Of course, the problem here is that this doesn&amp;rsquo;t lend itself to keeping track of project-type work, something like &lt;code>redesign website&lt;/code>. One could have a folder called &lt;code>07 - websites&lt;/code> and then a subcategory for each website you have, so &lt;code>07.01 - peculiar monster&lt;/code> for this site, and then you could just add a keyword at the beginning of each redesign-based file: &lt;code>71.25 - redesign notes 2022-006-15.md&lt;/code> and &lt;code>71.32 - redesign style ideas 2022-07-10.md&lt;/code> but then everything&amp;rsquo;s all jumbled together and it would be useful if there were just a way to segregate out projects&amp;ndash;and there is, with a &lt;a href="https://johnnydecimal.com/concepts/multiple-projects/">project-based addition&lt;/a> to the numbering schema: &lt;code>000&lt;/code> through &lt;code>999&lt;/code>, so a Johnny Decimal system with projects might look like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1&lt;/span>100 Life Administration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2&lt;/span> 10-19 Administration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3&lt;/span> 10 Household Maintenance
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4&lt;/span> 20-29 Finances
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5&lt;/span> 21 Taxes
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6&lt;/span> 22 Mortgage
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7&lt;/span> 30-39 Medical
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8&lt;/span> 30 Doctors, Hospitals, and Medications
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9&lt;/span> 100.30.01 doctors.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10&lt;/span> 100.30.02 hospitals.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11&lt;/span> 100.30.02 medications.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12&lt;/span> 31 Lab Results
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13&lt;/span> 100.30.01 labcorp 2022-07-01
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14&lt;/span> 32 Disability Paperwork
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15&lt;/span> 40-49 Job #1
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16&lt;/span> 41 Benefits
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17&lt;/span> 42 Performance Evaluations
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18&lt;/span> 43 Paystubs
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19&lt;/span> 100.43.01 2022-04.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20&lt;/span> 100.43.02 2022-05.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span>
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span>101 Peculiar Monster Redesign 2022
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span> 10-19 Administration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span> 10 Domain Registration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span> 101.10.01 registration receipt.pdf
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span> 20-29 Research and Inspiration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span> 21 Technology 1
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span> 22 Technology 2
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span> 23 Inspiration 1
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span> 24 Research
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span> 30-39 Design Files
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span> 31 Images
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span> 101.31.01 Logo Image.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34&lt;/span> 101.31.01 Divider Image.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35&lt;/span> 32 Mockups
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36&lt;/span> 101.32.01 Template Mockup.png
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37&lt;/span> 40-49 Code
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38&lt;/span> 41 Tech Stack
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39&lt;/span> 101.41.01 Tech Stack.md
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40&lt;/span> 42 Styling
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41&lt;/span> 101.42.01 Style.css
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42&lt;/span> 101.42.02 Style2.css
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43&lt;/span> 101.42.03 colors.sass
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44&lt;/span> 43 Templates
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45&lt;/span> 101.43.01 index.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46&lt;/span> 101.43.02 archive.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47&lt;/span> 101.43.03 partial-header.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48&lt;/span> 101.43.03 partial-footer.html
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49&lt;/span> 44 JavaScript
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50&lt;/span> 101.44.01 cool script.js
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51&lt;/span> 101.44.01 cooler script.js
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52&lt;/span>
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53&lt;/span>102 Textile Art
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54&lt;/span> 10-19 Knitting Patterns
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55&lt;/span> 10 Completed
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56&lt;/span> 11 In Progress
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57&lt;/span> 12 To Do
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58&lt;/span> 13 Inspiration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59&lt;/span> 20-29 Crochet Patterns
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60&lt;/span> 21 Completed
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61&lt;/span> 22 In Progress
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62&lt;/span> 23 To Do
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63&lt;/span> 24 Inspiration
-&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Or, with the PARA system you could have a project folder called &lt;code>Peculiar Monster Redesign 2022-07&lt;/code> and then folders for each group of tasks: &lt;code>Design&lt;/code>, &lt;code>inspiration&lt;/code>, &lt;code>Credits&lt;/code>, &lt;code>Notes&lt;/code>, &lt;code>Code&lt;/code>, et cetera.&lt;/p>
-&lt;p>Or, you could attempt to mash things up together, where your archived files are in the Johnny Decimal format subsumed under a PARA structure. (This is the way I&amp;rsquo;m leaning, but I&amp;rsquo;m not completely sure).&lt;/p>
-&lt;p>Then again, if you want to go completely overboard, you could build a &lt;a href="https://zettelkasten.de/introduction/">Zettelkasten&lt;/a>. If you want to talk about overkill. That&amp;rsquo;s more of a note-taking method than a full out organizational system, though.&lt;/p>
-&lt;p>The thing is, you read enough productivity books and you can trace each &amp;ldquo;system&amp;rsquo;s&amp;rdquo; antecedents. The PARA system is highly influenced by David Allen&amp;rsquo;s GTD methodology (which assumes you have people you can delegate tasks to, which I have always found to be a key weakness of the methodology; not everyone is an executive, David).&lt;/p>
-&lt;p>And all systems have baked-in biases. Like GTD implies the ability to delegate. PARA implies the ability to pay for either a book or what looks to be a very expensive course (and obviously, one which many people get value from, and Appleton&amp;rsquo;s sketchnotes are really useful). Johnny Decimal assumes that you&amp;rsquo;re going to be able to remember all those numbers.&lt;/p>
-&lt;p>So I&amp;rsquo;m still unsure how I want to organize my 30+ years of files, just that I need to pick something and &lt;em>just do it&lt;/em> when I&amp;rsquo;m not in the mood to knit or crochet while watching television or if I need to take a 10 minute break from looking at my non-functional in a very specific way bit of code at work.&lt;/p>
-&lt;hr>
-&lt;p>At any rate, what I&amp;rsquo;m aiming for ultimately is a space where I hit publish more often than not. A space where I&amp;rsquo;m comfortable posting incomplete thoughts. A space that &lt;em>I&lt;/em> find useful in the future. A space which reflects who I am, with all my interests and ideas splattered all over the (virtual) pages.&lt;/p>
-&lt;p>I&amp;rsquo;m really into the concept of the &lt;a href="https://indieweb.org/slow_web">slow web&lt;/a>, which is the bedrock on which all the above noodling rests. I&amp;rsquo;ve been joking to myself that this is a hand-crafted, artisanal website, but&amp;ndash;that actually &lt;em>is&lt;/em> the goal.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>history on Peculiar Monster</title>
+    <link>https://peculiar.monster/tags/history/</link>
+    <description>Recent content in history on Peculiar Monster</description>
+    <image>
+      <url>https://peculiar.monster/images/logo.png</url>
+      <link>https://peculiar.monster/images/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Jul 2022 16:40:10 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Digital Gardening and Information Organization</title>
+      <link>https://peculiar.monster/posts/thoughts-on-digital-gardening-and-information-organization/</link>
+      <pubDate>Sun, 03 Jul 2022 16:40:10 -0400</pubDate>
+      
+      <guid>https://peculiar.monster/posts/thoughts-on-digital-gardening-and-information-organization/</guid>
+      <description>I&amp;rsquo;ve been spending a lot of time over the last week falling into various rabbit holes. So many.
+But one thing I keep coming back to is how, on my previous blog, I felt paralyzed by the weight of perfection. As if I were under so much scrutiny that the smallest mistake would cause a shitstorm.
+This feeling was only exacerbated by the fact that when I did say something stupid on Twitter, a group of leftier than thou folks who enjoy brigading other people for the tiniest of ideological differences decided to brigade me.</description>
+    </item>
+    
+  </channel>
+</rss>
