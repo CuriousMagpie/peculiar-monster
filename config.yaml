@@ -1,76 +1,148 @@
-baseURL: 'https://peculiar.monster/'
-languageCode: en-us
+baseURL: "https://peculiar.monster/"
 title: Peculiar Monster
-theme: peculiar-monster 
-author: 'GigaMeow'
-copyright: GigaMeow
-paginate: 1
+paginate: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Peculiar Monster
+  description: "Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow."
+  keywords: [blog, personal site]
+  author: GigaMeow
+  images: ["https://peculiar.monster/images/logo.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: light # dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://peculiar.monster/images/favicon.ico"
+    favicon16x16: "https://peculiar.monster/images/favicon.ico"
+    favicon32x32: "https://peculiar.monster/images/favicon.ico"
+    apple_touch_icon: "https://peculiar.monster/images/favicon.ico"
+    safari_pinned_tab: "https://peculiar.monster/images/favicon.ico"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Peculiar Monster
+    subtitle: "Human being, coder in progress, science fiction nerd, and troublemaker."
+    imageUrl: "https://peculiar.monster/images/logo.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: GigaMeow
+    buttons:
+      - name: Read Posts
+        url: posts
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Peculiar Monster"
+    Content: Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow.
+
+  socialIcons:
+    - name: github
+      url: 'https://github.com/CuriousMagpie'
+    - name: mastodon
+      url: 'https://wandering.shop/@eilatan'
+    - name: discord
+      url: 'https://discordapp.com/users/gigameow#9964'
+    - name: goodreads
+      url: 'https://www.goodreads.com/peculiar-monster'
+    - name: rss
+      url: 'https://peculiar.monster/posts/index.xml'
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
-    - name: About
-      url: /about
-      weight: 1
-    - name: Words
-      url: /posts
-      weight: 2
-    - name: Categories
-      url: /categories
-      weight: 3
-    - name: Tags
-      url: /tags
-      weight: 4
-    - name: Blogroll
-      url: /blogroll
-      weight: 5
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 15
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    - identifier: blogroll
+      name: blogroll
+      url: /blogroll/
+      weight: 40
 
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
 markup:
-  tableOfContents:
-    endLevel: 3
-    ordered: true
-    startLevel: 2
   highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ''
-    lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: false
-    noClasses: true
-    style: dracula
-    tabWidth: 4
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
 
-params:
-  colortheme: peculiar-monster
-  rssFullText: true
-  dateFormat: '2006-01-02'
-  
-  description: Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow. 
-  mainSection: posts
-  postsOnHomePage: 5
-  showAllPostsOnHomePage: false
-  showProjectsList: true
-  projectsUrl: 'https://github.com/CuriousMagpie'
-  landAcknowledgement: Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people.
-
-  privacyStatementHeader: Peculiar Monster Privacy Statement
-  privacyStatement: I'm not using analytics or other tracking methods. I am using CDNs for fonts and a CSS framework and those may use tracking, but I have no access to that information. Please respect my privacy.
-
-  tagOverview: true
-  showAllPostsArchive: true
-  show_updated: true
-  showReadTime: true
-  showWordCount: true
-  fontawesome: true
-  
-  social:
-    - name: github
-      link: 'https://github.com/CuriousMagpie'
-    - name: mastodon
-      link: 'https://wandering.shop/@eilatan'
-    - name: discord
-      link: 'https://discordapp.com/users/gigameow#9964'
-    - name: goodreads
-      link: 'https://www.goodreads.com/peculiar-monster'
-    - name: rss
-      link: 'https://peculiar.monster/posts/index.xml'

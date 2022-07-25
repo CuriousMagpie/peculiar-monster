@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Oxygen:wght@300;400;700&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:opsz@8..144&display=swap');
+@import "colors";
+
+:root {
+    --font: "Roboto", Oxygen, "Open Sans", sans-serif;
+    --code-font: Inconsolata, mono;
+    --theme: #F7F2F8;
+    --entry: #F2F7F6;
+    --primary: #1C1D21;
+    --secondary: #8D8E90;
+    --tertiary: #E8E8E8;
+    --content: #1C1D21;
+    --hljs-bg: #1C1D21;
+    --code-bg: #F7F2F8;
+    --border: #7C98B3;
+    --border-hover: #F2F7F6;
+    --link: #E02C29;
+    --white: #F7F2F8; /*background white */
+    --blue-white: #F2F7F6;
+    --black: #1C1D21;  /*text black*/
+    --medium-gray: #8D8E90;
+    --light-gray:  #E8E8E8;
+    --light-blue: #B6C5D1; /*code background light gray blue*/
+    --medium-blue: #7C98B3;  /*border medium gray blue*/
+    --purple: #9B55D2; /*meta purple*/
+    --bright-purple: #7A28CB;  /*quote bright purple*/
+    --light-purple: #AE84A0;  /*meta code (hover?) light purple*/
+    --coral: #E02C29;  /*link coral*/ 
+    --light-pink: #FBDAE7;  /*link hover pink*/
+    --cobalt-blue: #3D348B;  /*accent 1 bright cobalt blue*/
+    --fluorescent-red: #FF3864;  /*accent 2 fluorescent red*/
+    --fluorescent-green: #5DFDCB;  /*accent 3 very bright light green*/
+}
