@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://peculiar.monster/categories/</loc>
-    <lastmod>2022-07-25T18:24:02-04:00</lastmod>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
   </url><url>
-    <loc>https://peculiar.monster/colophon/</loc>
-    <lastmod>2022-07-25T18:24:02-04:00</lastmod>
+    <loc>https://peculiar.monster/categories/coding/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/posts/coding-work-random-updates/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/css/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/hugo/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/knitting/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/categories/personal/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/posts/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/tech/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/tags/work/</loc>
+    <lastmod>2022-07-25T20:11:49-04:00</lastmod>
+  </url><url>
+    <loc>https://peculiar.monster/colophon/</loc>
     <lastmod>2022-07-25T18:24:02-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/categories/tech/</loc>
@@ -35,22 +65,13 @@
     <loc>https://peculiar.monster/tags/nature/</loc>
     <lastmod>2022-07-24T16:07:19-04:00</lastmod>
   </url><url>
-    <loc>https://peculiar.monster/posts/</loc>
-    <lastmod>2022-07-24T16:07:19-04:00</lastmod>
-  </url><url>
     <loc>https://peculiar.monster/tags/swears/</loc>
-    <lastmod>2022-07-24T16:07:19-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/tags/</loc>
     <lastmod>2022-07-24T16:07:19-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/tags/health/</loc>
     <lastmod>2022-07-20T11:12:46-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/tags/medical/</loc>
-    <lastmod>2022-07-20T11:12:46-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/categories/personal/</loc>
     <lastmod>2022-07-20T11:12:46-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/tags/poetry/</loc>
@@ -71,25 +92,10 @@
     <loc>https://peculiar.monster/tags/11ty/</loc>
     <lastmod>2022-07-08T12:02:13-04:00</lastmod>
   </url><url>
-    <loc>https://peculiar.monster/categories/coding/</loc>
-    <lastmod>2022-07-08T12:02:13-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/tags/css/</loc>
-    <lastmod>2022-07-08T12:02:13-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/tags/hugo/</loc>
-    <lastmod>2022-07-08T12:02:13-04:00</lastmod>
-  </url><url>
     <loc>https://peculiar.monster/posts/its-been-busy-around-here/</loc>
     <lastmod>2022-07-08T12:02:13-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/tags/sass/</loc>
-    <lastmod>2022-07-08T12:02:13-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/tags/tech/</loc>
-    <lastmod>2022-07-08T12:02:13-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/tags/work/</loc>
     <lastmod>2022-07-08T12:02:13-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/categories/work/</loc>
@@ -127,9 +133,6 @@
   </url><url>
     <loc>https://peculiar.monster/posts/thoughts-on-digital-gardening-and-information-organization/</loc>
     <lastmod>2022-07-03T16:40:10-04:00</lastmod>
-  </url><url>
-    <loc>https://peculiar.monster/tags/knitting/</loc>
-    <lastmod>2022-06-19T00:38:11-04:00</lastmod>
   </url><url>
     <loc>https://peculiar.monster/categories/knitting/</loc>
     <lastmod>2022-06-19T00:38:11-04:00</lastmod>

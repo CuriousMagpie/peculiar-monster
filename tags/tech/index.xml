@@ -9,7 +9,20 @@
       <link>https://peculiar.monster/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Jul 2022 12:02:13 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2022 20:11:49 -0400</lastBuildDate><atom:link href="https://peculiar.monster/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding, Work, and Random Updates</title>
+      <link>https://peculiar.monster/posts/coding-work-random-updates/</link>
+      <pubDate>Mon, 25 Jul 2022 20:11:49 -0400</pubDate>
+      
+      <guid>https://peculiar.monster/posts/coding-work-random-updates/</guid>
+      <description>Me: Oh, let me change the theme, it won&amp;rsquo;t that big of a deal.
+time passes
+Me: Six hours isn&amp;rsquo;t bad, right?
+ So, yes: I did change a few colors. And the font, and the entire theme. And I made a colophon page and managed to actually code it in properly. Which is pretty exciting, not gonna lie.
+Anyhow. I&amp;rsquo;m sure some things look funky and I didn&amp;rsquo;t notice.</description>
+    </item>
+    
     <item>
       <title>It&#39;s Been Busy Around Here</title>
       <link>https://peculiar.monster/posts/its-been-busy-around-here/</link>
