@@ -1,5 +1,6 @@
 baseURL: "https://peculiar.monster/"
 title: Peculiar Monster
+author: Gigameow
 paginate: 10
 theme: PaperMod
 
@@ -23,6 +24,9 @@ params:
   defaultTheme: light
   disableThemeToggle: true
   colophon: true
+  privacyStatement: true
+  landAcknowledgement: true
+  landAcknowledgementText: "Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people."
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -30,6 +34,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowWordCount: true
+  ShowCategory: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -70,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Peculiar Monster"
-    Content: Human being, coder in progress, science fiction nerd, and troublemaker. Call me GigaMeow.
+    Content: Human being, coder in progress, science fiction nerd, and troublemaker.
 
   socialIcons:
     - name: github

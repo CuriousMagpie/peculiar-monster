@@ -1,17 +1,21 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    <div id="privacy-statement">
-    Privacy Statement:<br />
-    I’m not using analytics or other tracking methods. Please respect my privacy as I am respecting yours.
-    </div>
-    {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
+    {{- if site.Params.privacyStatement }}
+        <div id="privacy-statement">
+            Privacy Statement:<br />
+            I’m not using analytics or other tracking methods. Please respect my privacy as I am respecting yours.
+        </div>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
     {{- end }}
-    <br />
+
+    {{- if site.Copyright }}
+        <div>{{ site.Copyright | markdownify }}</div>
+    {{- else }}
+        <div>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></div>
+    {{- end }}
+    
     {{- if site.Params.colophon }}
-        <a href="{{ "/colophon/" | relURL }}">Colophon</a>
+        <div><a href="{{ "/colophon/" | relURL }}">Colophon</a></div>
     {{- else }}
     <span>
         Powered by
@@ -19,10 +23,13 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
     {{- end }}
-    <br />
-    <span>
-        Peculiar Monster is located in Delaware, the traditional lands of the Lenapehoking people.
-    </span>
+
+    {{- if site.Params.landAcknowledgement }}
+        <div id="land">
+            Peculiar Monster is located in Delaware, the traditional lands of the <a href="https://en.wikipedia.org/wiki/Lenapehoking" target="_blank">Lenapehoking people</a>.
+        </div>
+    {{- else }}
+    {{- end }}
 </footer>
 {{- end }}
 
